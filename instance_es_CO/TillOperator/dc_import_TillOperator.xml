@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TillOperatorPackageDO xmlns="http://www.gk-software.com/gkr/md/till_operator_pkg/1.0.0"
+                       xmlns:tillOperator="http://www.gk-software.com/gkr/md/till_operator/1.0.0"
+                       xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0"
+                       xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0"
+                       xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0"
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://www.gk-software.com/gkr/md/till_operator_pkg/1.0.0 ../../xsd/TillOperatorPackageDO.xsd">
+	  <Header>
+		    <importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		    <importHeader:Type>TillOperatorImport</importHeader:Type>
+		    <importHeader:ChangeType>MODIFY</importHeader:ChangeType>
+		    <importHeader:ElementsCount>9</importHeader:ElementsCount>
+	  </Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	  <TillOperatorListDO>
+		    <TillOperatorElementDO>
+			      <TillOperatorDO>
+				        <tillOperator:OperatorID>1</tillOperator:OperatorID>
+				        <tillOperator:TillID>1</tillOperator:TillID>
+			      </TillOperatorDO>
+		    </TillOperatorElementDO>
+	  </TillOperatorListDO>
+</TillOperatorPackageDO>

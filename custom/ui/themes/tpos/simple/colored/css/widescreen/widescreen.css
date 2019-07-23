@@ -1,0 +1,112 @@
+.appArea {
+	width: 344px;
+	height: 100%;
+	background-color: transparent;
+	padding: 0px 0px 0px 0px;
+	border-left-width: 0px;
+    border-left-color: rgb(217,217,217);
+    border-left-style: solid;
+	border-right-width: 0px;
+    border-right-color: rgb(217,217,217);
+    border-right-style: solid;
+	border-bottom-width: 0px;
+    border-bottom-color: rgb(217,217,217);
+    border-bottom-style: solid;
+	border-top-width: 0px;
+    border-top-color: rgb(217,217,217);
+    border-top-style: solid;		
+	border-radius: 0px;
+}
+
+.appAreaAuthBase  {
+	height: 100%;
+	background-color: transparent;
+	border-width: 0px;
+}
+.appAreaInput  {
+	height: 100%;
+}
+
+.appContainer {
+	width: 100%;
+	height: 100%;
+	border: 0px solid rgba(217, 217, 217,0);
+}
+
+.smallAppContainer {
+	height: 648px;
+}
+
+.authAppContainer {
+    background-image: url(/images/common/backgrounds/bg_apparea_auth.png);
+}
+
+.imageAppContainer {
+    background-image: url(/images/common/backgrounds/bg_apparea.png);
+}
+
+.inputsAppContainer {
+    background-image: url(/images/common/backgrounds/bg_apparea_inputs.png);
+}
+
+.inputsAppContainerSmall {
+    background-image: url(/images/common/backgrounds/bg_apparea_inputs_small.png);
+}
+
+.functionalButtonContainer {
+	width: 40px;
+}
+
+.registrationleftSideArea {
+	width: 400px;
+    padding: 0px 0px 0px 0px;
+}
+
+.registrationleftSideArea .topArea,
+.rightSideArea .registrationtopArea {
+    padding-left:0px;
+    padding-top: 0px;
+}
+
+.registrationtopArea{
+	height: 736px; /* 91.3% */
+	width: 50px;
+    padding-top:0px;
+}
+
+.leftCenterBottomArea {
+	width: 45px;
+	height: 672px; /* 91.3% */
+	text-align: left;
+	/* background-color: rgba(100,0,100,0.2); */
+}
+
+.app{
+	width: 100%;
+	height: 100%;
+}
+.backgroundPanel {
+    background-image: url(/images/common/backgrounds/bg_ratio16to9.png);
+    direction:inherit;
+}
+.backgroundPanelAuthorization {
+    background-image: url(/images/common/backgrounds/bg_ratio16to9_auth.png);
+    direction:inherit;
+}
+.backgroundPanelPayment {
+    background-image: url(/images/common/backgrounds/bg_ratio16to9.png);
+    direction:inherit;
+}
+.backgroundPanelSpecialMode {
+    background-image: url(/images/common/backgrounds/bg_ratio16to9_returns.png);
+    direction:inherit;
+    /* hide by default */
+    visibility: hidden;
+}
+
+.keyboardArea {
+	top: 425px;
+	left: 345px;
+	height: 386px; /* 91.3% */
+	width: 75%;
+}

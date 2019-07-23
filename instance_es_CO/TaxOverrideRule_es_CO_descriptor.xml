@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Tax override rule es_CO"
+  DESCRIPTION="Tax override rule es_CO"
+  DATA_CONTAINER_NAME="Tax override rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TaxOverrideRule" FILE_NAME="TaxOverrideRule/dc_import_TaxOverrideRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

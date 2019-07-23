@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TenderClassPackageDO xmlns="http://www.gk-software.com/gkr/md/tender_class_pkg/1.0.0" xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0" xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" xmlns:tenderClass="http://www.gk-software.com/gkr/md/tender_class/1.0.0" xmlns:translations="http://www.gk-software.com/gkr/common/translations/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gk-software.com/gkr/md/tender_class_pkg/1.0.0 ../../xsd/TenderClassPackageDO.xsd">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>TenderClass</importHeader:Type>
+		<importHeader:ChangeType>MODIFY</importHeader:ChangeType>
+		<importHeader:ElementsCount>23</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	<TenderClassListDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>BA</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Cash</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>CO</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Cupón</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>GS</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Cheque regalo</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>GC</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Cheque regalo centro</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>GZ</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Cheque regalo periódico</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>GK</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Cheque regalo</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>LS</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>ELV</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>PA</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Ticket aparcado</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>SC</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>Cheque</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>TE</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>Pago terminal</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>AM</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>American Express</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>VI</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Visa</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>MC</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>Mastercard</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>EC</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>Efectivo CE</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>OA</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>EFT-Offline Amex</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>KD</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>EFT-Offline Diners</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>OV</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>EFT-Offline Visa</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>OM</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>EFT-Offline Mastercard</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>KJ</tenderClass:TenderClassCode>
+				        <tenderClass:TenderClassDescription>EFT-Offline JCB</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>VP</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Valuephone</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>CR</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Credit</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>CC</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Motor de efectivo</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>PR</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Medio pago promoción</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>FS</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Food Stamps</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>WI</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>WIC</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>PT</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>Puntos</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>BF</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>EBT Food</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>BC</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>EBT Cash</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>FO</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>EBT Food Offline</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+		<TenderClassElementDO>
+			<TenderClassDO>
+				<tenderClass:TenderClassCode>EW</tenderClass:TenderClassCode>
+				<tenderClass:TenderClassDescription>E-WIC</tenderClass:TenderClassDescription>
+			</TenderClassDO>
+		</TenderClassElementDO>
+	</TenderClassListDO>
+</TenderClassPackageDO>

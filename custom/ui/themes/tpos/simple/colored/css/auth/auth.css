@@ -1,0 +1,173 @@
+/* LOGIN, LOGOUT, AUTHORIZATION */
+.pageTitle {
+	padding-left: 18px;
+	padding-top: 10px;
+}
+.highlightedArea {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,0);
+}
+#authenticatePanel {
+    top: 70px;
+    height: 338px;
+    border-spacing: 9px;
+    padding-right: 9px;
+	padding-left: 9px;
+	padding-top: 9px;
+}
+#authenticatePanel input {
+    height: 70px;
+    padding-left: 60px;
+    padding-right: 16px;
+    color: rgba(79,99,119,1);
+    text-align: right;
+    font-size: 36px;
+    font-family: "Open Sans Semibold", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: rgba(146,160,175,0.3);
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 12px;
+}
+#authenticatePanel input:focus {
+    color: rgba(79,99,119,1);
+    background-color: rgba(146,160,175,0.3);
+    border: 2px solid rgba(91,112,133,1);
+    border-radius: 12px;
+}
+#authenticatePanel input[type=text]:disabled,
+#authenticatePanel input[type=password]:disabled {
+    /* disabled style */
+    color: rgba(79,99,119,1);
+    background-color: rgba(93,110,129,0.1);
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 12px;
+
+}
+#authenticatePanel input[type=text],
+.fieldLabel input[type=text] {
+    background-image: url(/images/common/icons/icon_login_user.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+#authenticatePanel input[type=text]:focus,
+.fieldLabel input[type=text]:focus {
+    background-image: url(/images/common/icons/icon_login_user.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+#authenticatePanel input[type=password],
+.fieldLabel input[type=password] {
+    /* we always want to display bullet points from default font, since Open Sans does not implement bullet point chars */
+    font-family: Arial, sans-serif;
+    background-image: url(/images/common/icons/icon_login_lock.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+#authenticatePanel input[type=password]:focus,
+.fieldLabel input[type=password]:focus {
+    background-image: url(/images/common/icons/icon_login_lock.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+#authorizationReasonsPanel {
+    height: 154px;
+    background-color:rgba(255,255,255,0.6);
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 12px;
+    border-spacing: 0px;
+    padding: 0px 12px 0px 12px;
+}
+#authorizationReasonIcon {
+    width: 16%;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+    color: rgb(200,3,39);
+    vertical-align: bottom;
+}
+#authorizationReasons {
+    width: 84%;
+    height: 160px;
+    padding-top: 8px;
+}
+.authorizationReasonsPanelEmpty {
+     height: 8px;
+}
+.authorizationFunctionLabel {
+    width: 100%;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    vertical-align:top;
+}
+.authorizationFunctionValue {
+    width: 100%;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    white-space: normal;
+    vertical-align:top;
+}
+.authorizationReasonLabel {
+    width: 100%;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    vertical-align:top;
+}
+.authorizationReasonValue {
+    width: 100%;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 15.5px;
+    white-space: normal;
+    vertical-align:top;
+}
+.authorizationLabelDiv {
+    width: 31%;
+}
+.authorizationValueDiv {
+    width: 69%;
+}
+.authorizationFunctionDiv {
+    height: 50px;
+}
+.authorizationReasonDiv {
+    height: 100px;
+    padding-top: 4px;
+}
+
+/* DOCK WITH LOGO */
+#dockPanel {
+    height: 176px;
+}
+#dockTopPanel {
+    height: 56px;
+}
+#dockBottomPanel {
+    height: 120px;
+    background-color:rgba(255,255,255,1);
+    padding-left: 34px;
+    padding-right: 8px;
+}
+#dockLineGradient {
+    height: 0px;
+/*     background-image: url(/images/common/line_gradient.png); */
+}
+#dockClaim {
+    width: 50%;
+    background-image: url(/images/common/claim.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+#dockLogo {
+    width: 50%;
+    background-image: url(/images/common/logo2.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color:rgba(255,255,255,1);
+}
+#dockSoftwareVersions {
+  height: 40px;
+  padding: 0px 0px 4px 0px;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: bottom;
+  color: rgb(91,112,133);
+  font-family: "Open Sans Semibold", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}

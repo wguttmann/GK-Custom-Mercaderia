@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/customerFlow/customerFlow.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="transactionInfo" class="transactionInfo" layout="wrapLayout">
+    <div class="boxWrapper points" layout="wrapLayout">
+      <div id="transactionInfoPoints" class="box points" layout="wrapLayout">
+        <label id="transactionInfoPointsValue" class="value" value="TRANSACTION_TOTALPOINTS" bean="posStateInfoLabel" />
+        <label id="transactionInfoPointsLabel" class="label" valueKey="customerFlow.payment.points.title" />
+      </div>
+    </div>
+    <div class="boxWrapper youSave" layout="wrapLayout">
+      <div id="transactionInfoDiscount" class="box youSave" layout="wrapLayout">
+        <label id="transactionInfoDiscountValue" class="value" value="TRANSACTION_TOTALDISCOUNT" bean="posStateInfoLabel" />
+        <label id="transactionInfoDiscountLabel" class="label" valueKey="customerFlow.payment.discount.title" />
+      </div>
+    </div>
+    <div class="boxWrapper total" layout="wrapLayout">
+      <div id="transactionInfoTotal" class="box total" layout="wrapLayout">
+        <div id="transactionInfoTotalValueWithExchangeRate" class="valueContainer" layout="wrapLayout">
+          <label id="transactionInfoTotalExchangeRateInfo" class="exchangeRateInfo" />
+          <label id="transactionInfoTotalValueWithCurrency" class="valueWithCurrency" />
+        </div>
+        <div id="transactionInfoTotalValueWithoutExchangeRate" class="valueContainer" layout="wrapLayout">
+          <label id="transactionInfoTotalValue" class="value" />
+        </div>
+        <label id="transactionInfoTotalLabel" class="label" />
+      </div>
+    </div>
+  </body>
+</html>

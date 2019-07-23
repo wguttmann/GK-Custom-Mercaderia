@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Tender adjustment rule es_CO"
+  DESCRIPTION="Tender adjustment rule es_CO"
+  DATA_CONTAINER_NAME="Tender adjustment rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TenderAdjustmentRule" FILE_NAME="TenderAdjustmentRule/dc_import_TenderAdjustmentRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

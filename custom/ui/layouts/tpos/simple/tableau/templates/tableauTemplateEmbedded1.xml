@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/tableau/tableauTemplateEmbedded1.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="tableauRootPanelEmbedded1" layout="wrapLayout">
+
+    <!-- Level1 - Button-Container -->
+    <div id="tableauPositionsContainerPanel" class="tableauPositionsContainerPanel buttonsPanel" bean="tableauLevel1PositionsContainerPanel">
+      <!-- standard button -->
+      <input id="buttonTemplate1" type="button" title="Standard Button" bean="tableauPositionButton" />
+
+      <!-- standard toggle button -->
+      <input id="toggleButtonTemplate1" class="toggleButton" type="button" title="Standard Toggle Button" bean="tableauPositionButton" />
+
+      <!-- cancel/abort button -->
+      <input id="buttonTemplate2" class="ca" type="button" title="Cancel Button" bean="tableauPositionButton" />
+
+      <!-- continue/next/ok button -->
+      <input id="buttonTemplate3" class="cno" type="button" title="OK/Continue Button" bean="tableauPositionButton" />
+
+      <!-- special mode button -->
+      <input id="buttonTemplate4" class="specialMode" type="button" title="Special Mode Button" bean="tableauPositionButton" />
+
+      <!-- edit mode button -->
+      <input id="buttonTemplate5" class="editMode" type="button" title="Edit Mode Button" bean="tableauPositionButton" />
+    </div>
+  </body>
+</html>

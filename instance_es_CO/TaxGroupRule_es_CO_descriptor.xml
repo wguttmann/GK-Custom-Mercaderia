@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Tax group rule es_CO"
+  DESCRIPTION="Tax group rule es_CO"
+  DATA_CONTAINER_NAME="Tax group rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TaxGroupRule" FILE_NAME="TaxGroupRule/dc_import_TaxGroupRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

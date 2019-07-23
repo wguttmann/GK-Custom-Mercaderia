@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Tender class es_CO"
+  DESCRIPTION="Tender class es_CO"
+  DATA_CONTAINER_NAME="Tender class"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TenderClass" FILE_NAME="TenderClass/dc_import_TenderClass.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

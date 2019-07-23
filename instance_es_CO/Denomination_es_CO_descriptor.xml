@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Denomination es_CO"
+  DESCRIPTION="Denomination es_CO"
+  DATA_CONTAINER_NAME="Denomination"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="Denomination" FILE_NAME="Denomination/gkr_dc_import_Denomination.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/tableau/tableauTemplateFullTabs1.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body class="backgroundPanel">
+    <div id="backgroundPanelDots" class="backgroundPanelDots" />
+    <label id="backgroundTrainingModeLabel" class="backgroundTrainingModeLabel" bean="trainingModeLabel" />
+
+    <div layout="borderLayout">
+      <div class="leftSideArea" constraints="Before" layout="wrapLayout" />
+      <div class="contentArea" constraints="Center" layout="wrapLayout">
+        <div class="topArea" layout="wrapLayout">
+          <!-- Title -->
+          <label id="tableauTitlePanel" class="pageTitle" bean="tableauTitleLabel" />
+
+          <!-- Close button -->
+          <div class="closeButtonArea" layout="wrapLayout">
+            <input id="closeButton" class="dialogCloseButton" type="button" onclick="api.hideOverlay();" />
+          </div>
+        </div>
+        <div class="centerBottomArea" layout="borderLayout">
+          <!-- Level1 - Level-Container -->
+          <div id="tableauLevel1ContainerPanel" class="tableauLevelContainerPanel" constraints="Center" layout="borderLayout" bean="tableauLevel1ContainerPanel">
+
+            <!-- Level1 - Button-Container -->
+            <div id="tableauLevel1PositionsContainerPanel" class="tableauLevel1PositionsContainerPanel tabStripsPanel vertical" constraints="Before" bean="tableauLevel1PositionsContainerPanel">
+				<input id="toggleButtonTemplate1Level1" class="toggleButtonTemplate1Level1" type="button" title="Blue tab toggle button" bean="tableauPositionButton" />
+				<input id="buttonTemplate1Level1" class="buttonTemplate1Level1" type="button" title="Blue button (no toggle)" bean="tableauPositionButton" />
+            </div>
+
+            <!-- Level1 - Card-Container -->
+            <div id="tableauLevel1CardsContainerPanel" class="tableauCardsContainerPanel" constraints="Center" layout="cardLayout" bean="tableauLevel1CardsContainerPanel">
+
+              <!-- Level2 - Card-Panel / Button-Container -->
+              <div id="tableauLevel2PositionsContainerPanel" class="tableauPositionsContainerPanel buttonsPanel additional" bean="tableauLevel2PositionsContainerPanel" layout="horizontalSwipeableCardLayout">
+                <input id="buttonTemplate1Level2" class="buttonTemplate1Level2" type="button" title="Standard Button" bean="tableauPositionButton" />
+				<input id="buttonTemplate2Level2" type="button" title="Discount Button" bean="tableauPositionButton" class="tableauButtonColor1"/>
+				<input id="buttonTemplate3Level2" type="button" title="Special Mode Button" bean="tableauPositionButton" class="tableauButtonColor2" />
+				<input id="buttonTemplate4Level2" type="button" title="Customer Button" bean="tableauPositionButton" class="tableauButtonColor3"/>
+				<input id="buttonTemplate5Level2" type="button" title="Line Item Editing" bean="tableauPositionButton" class="tableauButtonColor4"/>
+				<input id="buttonTemplate6Level2" type="button" title="Other Button 1" bean="tableauPositionButton" class="tableauButtonColor5"/>
+				<input id="buttonTemplate7Level2" type="button" title="Other Button 2" bean="tableauPositionButton" class="tableauButtonColor6"/>
+				<input id="buttonTemplate8Level2" type="button" title="Button with Item Image" bean="tableauPositionButton" class="tableauButtonColor7"/>
+				<input id="buttonTemplate9Level2" type="button" title="OK/Continue Button" bean="tableauPositionButton" class="cno"/>
+				<input id="buttonTemplate10Level2" type="button" title="Cancel Button" bean="tableauPositionButton" class="cca"/>
+                <input id="toggleButtonTemplate1Level2" class="buttonTemplate1Level2 toggleButton" type="button" title="Standard Toggle Button" bean="tableauPositionButton" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

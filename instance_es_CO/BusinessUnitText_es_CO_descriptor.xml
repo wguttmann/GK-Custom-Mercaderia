@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Business unit text es_CO"
+  DESCRIPTION="Business unit text es_CO"
+  DATA_CONTAINER_NAME="Business unit text"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="BusinessUnitText" FILE_NAME="BusinessUnitText/dc_import_BusinessUnitText.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

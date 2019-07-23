@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Taxable group es_CO"
+  DESCRIPTION="Taxable group es_CO"
+  DATA_CONTAINER_NAME="Taxable group"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TaxableGroup" FILE_NAME="TaxableGroup/dc_import_TaxableGroup.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

@@ -1,0 +1,47 @@
+.trTabPanel {
+    padding: 12px;
+    background-color: rgba(255,255,255,0.35);
+}
+
+.trTabPanel label {
+  font-size: 16px;
+}
+
+.titleText {
+    height      : 88px   ;
+    font-size   : 44px   ;
+    font-weight : bold   ;
+    text-align  : center ;
+}
+.wrapper {
+	height: 320px;
+	text-align:center;
+	padding-top:50px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.colTitle {
+    width: 22%;
+    height: 400px;
+}
+.colText {
+    width: 39%;
+    height: 400px;
+    text-align:center;
+}
+
+.trTitle {
+    height: 38px;
+    width: 100%;
+    text-align:center;
+    font-weight: bold;
+}
+.left {
+    text-align:left;
+}
+.trText {
+    height: 40px;
+    width:100%;
+    text-align:center;
+}

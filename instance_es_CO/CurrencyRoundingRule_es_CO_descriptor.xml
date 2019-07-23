@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Currency rounding rule es_CO"
+  DESCRIPTION="Currency rounding rule es_CO"
+  DATA_CONTAINER_NAME="Currency rounding rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="CurrencyRoundingRule" FILE_NAME="CurrencyRoundingRule/dc_import_CurrencyRoundingRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

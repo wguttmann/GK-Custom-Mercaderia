@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Reason tender es_CO"
+  DESCRIPTION="Reason tender es_CO"
+  DATA_CONTAINER_NAME="Reason tender"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="ReasonTender" FILE_NAME="ReasonTender/dc_import_ReasonTender.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

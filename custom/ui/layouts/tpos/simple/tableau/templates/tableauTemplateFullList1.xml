@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/tableau/tableauTemplateFullList1.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="contextMenuPanel" class="dialogRootPanel" layout="borderLayout">
+
+    <!-- CONTEXT CANCEL BUTTON -->
+    <div id="closeContextMenuDiv1">
+      <!-- Cancel/Close Button1 -->
+      <input id="closeContextMenuButton1" type="button" onclick="api.hideOverlay();" />
+    </div>
+
+    <!-- LEFT SIDE AREA -->
+    <div id="dialogLeftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+      <div id="dialogLeftSideTopArea" class="topArea" layout="wrapLayout">
+      </div>
+    </div>
+
+    <!-- CONTENT AREA -->
+    <div id="dialogContentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+      <div id="dialogContentTopArea" class="topArea" layout="wrapLayout">
+        <div id="dialogLeftContentArea" class="leftContentArea" layout="wrapLayout">
+          <!-- Title -->
+          <label id="dialogPageTitle" class="pageTitle" bean="tableauTitleLabel"/>
+        </div>
+      </div>
+
+      <!-- CONTEXT MENU BUTTONS -->
+      <div id="contextMenuButtons" class="centerBottomArea" layout="wrapLayout">
+
+        <!-- Level1 - Button-Container -->
+        <div id="tableauPositionsContainerPanel" class="tableauPositionsContainerPanel buttonsPanel context" bean="tableauLevel1PositionsContainerPanel">
+
+          <!-- button templates -->
+          <input id="buttonTemplate1" class="buttonTemplate1" type="button" title="Dark button" bean="tableauPositionButton" />
+          <input id="buttonTemplate2" class="buttonTemplate2 highlight1" type="button" title="Purple button" bean="tableauPositionButton" />
+          <input id="buttonTemplate3" class="buttonTemplate3 highlight2" type="button" title="Orange button" bean="tableauPositionButton" />
+          <input id="buttonTemplate4" class="buttonTemplate4 highlight3" type="button" title="Turquoise button" bean="tableauPositionButton" />
+          <input id="buttonTemplate5" class="buttonTemplate5 highlight4" type="button" title="Red button" bean="tableauPositionButton" />
+          <input id="buttonTemplate6" type="button" title="Orange edged button" bean="tableauPositionButton" class="tableauButtonColor1"/>
+          <input id="buttonTemplate7" type="button" title="Purple edged button" bean="tableauPositionButton" class="tableauButtonColor2" />
+          <input id="buttonTemplate8" type="button" title="Light-Blue edged button" bean="tableauPositionButton" class="tableauButtonColor3"/>
+          <input id="buttonTemplate9" type="button" title="DarkBlue edged button" bean="tableauPositionButton" class="tableauButtonColor4"/>
+          <input id="buttonTemplate10" type="button" title="Green edged button" bean="tableauPositionButton" class="tableauButtonColor5"/>
+          <input id="buttonTemplate11" type="button" title="MintGreen edged button" bean="tableauPositionButton" class="tableauButtonColor6"/>
+          <input id="buttonTemplate12" type="button" title="White edged button" bean="tableauPositionButton" class="tableauButtonColor7"/>
+          <input id="buttonTemplate13" type="button" title="OK button" bean="tableauPositionButton" class="cno"/>
+          <input id="buttonTemplate14" type="button" title="Cancel button" bean="tableauPositionButton" class="cca"/>
+
+          <!-- horizontal line template -->
+          <div id="horizontalLineTemplate1" class="horizontalLineTemplate" title="Horizontal separator line (use colspan 4)" bean="tableauPositionPanel">
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE AREA -->
+    <div id="dialogRightSideArea" class="rightSideArea" constraints="After" layout="wrapLayout">
+      <div id="dialogRightSideTopArea" class="topArea" layout="wrapLayout">
+        <!-- Cancel/Close Button2 -->
+        <input id="closeContextMenuButton2" class="dialogCloseButton" type="button" onclick="api.hideOverlay();" />
+      </div>
+    </div>
+  </body>
+</html>

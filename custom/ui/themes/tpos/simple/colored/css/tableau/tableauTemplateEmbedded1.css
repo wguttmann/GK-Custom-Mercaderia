@@ -1,0 +1,61 @@
+/* TABLEAU SIZE, needed for tableau editor image rendering */
+#tableauRootPanelEmbedded1 {
+    width: 286px;
+    height: 340px;
+}
+
+/* BUTTONS */
+.buttonsPanel {
+    border-spacing: 9px 10px;
+}
+.buttonsPanel input {
+    width: 126px;
+    height: 72px;
+    font-size: 16px;
+	text-align: left;
+	vertical-align: bottom;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.buttonsPanel input.cno {
+    padding-left: 8px;
+    padding-bottom: 16px;
+    font-size: 28px;
+    background-image: url(/images/common/icons/icon_arrow_big.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.buttonsPanel input.specialMode{
+    padding-left: 8px;
+    vertical-align: middle;    
+    font-size: 22px;
+    padding-right: 50px;     
+    background-image: url(/images/common/icons/icon_arrow_big.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.buttonsPanel input.editMode {
+    padding-left: 8px;
+    vertical-align: middle;    
+    font-size: 28px;
+    padding-right: 50px;     
+    background-image: url(/images/common/icons/icon_arrow_big.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.buttonsPanel input.ca {
+	background-image: url(/images/common/icons/icon_button_cancel.png);
+    background-repeat: no-repeat;
+    background-position: right top;	
+}
+
+.tableauPositionsContainerPanel input {
+    /* inherit: background will be taken from tableau definition */
+    background-image: inherit;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MhgTenderPermissionRulePackageDO 
+xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0" 
+xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" 
+xmlns:translations="http://www.gk-software.com/gkr/common/translations/1.0.0" 
+xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" 
+xmlns:mhgTenderPermissionRule="http://www.gk-software.com/gkr/md/mhg_tpr/1.0.0"
+xmlns="http://www.gk-software.com/gkr/md/mhg_tpr_pkg/1.0.0" 
+xsi:schemaLocation="http://www.gk-software.com/gkr/md/mhg_tpr_pkg/1.0.0 ../../xsd/MhgTenderPermissionRulePackageDO.xsd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>MhgTenderPermissionRule</importHeader:Type>
+		<importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+		<importHeader:ElementsCount>1</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	<MhgTenderPermissionRuleListDO>
+		<MhgTenderPermissionRuleElementDO>
+			<MhgTenderPermissionRuleDO>
+				<mhgTenderPermissionRule:TenderTypeCode>ZTCO</mhgTenderPermissionRule:TenderTypeCode>
+				<mhgTenderPermissionRule:MerchandiseHierarchyGroupID>030000</mhgTenderPermissionRule:MerchandiseHierarchyGroupID>
+			</MhgTenderPermissionRuleDO>
+		</MhgTenderPermissionRuleElementDO>
+	</MhgTenderPermissionRuleListDO>
+</MhgTenderPermissionRulePackageDO>

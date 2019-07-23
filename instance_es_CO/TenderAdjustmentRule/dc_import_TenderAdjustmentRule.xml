@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TenderAdjustmentRulePackageDO xmlns="http://www.gk-software.com/gkr/md/tender_adjustment_rule_pkg/1.0.0" xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0" xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" xmlns:tenderAdjustmentRule="http://www.gk-software.com/gkr/md/tender_adjustment_rule/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gk-software.com/gkr/md/tender_adjustment_rule_pkg/1.0.0 ../../xsd/TenderAdjustmentRulePackageDO.xsd">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>TenderAdjustmentRule</importHeader:Type>
+		<importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+		<importHeader:ElementsCount>4</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	<TenderAdjustmentRuleListDO>
+		<TenderAdjustmentRuleElementDO>
+			<TenderAdjustmentRuleDO>
+				<tenderAdjustmentRule:OriginalTenderTypeCode>ZTCS</tenderAdjustmentRule:OriginalTenderTypeCode>
+				        <tenderAdjustmentRule:NewTenderTypeCode>ZTFR</tenderAdjustmentRule:NewTenderTypeCode>
+			</TenderAdjustmentRuleDO>
+		</TenderAdjustmentRuleElementDO>
+		<TenderAdjustmentRuleElementDO>
+			<TenderAdjustmentRuleDO>
+				<tenderAdjustmentRule:OriginalTenderTypeCode>ZTCS</tenderAdjustmentRule:OriginalTenderTypeCode>
+				<tenderAdjustmentRule:NewTenderTypeCode>ZTUS</tenderAdjustmentRule:NewTenderTypeCode>
+			</TenderAdjustmentRuleDO>
+		</TenderAdjustmentRuleElementDO>
+		<TenderAdjustmentRuleElementDO>
+			<TenderAdjustmentRuleDO>
+				        <tenderAdjustmentRule:OriginalTenderTypeCode>ZTFR</tenderAdjustmentRule:OriginalTenderTypeCode>
+				<tenderAdjustmentRule:NewTenderTypeCode>ZTCS</tenderAdjustmentRule:NewTenderTypeCode>
+			</TenderAdjustmentRuleDO>
+		</TenderAdjustmentRuleElementDO>
+		<TenderAdjustmentRuleElementDO>
+			<TenderAdjustmentRuleDO>
+				<tenderAdjustmentRule:OriginalTenderTypeCode>ZTUS</tenderAdjustmentRule:OriginalTenderTypeCode>
+				<tenderAdjustmentRule:NewTenderTypeCode>ZTCS</tenderAdjustmentRule:NewTenderTypeCode>
+			</TenderAdjustmentRuleDO>
+		</TenderAdjustmentRuleElementDO>
+	</TenderAdjustmentRuleListDO>
+</TenderAdjustmentRulePackageDO>

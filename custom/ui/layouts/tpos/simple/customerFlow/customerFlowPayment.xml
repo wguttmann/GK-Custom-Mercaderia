@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/customerFlow/customerFlow.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+    <div id="backgroundArea">
+      <img class="paymentMediaPanel" src="/images/customerFlow/mediapanel/bg_registration.png" />
+      <label id="backgroundTrainingModeLabel" class="backgroundTrainingModeLabel" bean="trainingModeLabel"/>
+    </div>
+    <div id="mainAreas" layout="borderLayout">
+      <div id="leftContentArea" class="leftContentArea" constraints="Before" layout="wrapLayout">
+        <iframe class="contextStateInfoPanel" layout="wrapLayout" src="/layouts/tpos/simple/customerFlow/customerFlowContextStateInfoPanel.xml" bean="defaultCachingIFrameComponent" />
+        <div class="transactionPreviewComponent">
+          <iframe id="customerFlowTransactionPreviewComponent" src="/layouts/tpos/simple/customerFlow/customerFlowTransactionPreviewComponent.xml" bean="customerFlowTransactionPreviewComponent" />
+        </div>
+        <iframe id="transactionInfoArea" class="transactionInfoArea" layout="wrapLayout" src="/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml" />
+      </div>
+      <iframe id="rightContentArea" class="rightContentArea" constraints="After" layout="wrapLayout" src="/layouts/tpos/simple/customerFlow/customerFlowPaymentMediaPanels.xml" />
+    </div>
+  </body>
+</html>

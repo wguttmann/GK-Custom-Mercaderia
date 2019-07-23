@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TaxAuthorityRulePackageDO xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0" xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" xmlns:taxAuthorityRule="http://www.gk-software.com/gkr/md/tax_authority_rule/1.0.0" xmlns="http://www.gk-software.com/gkr/md/tax_authority_rule_pkg/1.0.0" xsi:schemaLocation="http://www.gk-software.com/gkr/md/tax_authority_rule_pkg/1.0.0 ../../xsd/TaxAuthorityRulePackageDO.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>TaxAuthorityImport</importHeader:Type>
+		<importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+		<importHeader:ElementsCount>1</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	<TaxAuthorityRuleListDO>
+		<TaxAuthorityRuleElementDO>
+			<TaxAuthorityRuleDO>
+				<taxAuthorityRule:TaxAuthorityID>1</taxAuthorityRule:TaxAuthorityID>
+				<taxAuthorityRule:EffectiveDateTime>2014-01-01T00:00:00+01:00</taxAuthorityRule:EffectiveDateTime>
+				<taxAuthorityRule:ExpirationDateTime>2999-01-01T00:00:00+01:00</taxAuthorityRule:ExpirationDateTime>
+			</TaxAuthorityRuleDO>
+		</TaxAuthorityRuleElementDO>
+	</TaxAuthorityRuleListDO>
+</TaxAuthorityRulePackageDO>

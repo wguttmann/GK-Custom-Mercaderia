@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Merchandise category tender permission rule es_CO"
+  DESCRIPTION="Merchandise category tender permission rule es_CO"
+  DATA_CONTAINER_NAME="Merchandise category tender permission rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="MhgTenderPermissionRule" FILE_NAME="MhgTenderPermissionRule/dc_import_MhgTenderPermissionRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

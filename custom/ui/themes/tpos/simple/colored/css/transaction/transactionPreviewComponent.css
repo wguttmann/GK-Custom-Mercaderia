@@ -1,0 +1,201 @@
+/* TRANSACTION PREVIEW */
+#transactionPreviewComponent {
+    padding: 0px 0px 0px 0px;
+	height: 100%;
+}
+
+#transactionPreviewTable {
+    padding: 0px 0px 0px 0px;
+	height: 100%;
+	background-color: rgba(255,255,255,0.5);
+}
+tr {
+    height: 40px;
+}
+td {
+    font-size: 14px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: rgb(12,65,122);
+    text-align: left;
+    padding: 16px 12px 16px 16px;
+	/* background-color: rgba(255,255,255,0.5); */
+}
+/* selected style */
+td:active {
+    /* font-weight: bold; */
+    background-color: rgba(255,255,255,1);
+}
+/* tr:nth-child(odd) {
+    background-color: rgba(146,160,175,0.1);
+}
+ */
+.mainColumn {
+    width: 100%;
+}
+
+/* ADDITIONAL ITEM DETAILS PANEL inside table cell (Registration) */
+#transactionPreviewItemDetailsPanel {
+    height: 200px;
+    width: 388px;
+    padding: 0px 2px 8px 6px;
+    /* x: 4px; */
+}
+
+#transactionPreviewItemDetailsTopArrow {
+    width: 48px;
+    height: 8px;
+    background-image: url(/images/common/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#transactionPreviewItemDetailsHighlightedPanel {
+    height: 144px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    background-color: rgba(255,255,255,1);
+    text-align: right;
+    left: 4px;
+}
+#transactionPreviewVoidLineItemButton {
+    height: 50px;
+    width: 45%;
+    font-size: 20px;
+	color: rgba(255,255,255,0.8);
+	background-color: rgba(223,51,87,1);
+    border: 0px solid rgba(223,51,87,1);
+    border-radius: 12px;
+}
+#transactionPreviewVoidTenderLineItemButton {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    color: rgba(255,255,255,0.8);
+	background-color: rgba(223,51,87,1);
+    border: 0px solid rgba(223,51,87,1);
+    border-radius: 12px;	
+}
+#transactionPreviewPlusButton {
+    height: 50px;
+    width: 22%;
+    font-size: 30px;
+	padding-bottom: 10px;
+	color: rgba(255,255,255,0.1);
+}
+#transactionPreviewMinusButton {
+    height: 50px;
+    width: 22%;
+    font-size: 36px;
+	padding-bottom: 13px;
+	color: rgba(255,255,255,0.1);
+}
+.transactionPreviewQuantityButtonsContainer{
+    border-spacing: 6px;
+    padding: 0px 0px 8px 0px;
+    height: 60px;
+}
+#itemDetailsContainers {
+    height: 66px;
+    width: 100%;
+    padding: 8px 12px 8px 0px;
+}
+.itemDetailsImage {
+    width: 50px;
+    height: 50px;
+/*     border: 1px solid rgb(230,230,230); */
+}
+#salesTextsContainer {
+	height: 100px;
+    width: 100%;
+}
+
+#salesInfoIconsContainer {
+	height: 70px;
+    width: 100%;
+    padding: 10px 0px 8px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.additionalIconSpace{
+    width: 68px;
+}
+
+.salesTextsLabels {
+    font-size: 12px;     
+	text-align: left;
+	padding-left: 20px;
+    white-space: nowrap;
+}
+
+.itemDetailsContainer {
+    height: 50px;
+    border-right: 1px solid rgb(200,200,200);
+}
+#itemDetailsSellerContainer {
+    width: 90px;
+}
+#itemDetailsQuantityContainer {
+	width: 100%;
+	text-align: center;
+}
+#itemDetailsPromotionsContainer {
+    width: 98px;
+}
+#itemDetailsPriceContainer {
+    width: 92px;
+}
+.itemDetailsContainer.last {
+    border-right: none;
+}
+.itemDetailsContainer label {
+    text-align: right;
+    padding: 0px 8px 0px 2px;
+}
+.itemDetailsContainer.last label {
+    padding-right: 2px;
+}
+.itemDetailsContainer .itemDetailsValue {
+    font-size: 16px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    height: 24px;
+}
+.itemDetailsContainer .itemDetailsPromotionsValue {
+    color: rgb(235,102,59);
+}
+.itemDetailsContainer .itemDetailsLabel {
+    font-size: 12px;
+    height: 20px;
+    color: rgb(93,110,129);
+}
+
+/* ADDITIONAL TENDER LINE ITEM DETAILS PANEL inside table cell (Payment) */
+#transactionPreviewItemDetailsPanel.tenderLineItemDetailsPanel {
+    height: 72px;
+}
+
+#transactionPreviewItemDetailsFooter {
+    height: 15px;
+}
+
+.tenderLineItemDetailsPanel #transactionPreviewItemDetailsHighlightedPanel {
+    height: 56px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    padding: 0px 16px 8px 12px;
+}
+#discountFlagIcon {
+    width: 11px;
+    height: 13px;
+    background-image: url(/images/custom/icons/icon_flag_hint.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#salesInfoFlagIcon {
+    width: 11px;
+    height: 13px;
+    background-image: url(/images/custom/icons/icon_flag_rebate.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StorageLocationList xmlns="http://www.gk-software.com/storeweaver/master_data/storage_location/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gk-software.com/storeweaver/master_data/storage_location/1.1.0 ../../xsd/dc_import_StorageLocation.xsd ">
+  <StorageLocation>
+    <ID>0001</ID>
+    <Name>Normal</Name>
+    <Type>SELLING</Type>
+    <StorageLocationTranslationList>
+      <StorageLocationTranslation>
+        <LanguageID>EN</LanguageID>
+        <Name>Normal</Name>
+      </StorageLocationTranslation>
+    </StorageLocationTranslationList>
+  </StorageLocation>
+</StorageLocationList>

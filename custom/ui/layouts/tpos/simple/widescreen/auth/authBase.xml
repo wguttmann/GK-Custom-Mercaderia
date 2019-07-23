@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/auth/auth.css" />
+    <link rel="stylesheet" href="css/widescreen/widescreen.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+
+    <!-- BACKGROUND AREA WITH LOGO DOCK -->
+    <iframe id="backgroundArea" slot="true" src="/layouts/tpos/simple/auth/authBackgroundDock.xml" bean="defaultCachingIFrameComponent" />
+
+    <!-- CONTEXTMENU PANEL -->
+    <iframe id="contextMenuComponent" slot="true" class="overlay" src="/layouts/tpos/simple/common/globalContextMenu.xml" bean="defaultCachingIFrameComponent" />
+
+    <!-- MAIN AREAS -->
+    <div id="mainAreas" layout="borderLayout">
+
+      <!-- LEFT SIDE AREA -->
+      <div id="leftSideArea" class="registrationleftSideArea" slot="true" constraints="Before" layout="wrapLayout">
+        <div id="leftSideTopArea" slot="true" class="registrationtopArea" layout="wrapLayout">
+          <input id="showContextMenuButton" type="button" onclick="api.showOverlayFromTemplate('contextMenuComponent');" />
+          <div id="leftSideCenterBottomArea" slot="true" class="leftCenterBottomArea" />
+        </div>
+            <!-- AREA with additional apps   -->
+	           <div id="appAreaComponent" class="appArea"  layout="wrapLayout">        
+            <div id="appAreaSubElement1"  class="appContainer">
+                 <app id="wideScreenApp_registration" url="UiConfig.wideScreenAppAreaUrl"  class="app_cust" />
+            </div>             
+        </div>
+      </div>
+
+      <!-- CONTENT AREA -->
+      <div id="contentArea" slot="true" class="contentArea" constraints="Center" layout="wrapLayout">
+        <div id="leftContentArea" class="leftContentArea" layout="wrapLayout">
+          <div id="leftContentTopArea" slot="true" class="topArea" />
+          <div id="leftContentCenterArea" slot="true" class="centerArea" />
+        </div>
+        <div id="rightContentArea" class="rightContentArea" layout="wrapLayout">
+          <div id="rightContentTopArea" class="topArea paddedArea" layout="wrapLayout" />
+          <div id="rightContentCenterArea" class="centerArea paddedArea" layout="wrapLayout">
+            <div id="inputArea" class="inputArea highlightedArea" layout="wrapLayout">
+              <div id="topInputArea" class="topInputArea" layout="wrapLayout" />
+              <iframe id="numericKeyboardComponent" slot="true" layout="wrapLayout" src="/layouts/tpos/simple/keyboard/numericKeyboardComponent.xml" bean="numericKeyboardComponent" />
+              <div id="mainButtonsPanel" slot="true" class="buttonsPanel main" layout="wrapLayout" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

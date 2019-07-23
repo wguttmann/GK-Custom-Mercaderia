@@ -1,0 +1,2206 @@
+/* COMMON BASIC STYLES */
+* {
+    width: 100%;
+    height: 100%;
+}
+body {
+    color: rgb(93,110,129);
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.contentArea {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+/* 	background-color: rgba(255,0,0,0.1); */
+}
+input {
+    text-align: left;
+    padding: 0px 1px 0px 1px;
+}
+input:disabled {
+    /* disabled style */
+    color: rgba(255,255,255,0.8);
+}
+input[type=button]:active,
+input[type=image]:active {
+    /* button press effect */
+    margin: 1px;
+}
+input[type=button]:disabled {
+    /* disabled style */
+    opacity: 0.0;
+}
+.font_xxs {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:12px !important;
+}
+.font_xs {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:14px !important;
+}
+.font_s {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:16px !important;
+}
+.font_m {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:20px !important;
+}
+.font_l {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:24px !important;
+}
+.font_xl {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:32px !important;
+}
+.font_xxl {
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size:36px !important;
+}
+
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.bottom {
+    vertical-align: bottom;
+}
+.width50 {
+    width: 50%;
+}
+
+/* ROOT PANEL + MAIN BACKGROUNDs */
+.backgroundPanel {
+    background-image: url(/images/common/backgrounds/bg_ratio4to3.png);
+    direction:inherit;
+}
+.backgroundPanelAuthorization {
+    background-image: url(/images/common/backgrounds/bg_ratio4to3_auth.png);
+    direction:inherit;
+}
+.backgroundPanelPayment {
+    background-image: url(/images/common/backgrounds/bg_ratio4to3.png);
+    direction:inherit;
+}
+.backgroundPanelSpecialMode {
+    background-image: url(/images/common/backgrounds/bg_ratio4to3_returns.png);
+    direction:inherit;
+    /* hide by default */
+    visibility: hidden;
+}
+.backgroundPanelDots {
+    /* background-image: url(/images/common/backgrounds/background_dots_pattern.png); */
+    background-repeat:repeat;
+    background-position: top;
+}
+.backgroundTrainingModeLabel {
+    /*background-color: rgba(255,255,204,0.2);
+    font-size: 50px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+    vertical-align: top;
+    text-align: right;
+    padding: 4px 48px 20px 20px;
+    */
+    border-left: 16px solid rgb(255,255,0);
+    border-right: 16px solid rgb(255,255,0);
+    /* hide by default */
+    visibility: hidden;
+}
+
+/* AREAS */
+.leftSideAreaCashback {
+    padding: 8px 18px 16px 0px;
+}
+
+.leftSideArea,
+.rightSideArea {
+    width: 56px;
+    padding: 0px 0px 0px 0px;
+}
+.contentSmallArea {
+    height: 672px;
+}
+.leftContentArea {
+    width: 394px;
+    height: 100%;
+    padding-right: 6px;
+    padding-left: 0px;
+    text-align: left;
+/* 	background-color: rgba(255,0,0,0.1); */
+}
+.rightContentArea {
+    width: 574px;
+/*     width: 556px;	 */
+    height: 100%;
+    padding-right: 1px;
+    text-align: left;
+/* 	background-color: rgba(0,255,255,0.1); */
+}
+.bottomContentArea {
+    height: 0px;
+    text-align: left;
+/* 	background-color: rgba(0,255,255,0.1); */
+}
+.highlightedArea > .topArea {
+    height: 68px; /* 8.7% */
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* background-color: rgba(0,255,0,0.1); */
+}
+.topArea {
+    height: 68px; /* 8.7% */
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* background-color: rgba(0,255,0,0.1); */
+}
+.topAreaRight {
+    height: 68px; /* 8.7% */
+    text-align: left;
+    padding-top: 0px;
+    /* background-color: rgba(0,255,255,0.1); */
+}
+.centerBottomArea {
+    height: 704px; /* 91.3% */
+    text-align: left;
+
+    /* background-color: rgba(100,0,0,0.2); */
+}
+.contentArea > div.topArea,
+.contentArea > div.centerBottomArea {
+    width: 968px;
+}
+#dialogContentArea.contentArea > div.topArea,
+#dialogContentArea.contentArea > div.centerBottomArea {
+    width: 888px;
+}
+
+.centerArea {
+    height: 414px; /* 56% */
+    text-align: left;
+    padding: 0px;
+    /* background-color: rgba(0,0,100,0.2); */
+}
+.bottomArea {
+    height: 290px;  /* 35.3% */
+    text-align: left;
+    /* background-color: rgba(0,75,25,0.2); */
+}
+.bottomArea.deliveryOptions {
+    padding-left:7px;
+    padding-top:1px;
+}
+.paddedArea {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.spacedArea {
+    border-spacing: 9px;
+}
+.leftSideArea .topArea,
+.rightSideArea .topArea {
+    padding-left:6px;
+    padding-top:15px;
+}
+/* .highlightedArea {
+    background-color: white;
+    border-width: 1px 0px 0px 0px;
+    border: 0px solid rgb(217,217,217);
+    border-radius: 0px;
+} */
+#inputArea.highlightedArea {
+    background-color: rgba(255,0,0,0.0);
+    border-left-width: 0px;
+    border-left-color: rgb(217,217,217);
+    border-left-style: solid;
+    border-right-width: 0px;
+    border-right-color: rgb(217,217,217);
+    border-right-style: solid;
+    border-radius: 0px;
+    border-bottom-width: 0px;
+    border-bottom-color: rgb(217,217,217);
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-color: rgb(217,217,217);
+    border-top-style: solid;
+}
+
+.highlightedArea {
+/*     background-color: rgba(255,255,255,0.5); */
+    border-left-width: 1px;
+    border-left-color: rgb(217,217,217);
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(217,217,217);
+    border-right-style: solid;
+    border-radius: 0px;
+    border-bottom-width: 0px;
+    border-bottom-color: rgb(217,217,217);
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-color: rgb(217,217,217);
+    border-top-style: solid;
+}
+.highlightedAreaReturn {
+    background-color: rgba(255,255,255,0.5);
+    border-left-width: 1px;
+    border-left-color: rgb(217,217,217);
+    border-left-style: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(217,217,217);
+    border-right-style: solid;
+    border-radius: 0px;
+    border-bottom-width: 0px;
+    border-bottom-color: rgb(217,217,217);
+    border-bottom-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgb(217,217,217);
+    border-top-style: solid;
+}
+
+#leftContentCenterBottomArea {
+    height: 700px;    /*   TRANSACTION PREVIEW  */
+
+}
+.leftContentAdditionalInfosArea {
+    height: 192px;
+    padding-top: 8px;
+}
+
+/* BUTTON PANELS */
+.keyboardLeftSideAreaCashBack {
+    width: 500px;
+}
+
+
+
+/* BUTTON PANELS */
+.buttonsPanel input {
+    height: 72px;
+    width: 240px;
+    font-size: 28px;
+    text-align: center;
+    white-space: normal;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(113,131,151,1);
+    border: 0px solid rgba(113,131,151,1);
+    border-radius: 12px;
+    padding: 4px 4px 4px 6px;
+    font-family: "Open Sans Semibold", "Segoe UI Light", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+/* button press effect */
+.buttonsPanel input:active {
+    margin: 1px;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(91,112,133,1);
+    border: 0px solid rgba(91,112,133,1);
+    border-radius: 12px;
+}
+.buttonsPanel input:link {
+    margin: 1px;
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(113,131,151,0.15);
+    border: 0px solid rgba(113,131,151,0.15);
+    border-radius: 12px;
+}
+/* cancel, clear, abort */
+/* @deprecated as of 5.4.0. Use instead: .buttonsPanel input.ca or .buttonsPanel input.clear*/
+/* @TODO: REMOVE as of 5.4.0 deprecated CSS code */
+/* cancel, abort */
+.buttonsPanel input.cca,
+.buttonsPanel input.ca {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(202,34,78,1);
+    border: 0px solid rgba(202,34,78,1);
+    border-radius: 12px;
+    background-image: url(/images/common/icons/icon_cancel_big.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+}
+
+.buttonsPanel input.clear {
+       background-image: url(/images/common/icons/icon_cancel_big.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* @deprecated as of 5.4.0. Use instead: .buttonsPanel input.caSmallFont */
+/* @TODO: REMOVE as of 5.4.0 deprecated CSS code */
+.buttonsPanel input.ccaSmallFont {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(202,34,78,1);
+    border: 0px solid rgba(202,34,78,1);
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+.buttonsPanel input.caSmallFont {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(202,34,78,1);
+    border: 0px solid rgba(202,34,78,1);
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+/* @deprecated as of 5.4.0. Use instead: .buttonsPanel input.ca:active */
+/* @TODO: REMOVE as of 5.4.0 deprecated CSS code */
+.buttonsPanel input.cca:active,
+.buttonsPanel input.ca:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(181,20,62,1);
+    border: 0px solid rgba(181,20,62,1);
+    border-radius: 12px;
+}
+
+/* buy, continue, next, ok */
+.buttonsPanel input.ctb,
+.buttonsPanel input.buy,
+.buttonsPanel input.cno {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(65,151,68,1);
+    border: 0px solid rgba(65,151,68,1);
+    border-radius: 12px;
+    background-image: url(/images/common/icons/icon_arrow_big.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+}
+.buttonsPanel input.ctb:active,
+.buttonsPanel input.buy:active,
+.buttonsPanel input.cno:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(46,132,49,1);
+    border: 0px solid rgba(46,132,49,1);
+    border-radius: 12px;
+}
+.buttonsPanel input.ctb:link,
+.buttonsPanel input.buy:link,
+.buttonsPanel input.cno:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(65,151,68,0.15);
+    border: 0px solid rgba(65,151,68,0.15);
+    border-radius: 12px;
+}
+
+/* special tableButtons */
+.ctbSeparator {
+    width: 10px;
+    height: 72px;
+}
+
+/* specialMode */
+.buttonsPanel input.specialMode {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(127,75,155,1);
+    border-color: rgba(127,75,155,1);
+}
+.buttonsPanel input.specialMode:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(105,53,133,1);
+    border-color: rgba(105,53,133,1);
+}
+.buttonsPanel input.specialMode:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(127,75,155,0.15);
+    border-color: rgba(127,75,155,0.15);
+}
+
+/* editMode */
+.buttonsPanel input.editMode {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(45,94,168,1);
+    border-color: rgba(45,94,168,1);
+}
+.buttonsPanel input.editMode:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(40,79,137,1);
+    border-color: rgba(40,79,137,1);
+}
+.buttonsPanel input.editMode:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(45,94,168,0.15);
+    border-color: rgba(45,94,168,0.15);
+}
+
+/* toggle button */
+.buttonsPanel input.toggleButton {
+    color: rgb(169,189,200);
+    border: 3px solid rgba(173,40,125,0.5);
+    border-radius: 12px;
+}
+.buttonsPanel input.toggleButton:active,
+.buttonsPanel input.toggleButton:visited {
+    color: rgba(255,255,255,1);
+    border: 3px solid rgba(173,40,125,1);
+    border-radius: 12px;
+}
+
+.buttonsPanel.main {
+    width: 286px;
+    text-align:left;
+    border-spacing: 9px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+/* 	background-color: rgba(0,50,50,0.2); */
+}
+
+.buttonsPanel.main.rows {
+    border-spacing: 0px;
+}
+.buttonsPanel.main input {
+    text-align:left;
+    width: 262px;
+    height: 72px;
+    padding-left:16px;
+}
+.buttonsPanel.main input.small {
+    width: 126px;
+    padding-left: 8px;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+.buttonsPanel.main input.small.cca,
+.buttonsPanel.main input.small.ca {
+    background-image: url(/images/common/icons/icon_button_cancel.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+.buttonsPanel.main input.large {
+    height: 154px;
+    background-position: right bottom;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    vertical-align: bottom;
+}
+.buttonsPanel.main input.enter {
+    width: 126px;
+    height: 154px;
+}
+.buttonsPanel.main input.medium {
+    height: 72px;
+    padding-left: 16px;
+}
+.buttonsPanel.main .space {
+    width: 262px;
+    height: 72px;
+}
+.buttonsPanel.main .space.small {
+    width: 126px;
+}
+.spacedButtonPanel{
+     /*    border-spacing: 8px 0px; */
+        padding-left: 20px;
+}
+.mainButtonsPanelContainer {
+    height: 82px;
+    border-spacing: 9px;
+}
+.mainButtonsPanelContainer.large {
+    height: 173px;
+    border-spacing: 9px;
+}
+.mainButtonsPanelContainer2 {
+    border-spacing: 9px;
+}
+.buttonsPanel.additional {
+    height: 68px;
+    border-spacing: 8px;
+  /*  padding: 4px 0px 4px 0px;  */
+}
+
+.buttonsPanel.additional input,
+.buttonsPanel.additional .space {
+    width: 126px;
+    height: 60px;
+    /* TODO: reduced from 16px to 14px */
+    font-size: 14px;
+    padding-bottom: 2px;
+    text-align:left;
+    vertical-align: bottom;
+}
+.buttonsPanel.additional input.cca,
+.buttonsPanel.additional input.ca {
+    background-image: url(/images/common/icons/icon_button_cancel.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.buttonsPanel.additional.dialogButtonStyle {
+    top: 1px;
+    border-spacing: 9px;
+    left: 790px;
+    height: 290px;
+    width: 135px;
+}
+
+.buttonsPanel.context {
+    /* should be 98px, we add one additional pixel for the button press effect! */
+    width: 796px;
+    height: 99px;
+    border-spacing: 12px;
+    text-align:left;
+}
+.buttonsPanel.context input,
+.buttonsPanel.context input:active {
+    height: 86px;
+    width: 184px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgba(255,255,255,0.8);
+    text-align:center;
+    background-color: rgba(38,38,38);
+    border: 0px solid rgba(38,38,38,1);
+    border-radius: 12px;
+}
+.buttonsPanel.context .space {
+    height: 86px;
+    width: 184px;
+}
+.buttonsPanel.context .highlight1,
+.buttonsPanel.context .highlight1:active {
+    background-color: rgb(139,64,160);
+}
+.buttonsPanel.context .highlight2,
+.buttonsPanel.context .highlight2:active {
+    background-color: rgb(188,105,32);
+}
+.buttonsPanel.context .highlight3,
+.buttonsPanel.context .highlight3:active {
+    background-color: rgb(0,130,150);
+}
+.buttonsPanel.context .highlight4,
+.buttonsPanel.context .highlight4:active {
+    background-color: rgb(206,38,61);
+}
+.buttonsPanel.context .separator {
+    width: 772px;
+    height: 45px;
+    border-bottom: 1px solid rgb(64,64,64);
+}
+
+/* TAB PANELS HORIZONTAL */
+.tabStripsPanel {
+    height: 56px;
+    vertical-align:bottom;
+    padding: 0px 0px 0px 4px;
+/*     border-bottom: 2px solid red; */
+/* 	background-image: url(/images/common/tabstrips/tabstrip_normal_551px.png); */
+/* 	background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+
+.tabStripsPanel.dialog {
+    left:10px;
+}
+.tabStripsPanel .space,
+.tabStripsPanel input {
+    width: 133px;
+    height: 56px;
+}
+.tabStripsPanel input {
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    white-space: normal;
+    border-bottom: 4px solid rgba(107,126,146,0.2);
+    /* background-image: url(/images/common/tabstrips/tabstrip_normal.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+ /* toggled state */
+.tabStripsPanel input:visited,
+.tabStripsPanel input:active {
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+/*     border-bottom: 4px solid green; */
+    border-bottom: 4px solid rgb(107,126,146);
+/*     background-image: url(/images/common/tabstrips/tabstrip_active.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+
+.tabStripsPanel input:disabled {
+    /* disabled style */
+    opacity: 1.0;
+    color: rgba(93,110,129,1);
+    border-bottom: 4px solid rgba(107,126,146,0.2);
+/*     background-image: url(/images/common/tabstrips/tabstrip_disabled.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+
+/* TAB PANELS VERTICAL */
+.tabStripsPanel.vertical {
+    width: 133px;
+    padding: 0px 0px 0px 0px;
+}
+.tabStripsPanel.vertical input:visited, /* toggled state */
+.tabStripsPanel.vertical input:active {
+    background-color: rgba(255,255,255,0.35);
+/*     background-image: url(/images/common/tabstrips/tabstrip_active.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+.tabStripsPanel.vertical input.noToggle:visited {
+    /* disable toggle state */
+    background-color: transparent;
+/*     background-image: url(/images/common/tabstrips/tabstrip_normal.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+.tabStripsPanel.vertical input {
+    height: 70px;
+/*   	background-image: url(/images/common/tabstrips/tabstrip_normal.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+.tabPanel {
+  background-color: rgba(255,255,255,0.35);
+}
+.itemInfoItemName,
+.stockItemName {
+    height: 63px;
+    font-size: 28px;
+    font-weight:bold;
+    text-align: left;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.stockTablePanel,
+.priceinfoTablePanel {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.stockTableTitle,
+.priceinfoTableTitle {
+    height: 35px;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: left;
+}
+.itemInfoLeftColumn {
+  width: 49%;
+  border-spacing: 7px;
+  padding-left: 14px;
+}
+.itemInfoRightColumn {
+  width: 51%;
+  border-spacing: 0px 7px;
+}
+.webShopItemInfoRightColumn {
+  width: 51%;
+  border-spacing: 0px 7px;
+  height: 50%;
+}
+.webshopItemInfoLeftColumn {
+  width: 49%;
+  border-spacing: 7px;
+  padding-left: 14px;
+  height: 50%;
+}
+.stockLeftColumn,
+.priceinfoLeftColumn {
+  width: 49%;
+  height: 225px;
+  border-spacing: 7px;
+  padding-left: 14px;
+}
+.webshopItemInfoBottomColumn {
+  border-spacing: 0px 7px;
+  height: 50%;
+  padding-left:21px;
+  padding-top:4px;
+
+}
+.itemInfoButtonContainer{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 48px;
+    width: 368px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 30px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    border: 2px solid rgba(0,200,115,0.3);
+}
+
+.itemInfoTextContainer {
+  /* Note: if you change height, you should change the top value of .itemInfoContainer .label and height of itemInfoEmptyContainer  */
+  border-radius: 12px;
+  border: 1px solid rgba(93,110,129,0.7);
+}
+.itemInfoTextArea{
+  width: 752px;
+  height: 248px;
+}
+.stockRightColumn,
+.priceinfoRightColumn
+ {
+  width: 51%;
+  height: 225px;
+  border-spacing: 0px 7px;
+}
+.itemInfoContainerSeparator {
+    width: 7px;
+    height: 48px;
+}
+.itemInfoContainer {
+  width: 370px;
+  /* Note: if you change height, you should change the top value of .itemInfoContainer .label and height of itemInfoEmptyContainer  */
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid rgba(93,110,129,0.5);
+}
+.itemInfoContainer.small {
+  width: 181px;
+}
+.itemInfoContainer .label {
+  top: 24px;
+  width: 200px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.itemInfoContainer .value,
+.itemInfoTextContainer .value {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.itemImageContainer {
+  height: 158px;
+  border-spacing: 0px 0px;
+}
+.itemInfoIconsContainer {
+    top:-4px;
+  border-spacing: 0px 4px;
+
+  padding-left: 8px;
+  width: 113px;
+}
+.itemInfoIconsFrame {
+  height: 158px;
+  width: 114px;
+  }
+.salesInfoIcon{
+  height: 48px;
+  width: 48px;
+  }
+
+.salesInfoIconWithText{
+    width: 52px;
+    height: 48px;
+    border-spacing: 0px 0px;
+}
+
+.salesInfoIconBgr{
+    height: 48px;
+    width: 48px;
+    background-image: url(/images/common/dummy/icon_placeholder.png);
+}
+
+.salesInfoIconText{
+    height: 48px;
+    width: 48px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.8);
+    font-size: 10px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+.itemInfoImageContainer {
+  width: 150px;
+  height: 188px;
+}
+.itemImage {
+  height: 158px;
+  width: 263px;
+  border-spacing: 0px 0px;
+  background-position: center bottom;
+}
+.itemInfoImageEmpty {
+  width: 52px;
+  height: 52px;
+  background-color: rgba(210,232,236,0.5);
+}
+.itemInfoEmptyContainer {
+  width: 370px;
+  height: 48px;
+}
+.imageActivContainer {
+  height: 52px;
+   border-spacing: 16px 0px;
+}
+.imageInactiveContainer {
+  height: 68px;
+  padding-top: 16px;
+  border-spacing: 16px 0px;
+}
+/* PAGE TITLE */
+.pageTitle {
+    font-family: "Open Sans Semibold", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: 32px;
+    color: rgb(93,110,129);
+    vertical-align:top;
+    padding: 11px 0px 0px 0px;
+}
+
+.pageTitleWide {
+    width: 400px;
+}
+
+/* DISPLAY PANEL */
+.displayPanel1 {
+    top: -10px;
+}
+.displayPanel2 {
+    padding: 0px 20px 0px 15px;
+    top: 48px;
+    height: 20px;
+}
+#displayReturnBonLabel,
+.displayPosModeLabel {
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    font-size: 12px;
+    font-family: "Open Sans Semibold", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: rgba(255,255,255,1);
+    background-color: rgba(127,75,155,1);
+    border-radius: 12px;
+    border: 1px solid rgba(127,75,155,1);
+    /* hide by default */
+    visibility: hidden;
+}
+#displayCurrencyLabel {
+    color: rgba(12,65,122,1);
+    width: 30%;
+    font-family: "Open Sans Semibold", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+/* 	font-weight: semibold; */
+    text-align: left;
+    padding: 15px 12px 0px 15px;
+    vertical-align:top;
+}
+#displayValueLabel {
+    color: rgba(12,65,122,1);
+    width: 69.9%;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    text-align: right;
+    padding: 10px 22px 0px 24px;
+}
+
+
+/* MAININPUT + BUTTONS */
+.inputArea {
+    padding-top: 9px;
+}
+.topInputArea {
+    height: 68px;
+    padding: 0px 22px 0px 15px;
+}
+.mainTextInputArea {
+    height: 60px;
+    background-color: rgba(146,160,175,0.3);
+    border: 0px solid rgba(0,0,0,0);
+    border-radius: 12px;
+}
+.mainTextInputField {
+    height: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 32px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.searchButton {
+    width: 68px;
+    background-image: url(/images/common/icons/onlyicon_input_search.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.clearingButtons {
+    width: 138px;
+    height: 60px;
+    text-align:right;
+}
+.backspaceButton {
+    width: 67px;
+    background-image: url(/images/common/icons/onlyicon_input_arrow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    direction:inherit;
+}
+.authBackspaceButton {
+    background-image: url(/images/common/icons/login_onlyicon_arrow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    direction:inherit;
+}
+.clearButton {
+    width: 67px;
+    background-image: url(/images/common/icons/onlyicon_input_cancel.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#forgotPasswordButton {
+    background-image: url(/images/common/icons/login_icon_password.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 60px;
+}
+
+/* NUMERIC KEYBOARD V1 (round circle buttons) */
+#numericKeyboardComponent, .numericKeyboardArea {
+    width: 279px;
+    padding-left: 6px;
+    padding-top: 0px;
+}
+.numericKeyboardButtons {
+    width: 258px;
+    height: 330px;
+    padding-left: 9px;
+}
+.numericKeyboardButtons input {
+    height: 70px;
+    width: 70px;
+    font-size: 36px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    background-image: url(/images/common/buttons/button_keyboard.png);
+}
+.numericKeyboardButtons input:active {
+    background-image: url(/images/common/buttons/button_keyboard_pressed.png);
+}
+
+/* NUMERIC KEYBOARD V2 (SCO rounded corners buttons for numpad with additional buttons on right side) */
+.numericKeyboardButtons2 {
+    border-spacing: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.buttonsPanel.numericKeyboardButtons2 input {
+    width: 208px;
+    height: 70px;
+    font-size: 36px;
+    white-space: nowrap;
+    color: rgba(255,255,255,0.9);
+    background-color: rgba(146,160,175,1);
+    border-color: rgba(146,160,175,1);
+    font-weight: bold;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+/* NUMERIC KEYBOARD V3 (rounded corners buttons beside numpad ) */
+.buttonsPanel.numericKeyboardButtons3 input {
+    width: 120px;
+    height: 70px;
+    font-size: 36px;
+    white-space: nowrap;
+    background-color: rgba(255,255,255,0.2);
+}
+.numericKeyboardButtons3 .row1 {
+    top: 7px;
+}
+.numericKeyboardButtons3 .row2 {
+    top: 85px;
+}
+.numericKeyboardButtons3 .row3 {
+    top: 163px;
+}
+.numericKeyboardButtons3 .col1 {
+    left: 11px;
+}
+#numericKeyboardButtonEnter {
+    height: 148px;
+}
+#numericKeyboardButtonEnter:active {
+    height: 148px;
+}
+.numericKeyboardButtonBackspace {
+    background: url(/images/common/buttons/button_backspace_white.png) no-repeat center;
+}
+.numericKeyboardButtonBackspace:active {
+    background: url(/images/common/buttons/button_backspace_white.png) no-repeat center;
+}
+.numericKeyboardButtonClear {
+    background: url(/images/common/buttons/button_clear_white.png) no-repeat center;
+}
+.numericKeyboardButtonClear:active {
+    background: url(/images/common/buttons/button_clear_white.png) no-repeat center;
+}
+.numericKeyboardButtonEnter {
+    background: url(/images/common/icons/icon_keyboard_enter_pressed.png) no-repeat center;
+}
+.numericKeyboardButtonEnter:active {
+    background: url(/images/common/icons/icon_keyboard_enter_pressed.png) no-repeat center;
+}
+
+/* NUMERIC KEYBOARD V4 (small rounded corners buttons for default numpad) */
+.numericKeyboardButtons4 {
+    width: 279px;
+    height: 340px;
+    border-spacing: 9px 9px;
+}
+.buttonsPanel.numericKeyboardButtons4 input {
+    height: 72px;
+    width: 81px;
+    font-size: 36px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+}
+
+/* NUMERIC KEYBOARD CASHBACK (small rounded corners buttons for default numpad) */
+.numericKeyboardButtonsCashback {
+    width: 445px;
+    height: 330px;
+    padding-left: 55px;
+}
+
+.keyboardLeftContentAreaCashback {
+    width: 245px;
+    height: 320px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+
+/* NUMERIC KEYBOARD V5 (small rounded corners buttons for numpad with additional buttons on right side) */
+.keyboardContentArea {
+    width: 350px;
+    text-align:center;
+}
+#keyboardLeftSideArea {
+    width: 576px;
+}
+.numericKeyboardButtons5 {
+    width: 245px;
+    height: 320px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+.numericKeyboardButtons5 input{
+    font-size: 36px;
+}
+
+.keyboardRightContentAreaCashback input.numericKeyboardButtonEnter {
+    top: 163px;
+    height: 155px;
+}
+
+.keyboardRightContentAreaCashback input.numericKeyboardButtonClear {
+    top: 82px;
+}
+
+.keyboardRightContentAreaCashback input.numericKeyboardButtonBackspace {
+    top: 0px;
+}
+
+.keyboardRightContentAreaCashback {
+    width: 150px;
+    height: 100%;
+}
+
+.buttonsPanel.numericKeyboardButtonsCashback input {
+    height: 70px;
+    width: 70px;
+    white-space: nowrap;
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+.buttonsPanel.keyboardLeftContentAreaCashback input {
+    height: 70px;
+    width: 70px;
+    white-space: nowrap;
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+/* NUMERIC KEYBOARD V6 (currently used for singleLineInputWithButtons.xml) */
+.numericKeyboardCashbachButtonsArea {
+    left: 50px;
+    width: 440px;
+}
+
+
+.keyboardContentAreaCashback {
+    width: 500px;
+}
+
+/* NUMERIC KEYBOARD V5 (small rounded corners buttons for numpad with additional buttons on right side) */
+.keyboardContentArea {
+    width: 350px;
+}
+#keyboardLeftSideArea {
+    width: 604px;
+}
+.numericKeyboardButtons5 {
+    width: 245px;
+    height: 320px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+.buttonsPanel.numericKeyboardButtons5 input {
+    height: 70px;
+    width: 70px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+}
+
+/* NUMERIC KEYBOARD V6 (TakeAway small rounded corners buttons for default numpad) */
+.numericKeyboardButtons6 {
+    width: 250px;
+    height: 330px;
+    padding-left: 8px;
+    padding-top: 0px;
+    border-spacing: 7px;
+}
+.buttonsPanel.numericKeyboardButtons6 input {
+    height: 70px;
+    width: 70px;
+    white-space: nowrap;
+    font-weight: bold;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+}
+
+/* NUMERIC KEYBOARD V7 (cashback) */
+.numericKeyboardButtons7 {
+    height: 318px;
+    width: 480px;
+    padding-left: 59px;
+}
+.buttonsPanel.numericKeyboardButtons7 input {
+    height: 70px;
+    width: 130px;
+    left: 0px;
+    white-space: nowrap;
+    padding: 0px 0px 0px 0px;
+    font-weight: bold;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+}
+
+.keyboardRightContentArea {
+    width: 172px;
+    height: 320px;
+}
+
+.keyboardRightContentAreaCashback {
+    width: 170px;
+    height: 320px;
+}
+.buttonsPanel.keyboardRightContentArea input {
+    width: 154px;
+    height: 70px;
+/*     color: rgba(255,255,255,0.8); */
+/*     background-color: rgba(146,160,175,1); */
+/*     border-color: rgba(146,160,175,1); */
+}
+.buttonsPanel.keyboardRightContentArea input:active {
+    width: 154px;
+    height: 70px;
+/*     color: rgba(255,255,255,0.8); */
+/*     background-color: rgba(146,160,175,0.5); */
+/*     border-color: rgba(146,160,175,0.5); */
+}
+.keyboardRightContentArea .row1 {
+    top: 8px;
+}
+.keyboardRightContentArea .row2 {
+    top: 86px;
+}
+.keyboardRightContentArea .row3 {
+    top: 164px;
+}
+.keyboardRightContentArea .row4 {
+    top: 242px;
+}
+
+/* NUMERIC KEYBOARD RECT STYLE (rect buttons) */
+#numericKeyboardComponentSco {
+    width: 450px;
+    padding-left: 12px;
+}
+.numericKeyboardButtonsSco {
+    width: 450px;
+}
+.numericKeyboardButtonsSco input {
+    height: 72px;
+    width: 136px;
+    font-size: 36px;
+    text-align: center;
+    border: 2px solid rgba(93,110,129,0.8);
+    border-radius: 2px;
+}
+.numericKeyboardButtonsSco input.doubleWidth {
+  width: 282px;
+}
+.numericKeyboardButtonBackspaceSco {
+  background: url(/images/common/buttons/button_backspace.png) no-repeat center;
+}
+.numericKeyboardButtonsSco .row1 {
+    top: 0px;
+}
+.numericKeyboardButtonsSco .row2 {
+    top: 78px;
+}
+.numericKeyboardButtonsSco .row3 {
+    top: 156px;
+}
+.numericKeyboardButtonsSco .row4 {
+    top: 234px;
+}
+.numericKeyboardButtonsSco .col1 {
+    left: 0px;
+}
+.numericKeyboardButtonsSco .col2 {
+    left: 146px;
+}
+.numericKeyboardButtonsSco .col3 {
+    left: 292px;
+}
+.numericKeyboardButtonsSco .col4 {
+    left: 438px;
+}
+
+/* ALPHA NUMERIC KEYBOARD */
+.alphaNumKeybContainer {
+    height: 320px;
+    text-align:center;
+}
+.alphaNumKeybButtonContainer {
+    width: 1024px;
+    height: 320px;
+}
+.buttonsPanel.alphaNumKeybButtonContainer input {
+    width: 70px;
+    height: 70px;
+    white-space: nowrap;
+    color: rgba(255,255,255,1);
+}
+.buttonsPanel.alphaNumKeybButtonContainer input:active {
+    width: 70px;
+    height: 70px;
+    white-space: nowrap;
+    color: rgba(255,255,255,1);
+}
+.buttonsPanel.alphaNumKeybButtonContainer input:link {
+    width: 70px;
+    height: 70px;
+    white-space: nowrap;
+    color: rgba(255,255,255,1);
+}
+.alphaNumKeybButtonContainer .row1 {
+    top: 8px;
+}
+.alphaNumKeybButtonContainer .row2 {
+    top: 86px;
+}
+.alphaNumKeybButtonContainer .row3 {
+    top: 164px;
+}
+.alphaNumKeybButtonContainer .row4 {
+    top: 242px;
+}
+.alphaNumKeybButtonContainer .col1 {
+    left: 9px;
+}
+.alphaNumKeybButtonContainer .col2 {
+    left: 87px;
+}
+.alphaNumKeybButtonContainer .col3 {
+    left: 165px;
+}
+.alphaNumKeybButtonContainer .col4 {
+    left: 243px;
+}
+.alphaNumKeybButtonContainer .col5 {
+    left: 321px;
+}
+.alphaNumKeybButtonContainer .col6 {
+    left: 399px;
+}
+.alphaNumKeybButtonContainer .col7 {
+    left: 477px;
+}
+.alphaNumKeybButtonContainer .col8 {
+    left: 555px;
+}
+.alphaNumKeybButtonContainer .col9 {
+    left: 633px;
+}
+.alphaNumKeybButtonContainer .col10 {
+    left: 711px;
+}
+.alphaNumKeybButtonContainer .col11 {
+    left: 789px;
+}
+.alphaNumKeybButtonContainer .col12 {
+    left: 867px;
+}
+.alphaNumKeybButtonContainer .col13 {
+    left: 945px;
+}
+#alphaNumKeybButtonSpace {
+    width: 146px;
+}
+#alphaNumKeybButtonSpace:active {
+    width: 146px;
+}
+#alphaNumKeybButtonEnter {
+    height: 148px;
+}
+#alphaNumKeybButtonEnter:active {
+    height: 148px;
+}
+#alphaNumKeybButtonD01 {
+    font-size: 21px;
+}
+#alphaNumKeybButtonSpace {
+    font-size: 15px;
+    vertical-align:bottom;
+}
+.alphaNumKeybButtonBackspace {
+    background: url(/images/common/buttons/button_backspace_white.png) no-repeat center;
+}
+.alphaNumKeybButtonBackspace:active {
+    background: url(/images/common/buttons/button_backspace_white.png) no-repeat center;
+}
+.alphaNumKeybButtonClear {
+    background: url(/images/common/buttons/button_clear_white.png) no-repeat center;
+}
+.alphaNumKeybButtonClear:active {
+    background: url(/images/common/buttons/button_clear_white.png) no-repeat center;
+}
+.alphaNumKeybButtonTab {
+    background: url(/images/common/buttons/button_tab_white.png) no-repeat center;
+}
+.alphaNumKeybButtonTab:active {
+    background: url(/images/common/buttons/button_tab_white.png) no-repeat center;
+}
+.alphaNumKeybButtonEnter {
+    background: url(/images/common/icons/icon_keyboard_enter_pressed.png) no-repeat center;
+}
+.alphaNumKeybButtonEnter:active {
+    background: url(/images/common/icons/icon_keyboard_enter_pressed.png) no-repeat center;
+}
+.alphaNumKeybButtonShift {
+    background: url(/images/common/buttons/button_shift_white.png) no-repeat center;
+}
+.alphaNumKeybButtonShift:active {
+    background: url(/images/common/buttons/button_shift_white.png) no-repeat center;
+}
+.alphaNumKeybButtonGlobe {
+    background: url(/images/common/icons/icon_keyboard_globe_pressed.png) no-repeat center;
+}
+.alphaNumKeybButtonGlobe:active {
+    background: url(/images/common/icons/icon_keyboard_globe_pressed.png) no-repeat center;
+}
+.numericKeyboardButtonCollapse,
+.alphaNumKeybButtonCollapse {
+    background: url(/images/common/icons/icon_keyboard_collapse.png) no-repeat center;
+}
+.numericKeyboardButtonCollapse:active,
+.alphaNumKeybButtonCollapse:active {
+    background: url(/images/common/icons/icon_keyboard_collapse.png) no-repeat center;
+}
+
+/* INLINE OVERLAYS */
+.overlay {
+    visibility: hidden;
+}
+.overlay * {
+    /* do not hide the child components */
+    visibility: visible;
+}
+
+/* TABS OVERLAY MENUS */
+.overlayBottomButtonsPanel {
+    height:100px;
+    width:95%;
+}
+.buttonsPanel.overlayBottomButtons {
+    width: 50%;
+    padding-top:25px;
+}
+
+/* DIALOG (OVERLAY) PANELs */
+.dialogRootPanel {
+    background-image: url(/images/common/backgrounds/bg_ratio4to3.png);
+    direction:inherit;
+    /* background-color: black; */
+}
+.dialogRootPanel .pageTitle {
+    color: rgba(93,110,129,1);
+}
+.dialogRootPanel .leftContentArea {
+    width: 80%;
+}
+.dialogRootPanel .rightContentArea {
+    width: 20%;
+    text-align: right;
+}
+.dialogCloseButton {
+    width: 42px;
+    height: 42px;
+    background-image: url(/images/common/buttons/button_close_overlay1.png);
+    background-repeat:no-repeat;
+    background-position:center right;
+}
+
+.dialogContentContainer {
+    width: 80%;
+    padding: 32px 12px 32px 12px;
+    border: 1px solid rgb(64,64,64);
+    border-radius: 12px;
+}
+/* CONTEXTMENU */
+#showContextMenuButton, #closeContextMenuButton1, #closeContextMenuDiv1 {
+    width: 55px;
+    height: 80px;
+    padding: 0px 0px 2px 8px;
+}
+#showContextMenuButton {
+    /*background-color:green;*/
+    background-image: url(/images/common/buttons/button_contextmenu_large.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+#closeContextMenuButton1 {
+    background-image: url(/images/common/buttons/button_close_overlay1_large.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+#contextMenuHeader {
+    left: 0px;
+    top: 16px;
+    height: 122px;
+}
+#contextMenuButtons {
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+/* FUNCTIONAL BUTTONS (Customer, Item Info) */
+#functionalButtonsPanel {
+       padding-right: 0px;
+       left: -5px;
+}
+.functionalButtonContainer {
+    height: 55%;
+    padding-bottom: 20px;
+    text-align:left;
+    left: -5px;
+}
+.functionalButtonContainerDialog {
+    background-color: rgba(255,255,255,0.8);
+}
+.functionalButton {
+    background-color: rgba(255,255,255,0);
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 12px;
+    width: 49px;
+}
+#customerInfoButton {
+    background-image: url(/images/common/icons/button_customer.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+/*     padding-top: 30px; for OpenJDK 7*/
+    text-align: left;
+    color: rgba(0,0,0,0);
+}
+#itemInfoButton {
+    background-image: url(/images/common/icons/icon_article_panel.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+/*     padding-top: 30px; for OpenJDK 7 */
+    text-align: left;
+}
+
+/* CONTEXT STATE INFO PANEL, REGISTRATION & PAYMENT */
+#contextStateInfoPanel {
+    padding: 16px 8px 0px 8px;
+    background-color: rgba(255,255,255,0.5);
+    /* background-color: rgba(255,255,255,0.5); */
+    border-left-width: 0px;
+    border-left-color: rgb(217,217,217);
+    border-left-style: solid;
+    border-right-width: 0px;
+    border-right-color: rgb(217,217,217);
+    border-right-style: solid;
+    border-bottom-width: 0px;
+    border-bottom-color: rgb(217,217,217);
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-color: rgb(217,217,217);
+    border-top-style: solid;
+}
+.contextStateInfoIconContainer {
+    width: 59px;
+    height: 40px;
+}
+.contextStateInfoIcon {
+    width: 59px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contextStateInfoIcon:disabled {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contextStateInfoIconText {
+    width: 17px;
+    height: 17px;
+    left: 40px;
+    color: rgba(255,255,255,0.8);
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    text-align:center;
+    background-color: rgb(200,13,39);
+    border: 1px solid rgb(200,13,39);
+    border-radius: 17px;
+    /* hide by default */
+    visibility: hidden;
+}
+#cloudIcon {
+    background-image: url(/images/common/icons/icon_bonheader_customer-transaction.png);
+    /* hide by default */
+    visibility: hidden;
+}
+#cloudIcon:disabled {
+  /* disabled style */
+    background-image: none;
+}
+#customerIcon {
+    background-image: url(/images/common/icons/icon_bonheader_folder.png);
+}
+#customerIcon:disabled {
+    background-image: url(/images/common/icons/icon_bonheader_folder_d.png);
+}
+#discountIcon {
+    background-image: url(/images/common/icons/icon_discount.png);
+    /* hide by default */
+    visibility: hidden;
+}
+#discountIcon:disabled {
+  /* disabled style */
+    background-image: url(/images/common/icons/icon_discount_d.png);
+}
+#fiscalOfflineIcon {
+    background-image: url(/images/common/icons/icon_signature_error.png);
+    /* hide by default */
+    visibility: hidden;
+}
+#mailIcon {
+    background-image: url(/images/common/icons/icon_mail.png);
+    /* hide by default */
+    visibility: hidden;
+}
+#levyIcon {
+    background-image: url(/images/common/icons/icon_levy.png);
+    /* hide by default */
+    visibility: hidden;
+}
+#onOfflineIcon{
+    background-image: url(/images/common/icons/icon_offline.png);
+    /* hide by default */
+    visibility: hidden;
+}
+#cashRecyclerGeneralStatusIcon,
+#cashRecyclerGeneralStatusIcon:active {
+    top: 2px;
+    left: 12px;
+    width: 36px;
+    height: 36px;
+    margin: 0px;
+}
+#cashRecyclerVerificationRequiredIcon {
+    top: 2px;
+    left: 12px;
+    width: 36px;
+    height: 36px;
+}
+
+/* POS STATE INFO PANEL, REGISTRATION & PAYMENT */
+#posStateInfoPanelArea {
+    height: 30px;
+}
+#customerDetailPanel {
+	  height: 88px;
+	  border-bottom: 1px dotted rgb(187,187,187);
+	  border-left: 0px solid rgba(0,0,0,0);
+    border-right: 0px solid rgba(0,0,0,0);
+	  background-color: rgba(255,255,255,0.5);
+}
+#posStateInfoPanel {
+    padding: 4px 5px 0px 14px;
+    background-color: rgba(255,255,255,0.5);
+    border-left-width: 0px;
+    border-left-color: rgb(217,217,217);
+    border-left-style: solid;
+    border-right-width: 0px;
+    border-right-color: rgb(217,217,217);
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(217,217,217);
+    border-bottom-style: solid;
+    border-top-width: 0px;
+    border-top-color: rgb(217,217,217);
+    border-top-style: solid;
+}
+.posStateInfoLabel {
+    width: 40px;
+    height: 20px;
+    padding: 0px 4px 0px 4px;
+    color: rgba(12,65,122,0.7);
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.workerIdInfoLabel {
+    width: 58px;
+}
+.posStateInfoIcon {
+    width: 17px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#posStateInfoPanel #lineItemCountLabel,
+#posStateInfoPanel #workstationIdLabel {
+    width: 36px;
+}
+#transactionIdIcon {
+    background-image: url(/images/common/icons/icon_bonheader_receipt.png);
+}
+#subheaderUserIcon {
+    background-image: url(/images/common/icons/icon_subheader_user.png);
+}
+#customerDetailCenterArea {
+    height: 88px;	
+}
+#subheaderCustomerTenderArea {
+    width: 72px;
+    height: 88px;
+}
+#subheaderCustomerTenderIcon {
+    height: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url(/images/customerFlow/icons/subheader_customer_tender.png);
+}
+.subheaderNoIcon {
+    width: 32px;
+    height: 25px;
+}
+#parentCustomerIcon {
+    background-image: url(/images/common/icons/icon_subheader_company.png);
+    background-position: top;
+    width: 32px;
+    height: 44px;
+}
+#lineItemCountIcon {
+    background-image: url(/images/common/icons/icon_bonheader_cart.png);
+}
+#cashierIdIcon {
+    background-image: url(/images/common/icons/icon_bonheader_user.png);
+}
+#workstationIdIcon {
+    background-image: url(/images/common/icons/icon_bonheader_display.png);
+}
+.subheaderUserIcon {
+    width: 32px;
+    height: 44px;
+    background-repeat: no-repeat;
+}
+.subheaderNoIcon {
+    width: 32px;
+    height: 25px;
+}
+#dateTimeLabel {
+    width: 120px;
+    padding: 0px;
+    text-align: right;
+    font-weight: normal;
+}
+.posCustomerInfoLabel {
+    padding: 0px 4px 0px 4px;
+    color: rgb(12,65,122);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.posCustomerInfoMultiLine {
+    display: block;
+    padding: 0px 4px 0px 4px;
+    vertical-align: top;
+    color: rgb(12,65,122);
+    font-size: 12px;
+    white-space: normal;
+}
+.customerLine {
+    width: 100%;
+    height: 44px;
+}
+#customerIdArea {
+    width: 132px;
+}
+#customerId {
+    width: 100px;
+    padding-top: 8px;
+    font-weight: bold;
+    vertical-align: top;
+}
+#customerName {
+    padding-top: 6px;
+}
+#parentCustomerId {
+    width: 100px;
+    padding-top: 8px;
+    vertical-align: top;
+    font-weight: bold;
+}
+#parentCustomerName {
+    padding-top: 6px;
+}
+
+/* SCALE INFOS */
+.scalePosSystemCertificateUsIdLabel {
+    padding-right: 18px;
+    width: 400px;
+    font-size: 12px;
+    font-family: "Open Sans", "Segoe UI", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.75);
+    text-align:center;
+    /* hide by default */
+    visibility: hidden;
+}
+.commonScaleInfoArea {
+    height: 184px;
+}
+.commonScaleInfo .highlightedArea {
+    padding: 0px 12px 12px 12px;
+}
+.commonScaleInfoWeightValueLabel {
+    height: 90px;
+    text-align: right;
+    vertical-align: top;
+    font-size: 44px;
+    color: black;
+}
+.commonScaleInfoDetailsLabel {
+    height: 28px;
+    font-size: 14px;
+    color: black;
+}
+
+/* SCAN EXPECT */
+.scanExpectRootPanel {
+    padding: 68px 68px 68px 0px;
+}
+.scanExpectMessagePanel {
+    height: 80%;
+}
+.scanExpectMessageLabel {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.scanExpectMessageButtonsPanel {
+    height: 100px;
+    padding-left: 15px;
+}
+
+.dummyApp{
+    height: 0px;
+    width: 0px;
+}
+
+/* MESSAGES */
+.messageRootPanel {
+    padding: 110px 0px 118px 0px;
+/* 	padding: 15.3% 0px 16.6% 0px; */
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+}
+.messagePanel {
+    width: 884px;
+    text-align: left;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(/images/common/backgrounds/background_message-cutted_onlygradient.png);
+    background-origin: border-box;
+}
+.messageIconPanel {
+    height: 35%;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+.messageTopPanel {
+    height: 45%;
+}
+.messageTopPanel progressPanel {
+    background-color:rgba(255,255,255,0.0);
+}
+.messageIcon {
+    height: 152px;
+    width: 152px;
+}
+.infoIcon {
+    background-image: url(/images/common/icons/icons_message_info.png);
+}
+.confirmationIcon {
+    background-image: url(/images/common/icons/icons_message_question.png);
+}
+.warningMessageIcon {
+    background-image: url(/images/common/icons/icons_message_error.png);
+}
+.errorMessageIcon {
+    background-image: url(/images/common/icons/icons_message_error.png);
+}
+.messageLabel {
+    height: 40%;
+    padding: 0px 20px 0px 20px;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+}
+.messageContentPanel {
+    height: 73%;
+}
+.messageButtonsPanel {
+    height: 25%;
+    padding-top: 8px;
+}
+.messageLeftButtonPanel {
+    width: 50%;
+    padding-left: 48px;
+}
+.messageCenterButtonPanel {
+    width: 100%;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.messageRightButtonPanel {
+    width: 50%;
+    padding-right: 48px;
+    text-align: right;
+}
+input.decisionButton {
+    width: 186px;
+    height: 80px;
+    font-size: 24px;
+    padding: 6px 8px 5px 8px;
+}
+input.decisionHideButton {
+    width: 80px;
+    height: 84px;
+    visibility: hidden;
+}
+input.messageCancelButton,
+input.messageCancelButton.ca,
+input.messageOkButton {
+    width: 186px;
+    height: 84px;
+    font-size: 24px;
+    padding: 6px 8px 5px 8px;
+    background-image: none;
+    text-align: center;
+}
+input.messageOkButton {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(72,168,76,1);
+    border-color: rgba(72,168,76,1);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+input.messageOkButton:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(72,168,76,0.5);
+    border-color: rgba(72,168,76,0.5);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 12px;
+}
+
+.decisionButtonsPanel input.messageOkButton {
+	  text-align: center;
+	  background-image: none;
+	  color: rgba(255,255,255,0.8);
+    background-color: rgba(113,131,151,1);
+    border: 0px solid rgba(113,131,151,1);
+    border-radius: 12px;
+}
+
+input.messageOkSmallButton {
+    height: 70px;
+    width: 145px;
+    font-size: 20px;
+    text-align: center;
+    white-space: normal;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(113,131,151,1);
+    background-image: none;
+    border: 0px solid rgba(113,131,151,1);
+    border-radius: 12px;
+    padding: 6px 8px 5px 8px;
+}
+
+.decisionButtonsPanel input.messageOkButton:active {
+	  text-align: center;
+	  background-image: none;
+	  color: rgba(255,255,255,0.8);
+    background-color: rgba(91,112,133,1);
+    border: 0px solid rgba(91,112,133,1);
+    border-radius: 12px;
+}
+
+input.messageOkSmallButton:active {
+    margin: 1px;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(91,112,133,1);
+    border: 0px solid rgba(91,112,133,1);
+    border-radius: 12px;
+}
+
+.separator {
+    width: 12px;
+    height: 84px;
+}
+
+.messageSmallSpace {
+    width: 14px;
+    height: 70px;
+}
+
+/* NON ALLOWED ITEMS TABLE WITH LABELS */
+
+.nonAllowedItemsMessageArea {
+    height: 160px;
+    width: 100%;
+}
+
+.nonAllowedItemsMessage {
+    padding: 0px 40px 0px 0px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.nonAllowedItemsQuestionArea {
+    height: 160px;
+    width: 100%;
+}
+
+.nonAllowedItemsQuestion {
+    padding: 0px 40px 0px 0px;
+    font-size: 36px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.nonAllowedItemsTableArea {
+    height: 300px;
+}
+
+/* TABLEAU SLOTS */
+.numpadTableauEmbedded1 {
+    width: 286px;
+    /* background-color: rgba(255,75,25,0.2); */
+    /* padding-left: 6px; */
+}
+/* orange */
+.buttonsPanel input.tableauButtonColor1,
+.buttonsPanel input.highlight1 {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(198,89,16,1);
+    border-color: rgba(198,89,16,1);
+}
+.buttonsPanel input.tableauButtonColor1:active,
+.buttonsPanel input.highlight1:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(181,75,4,1);
+    border-color: rgba(181,75,4,1);
+}
+.buttonsPanel input.tableauButtonColor1:link,
+.buttonsPanel input.highlight1:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(198,89,16,0.15);
+    border-color: rgba(198,89,16,0.15);
+}
+/* purple / violett */
+.buttonsPanel input.tableauButtonColor2,
+.buttonsPanel input.highlight2 {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(127,75,155,1);
+    border-color: rgba(127,75,155,1);
+}
+.buttonsPanel input.tableauButtonColor2:active,
+.buttonsPanel input.highlight2:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(105,53,133,1);
+    border-color: rgba(105,53,133,1);
+}
+.buttonsPanel input.tableauButtonColor2:link,
+.buttonsPanel input.highlight2:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(127,75,155,0.15);
+    border-color: rgba(127,75,155,0.15);
+}
+/* lightBlue / turquoise */
+.buttonsPanel input.tableauButtonColor3,
+.buttonsPanel input.highlight3 {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(22,150,177,1);
+    border-color: rgba(22,150,177,1);
+}
+.buttonsPanel input.tableauButtonColor3:active,
+.buttonsPanel input.highlight3:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(8,136,163,1);
+    border-color: rgba(8,136,163,1);
+}
+.buttonsPanel input.tableauButtonColor3:link,
+.buttonsPanel input.highlight3:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(22,150,177,0.15);
+    border-color: rgba(22,150,177,0.15);
+}
+/* darkBlue / blue */
+.buttonsPanel input.tableauButtonColor4,
+.buttonsPanel input.highlight4 {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(45,94,168,1);
+    border-color: rgba(45,94,168,1);
+}
+.buttonsPanel input.tableauButtonColor4:active
+.buttonsPanel input.highlight4:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(40,79,137,1);
+    border-color: rgba(40,79,137,1);
+}
+.buttonsPanel input.tableauButtonColor4:link,
+.buttonsPanel input.highlight4:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(45,94,168,0.15);
+    border-color: rgba(45,94,168,0.15);
+}
+/* green / yellowgreen */
+.buttonsPanel input.tableauButtonColor5,
+.buttonsPanel input.highlight5 {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(145,161,41,1);
+    border-color: rgba(145,161,41,1);
+}
+.buttonsPanel input.tableauButtonColor5:active,
+.buttonsPanel input.highlight5:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(122,137,22,1);
+    border-color: rgba(122,137,22,1);
+}
+.buttonsPanel input.tableauButtonColor5:link,
+.buttonsPanel input.highlight5:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(145,161,41,0.15);
+    border-color: rgba(145,161,41,0.15);
+}
+/* mintGreen / pink */
+.buttonsPanel input.tableauButtonColor6,
+.buttonsPanel input.highlight6 {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(173,40,125,1);
+    border-color: rgba(173,40,125,1);
+}
+.buttonsPanel input.tableauButtonColor6:activel,
+.buttonsPanel input.highlight6:active {
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(157,24,109,1);
+    border-color: rgba(157,24,109,1);
+}
+.buttonsPanel input.tableauButtonColor6:link,
+.buttonsPanel input.highlight6:link {
+    color: rgba(255,255,255,0.15);
+    background-color: rgba(173,40,125,0.15);
+    border-color: rgba(173,40,125,0.15);
+}
+/* white */
+.buttonsPanel input.tableauButtonColor7,
+.buttonsPanel input.highlight7 {
+    color: rgba(91,112,133,1);
+    background-color: rgba(255,255,255,1);
+    border-color: rgba(255,255,255,1);
+}
+.buttonsPanel input.tableauButtonColor7:active,
+.buttonsPanel input.highlight7:active {
+    color: rgba(91,112,133,1);
+    background-color: rgba(113,131,151,0.5);
+    border-color: rgba(113,131,151,0.5);
+}
+.buttonsPanel input.tableauButtonColor7:link,
+.buttonsPanel input.highlight7:link {
+    color: rgba(91,112,133,0.15);
+    background-color: rgba(255,255,255,0.15);
+    border-color: rgba(255,255,255,0.15);
+}
+.buttonsPanel input.tableauButtonToggled:visited {
+    color: rgba(91,112,133,1);
+    background-color: rgba(255,255,255,1);
+    border-color: rgba(91,112,133,1);
+    border-style: solid;
+    border-width: 2px;
+}
+/* bank note button */
+.buttonsPanel input.tableauButtonBankNote {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#transactionPreviewComponentWrapper {
+    width: 400px;
+    padding-right: 18px;
+}

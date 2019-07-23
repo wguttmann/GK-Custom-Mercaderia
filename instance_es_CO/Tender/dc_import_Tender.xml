@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TenderPackageDO 
+xmlns="http://www.gk-software.com/gkr/md/tender_pkg/1.0.0" 
+xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" 
+xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0" 
+xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" 
+xmlns:tender="http://www.gk-software.com/gkr/md/tender/1.0.0" 
+xmlns:translations="http://www.gk-software.com/gkr/common/translations/1.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.gk-software.com/gkr/md/tender_pkg/1.0.0 ../../xsd/TenderPackageDO.xsd">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>Tender</importHeader:Type>
+		<importHeader:ChangeType>MODIFY</importHeader:ChangeType>
+		<importHeader:ElementsCount>26</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	<TenderListDO>
+		<TenderElementDO>
+			<TenderDO>
+				<tender:TenderTypeCode>ZTCS</tender:TenderTypeCode>
+				<tender:TenderClassCode>BA</tender:TenderClassCode>
+				<tender:ISOCurrencyCode>COP</tender:ISOCurrencyCode>
+				<tender:Description>Efectivo</tender:Description>
+				<tender:MinimumAcceptAmount>0</tender:MinimumAcceptAmount>
+				<tender:MaximumAcceptAmount>10000000</tender:MaximumAcceptAmount>
+				<tender:ItemRestrictionsApplyFlag>false</tender:ItemRestrictionsApplyFlag>
+				<tender:OpenCashDrawerRequiredFlag>true</tender:OpenCashDrawerRequiredFlag>
+				<tender:ChangeThresholdAmount>0</tender:ChangeThresholdAmount>
+				<tender:TillCountFlag>true</tender:TillCountFlag>
+				<tender:DenominationFlag>true</tender:DenominationFlag>
+				<tender:PickupTypeCode>ALLOWED</tender:PickupTypeCode>
+				<tender:ChangeAllowedFlag>true</tender:ChangeAllowedFlag>
+				<tender:UnitCountRequiredFlag>false</tender:UnitCountRequiredFlag>
+				<tender:AmountCountRequiredFlag>true</tender:AmountCountRequiredFlag>
+				<tender:VoidingAllowedFlag>true</tender:VoidingAllowedFlag>
+				<tender:DepositAllowedFlag>true</tender:DepositAllowedFlag>
+				<tender:BlockingFlag>false</tender:BlockingFlag>
+				<tender:DeliveryTypeCode>MANUAL_DELIVERY</tender:DeliveryTypeCode>
+				<tender:ControlledBySafeFlag>true</tender:ControlledBySafeFlag>
+				<tender:InputAmountConstraint>OPTIONAL</tender:InputAmountConstraint>
+				<tender:AllowedAmountTypeCode>ALL</tender:AllowedAmountTypeCode>
+				<tender:TenderGroupCode>CASH</tender:TenderGroupCode>
+				<tender:CheckAvailableAmountFlag>true</tender:CheckAvailableAmountFlag>
+				<tender:PickupWarningFlag>true</tender:PickupWarningFlag>
+				<tender:PickupWarningLimit>20000000</tender:PickupWarningLimit>
+				<tender:ImmediateVoidingAllowedFlag>true</tender:ImmediateVoidingAllowedFlag>
+				<tender:ReceiptPrinterName>Efectivo</tender:ReceiptPrinterName>
+				<tender:ExclusiveFlag>false</tender:ExclusiveFlag>
+				<tender:SaleReturnTypeCode>SALES_AND_RETURNS</tender:SaleReturnTypeCode>
+				<tender:SortSequence>1</tender:SortSequence>
+				<tender:SafeCountFlag>true</tender:SafeCountFlag>
+				<tender:ReceiptPrintoutTypeCode>AUTOMATIC_PRINTOUT</tender:ReceiptPrintoutTypeCode>
+				<tender:NegativeValueAllowedFlag>false</tender:NegativeValueAllowedFlag>
+				<tender:RoundingRequiredFlag>true</tender:RoundingRequiredFlag>
+			</TenderDO>
+		</TenderElementDO>
+		<TenderElementDO>
+			<TenderDO>
+				<tender:TenderTypeCode>ZTTE</tender:TenderTypeCode>
+				<tender:TenderClassCode>TE</tender:TenderClassCode>
+				<tender:ISOCurrencyCode>COP</tender:ISOCurrencyCode>
+				<tender:Description>Credibanco</tender:Description>
+				<tender:MinimumAcceptAmount>0</tender:MinimumAcceptAmount>
+				<tender:MaximumAcceptAmount>10000000</tender:MaximumAcceptAmount>
+				<tender:ItemRestrictionsApplyFlag>false</tender:ItemRestrictionsApplyFlag>
+				<tender:OpenCashDrawerRequiredFlag>true</tender:OpenCashDrawerRequiredFlag>
+				<tender:ChangeThresholdAmount>0</tender:ChangeThresholdAmount>
+				<tender:TillCountFlag>false</tender:TillCountFlag>
+				<tender:DenominationFlag>false</tender:DenominationFlag>
+				<tender:PickupTypeCode>NOT_ALLOWED</tender:PickupTypeCode>
+				<tender:ChangeAllowedFlag>false</tender:ChangeAllowedFlag>
+				<tender:UnitCountRequiredFlag>false</tender:UnitCountRequiredFlag>
+				<tender:AmountCountRequiredFlag>true</tender:AmountCountRequiredFlag>
+				<tender:VoidingAllowedFlag>true</tender:VoidingAllowedFlag>
+				<tender:DepositAllowedFlag>true</tender:DepositAllowedFlag>
+				<tender:BlockingFlag>false</tender:BlockingFlag>
+				<tender:DeliveryTypeCode>NO_DELIVERY</tender:DeliveryTypeCode>
+				<tender:ControlledBySafeFlag>true</tender:ControlledBySafeFlag>
+				<tender:InputAmountConstraint>OPTIONAL</tender:InputAmountConstraint>
+				<tender:AllowedAmountTypeCode>ALL</tender:AllowedAmountTypeCode>
+				<tender:TenderGroupCode>TERMINAL</tender:TenderGroupCode>
+				<tender:CheckAvailableAmountFlag>false</tender:CheckAvailableAmountFlag>
+				<tender:PickupWarningFlag>false</tender:PickupWarningFlag>
+				<tender:PickupWarningLimit>20000000</tender:PickupWarningLimit>
+				<tender:ImmediateVoidingAllowedFlag>true</tender:ImmediateVoidingAllowedFlag>
+				<tender:ReceiptPrinterName>Credibanco</tender:ReceiptPrinterName>
+				<tender:ExclusiveFlag>false</tender:ExclusiveFlag>
+				<tender:SaleReturnTypeCode>SALES_AND_RETURNS</tender:SaleReturnTypeCode>
+				<tender:SortSequence>14</tender:SortSequence>
+				<tender:SafeCountFlag>false</tender:SafeCountFlag>
+				<tender:ReceiptPrintoutTypeCode>AUTOMATIC_PRINTOUT</tender:ReceiptPrintoutTypeCode>
+				<tender:NegativeValueAllowedFlag>false</tender:NegativeValueAllowedFlag>
+				<tender:RoundingRequiredFlag>false</tender:RoundingRequiredFlag>
+			</TenderDO>
+		</TenderElementDO>
+		<TenderElementDO>
+			<TenderDO>
+				<tender:TenderTypeCode>ZTOV</tender:TenderTypeCode>
+				<tender:TenderClassCode>OV</tender:TenderClassCode>
+				<tender:ISOCurrencyCode>COP</tender:ISOCurrencyCode>
+				<tender:Description>Offline Tarjeta</tender:Description>
+				<tender:MinimumAcceptAmount>0</tender:MinimumAcceptAmount>
+				<tender:MaximumAcceptAmount>10000000</tender:MaximumAcceptAmount>
+				<tender:ItemRestrictionsApplyFlag>false</tender:ItemRestrictionsApplyFlag>
+				<tender:OpenCashDrawerRequiredFlag>true</tender:OpenCashDrawerRequiredFlag>
+				<tender:ChangeThresholdAmount>0</tender:ChangeThresholdAmount>
+				<tender:TillCountFlag>false</tender:TillCountFlag>
+				<tender:DenominationFlag>false</tender:DenominationFlag>
+				<tender:PickupTypeCode>NOT_ALLOWED</tender:PickupTypeCode>
+				<tender:ChangeAllowedFlag>false</tender:ChangeAllowedFlag>
+				<tender:UnitCountRequiredFlag>false</tender:UnitCountRequiredFlag>
+				<tender:AmountCountRequiredFlag>true</tender:AmountCountRequiredFlag>
+				<tender:VoidingAllowedFlag>true</tender:VoidingAllowedFlag>
+				<tender:DepositAllowedFlag>true</tender:DepositAllowedFlag>
+				<tender:BlockingFlag>false</tender:BlockingFlag>
+				<tender:DeliveryTypeCode>NO_DELIVERY</tender:DeliveryTypeCode>
+				<tender:ControlledBySafeFlag>true</tender:ControlledBySafeFlag>
+				<tender:InputAmountConstraint>OPTIONAL</tender:InputAmountConstraint>
+				<tender:AllowedAmountTypeCode>ALL</tender:AllowedAmountTypeCode>
+				<tender:TenderGroupCode>TERMINAL</tender:TenderGroupCode>
+				<tender:CheckAvailableAmountFlag>false</tender:CheckAvailableAmountFlag>
+				<tender:PickupWarningFlag>false</tender:PickupWarningFlag>
+				<tender:PickupWarningLimit>20000000</tender:PickupWarningLimit>
+				<tender:ImmediateVoidingAllowedFlag>true</tender:ImmediateVoidingAllowedFlag>
+				<tender:ReceiptPrinterName>Offline Visa</tender:ReceiptPrinterName>
+				<tender:ExclusiveFlag>false</tender:ExclusiveFlag>
+				<tender:SaleReturnTypeCode>SALES_AND_RETURNS</tender:SaleReturnTypeCode>
+				<tender:SortSequence>17</tender:SortSequence>
+				<tender:SafeCountFlag>false</tender:SafeCountFlag>
+				<tender:ReceiptPrintoutTypeCode>AUTOMATIC_PRINTOUT</tender:ReceiptPrintoutTypeCode>
+				<tender:NegativeValueAllowedFlag>false</tender:NegativeValueAllowedFlag>
+				<tender:RoundingRequiredFlag>false</tender:RoundingRequiredFlag>
+			</TenderDO>
+		</TenderElementDO>
+    </TenderListDO>
+</TenderPackageDO>

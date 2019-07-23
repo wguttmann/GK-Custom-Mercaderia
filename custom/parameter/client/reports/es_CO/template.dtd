@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!ELEMENT TEMPLATE (CHANGES_HISTORY?, PAGE_INFO, IMPORT_VARIABLES*, CONSTANT*, VARIABLE*, SECTION+)>
+  <!ATTLIST TEMPLATE
+  name CDATA #REQUIRED
+  type (character|graphic) #REQUIRED
+  version CDATA #REQUIRED
+  created CDATA #REQUIRED
+  author CDATA #REQUIRED
+  comment CDATA #IMPLIED
+  printer_name CDATA #IMPLIED
+  project_name CDATA #IMPLIED
+  >
+
+  <!ELEMENT VARIABLES (IMPORT_VARIABLES*, CONSTANT*, VARIABLE*)>
+  <!ATTLIST VARIABLES
+  name CDATA #REQUIRED
+  version CDATA #REQUIRED
+  created CDATA #REQUIRED
+  author CDATA #REQUIRED
+  comment CDATA #IMPLIED
+  printer_name CDATA #IMPLIED
+  project_name CDATA #IMPLIED
+  >
+
+  <!ELEMENT IMPORT_VARIABLES EMPTY>
+  <!ATTLIST IMPORT_VARIABLES
+  file CDATA #REQUIRED>
+
+  <!ELEMENT CHANGES_HISTORY (CHANGE*)>
+
+  <!ELEMENT CHANGE (#PCDATA)>
+  <!ATTLIST CHANGE
+  date CDATA #REQUIRED
+  author CDATA #REQUIRED
+  modified CDATA #REQUIRED>
+
+  <!ELEMENT PAGE_INFO EMPTY>
+  <!ATTLIST PAGE_INFO
+  resolution CDATA #REQUIRED
+  width CDATA #REQUIRED
+  height CDATA #REQUIRED
+  top_margin CDATA #REQUIRED
+  bottom_margin CDATA #REQUIRED
+  left_margin CDATA #REQUIRED
+  right_margin CDATA #REQUIRED
+  standard_font CDATA #REQUIRED
+  orientation (portrait|landscape) #IMPLIED>
+
+  <!ELEMENT SECTION (VARIABLE*, ENTRY*)>
+  <!ATTLIST SECTION
+  id CDATA #REQUIRED
+  type (header|footer|detail|firstpage-header|lastpage-footer) #REQUIRED
+  condition CDATA #IMPLIED
+  preferred_height CDATA #REQUIRED
+  section_repeat CDATA #IMPLIED
+  standard_font CDATA #IMPLIED
+  color CDATA #IMPLIED
+  border CDATA #IMPLIED
+  matrix_mode (true|false) 'false'
+  can_split (true|false) 'false'
+  extended_borders (true|false) 'false'
+  new_page_after (true|false) 'false'>
+
+  <!ELEMENT VARIABLE EMPTY>
+  <!ATTLIST VARIABLE
+  name CDATA #REQUIRED
+  datatype CDATA #REQUIRED
+  argument CDATA #REQUIRED>
+
+  <!ELEMENT CONSTANT EMPTY>
+  <!ATTLIST CONSTANT
+    name CDATA #REQUIRED
+    datatype CDATA #REQUIRED
+    argument CDATA #REQUIRED>
+
+  <!ELEMENT ENTRY (PARAMETER*)>
+  <!ATTLIST ENTRY
+  id CDATA #REQUIRED
+  type (label|variable|datafield|expression|query|line|barcode) #REQUIRED
+  condition CDATA #IMPLIED
+  argument CDATA #IMPLIED
+  sample_value CDATA #IMPLIED
+  datatype CDATA #IMPLIED
+  representation CDATA #IMPLIED
+  display_mask CDATA #IMPLIED
+  domain CDATA #IMPLIED
+  posX CDATA #REQUIRED
+  posY CDATA #REQUIRED
+  width CDATA #REQUIRED
+  height CDATA #REQUIRED
+  font CDATA #IMPLIED
+  alignmentH (left|center|right) 'left'
+  alignmentV (top|middle|bottom) 'top'
+  color CDATA #IMPLIED
+  bgColor CDATA #IMPLIED
+  underline (true|false) 'false'
+  wrap (true|false) 'false'
+  wrap_style (default|forced) #IMPLIED
+  can_expand (true|false) 'false'>
+
+  <!ELEMENT PARAMETER EMPTY>
+  <!ATTLIST PARAMETER
+  name CDATA #REQUIRED
+  datatype CDATA #REQUIRED
+  value CDATA #REQUIRED>

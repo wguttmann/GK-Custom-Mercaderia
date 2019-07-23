@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Tender sale return rule es_CO"
+  DESCRIPTION="Tender sale return rule es_CO"
+  DATA_CONTAINER_NAME="Tender sale return rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TenderSaleReturnRule" FILE_NAME="TenderSaleReturnRule/dc_import_TenderSaleReturnRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

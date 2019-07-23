@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/payment/payment.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel" class="rootPanelPayment">
+
+    <!-- BACKGROUND AREA -->
+    <iframe id="backgroundArea" slot="true" src="/layouts/tpos/simple/payment/paymentBackgroundArea.xml" bean="defaultCachingIFrameComponent" />
+
+    <!-- CONTEXTMENU PANEL -->
+    <div id="contextMenuComponent" slot="true" class="overlay" condition="paymentContextMenuTableauActivated" />
+
+    <!-- ####################### DEPRECATED BUTTON MENUS ####################### -->
+    <!-- POCP-8511 POS Tableaus - Design migration fallback to old button menus -->
+    <!-- New button tableaus and corresponding old button menus can be activated/deactivated via UiConfig.elementNodeConditions -->
+    <iframe id="contextMenuComponent" slot="true" condition="!paymentContextMenuTableauActivated" class="overlay" src="/layouts/tpos/simple/payment/paymentContextMenu.xml" bean="defaultCachingIFrameComponent" />
+
+
+    <!-- OVERLAY AREA -->
+    <div id="overlayArea" slot="true"/>
+
+    <!-- MAIN AREAS -->
+    <div id="mainAreas" slot="true" layout="borderLayout">
+
+      <!-- LEFT SIDE AREA -->
+      <div id="leftSideArea" class="leftSideArea" slot="true" constraints="Before" layout="wrapLayout">
+        <div id="leftSideTopArea" slot="true" class="topArea" layout="wrapLayout">
+        </div>
+        <div id="leftSideCenterBottomArea" slot="true" class="centerBottomArea" />
+      </div>
+
+      <!-- CONTENT AREA -->
+      <div id="paymentContentArea" class="paymentContentArea" slot="true" constraints="Center" layout="wrapLayout">
+        <div id="paymentLeftContentArea" class="paymentLeftContentArea" slot="true" layout="wrapLayout">
+          <div id="paymentHighlightedArea" class="paymentHighlightedArea" layout="wrapLayout">
+            <iframe id="leftContentTopArea" class="topArea" layout="wrapLayout" src="/layouts/tpos/simple/common/panels/contextStateInfoPanel.xml" bean="defaultCachingIFrameComponent" />
+            <div id="paymentCenterBottomArea" slot="true" class="paymentCenterBottomArea" layout="borderLayout">
+              <iframe id="posStateInfoPanelArea" src="/layouts/tpos/simple/common/panels/posStateInfoPanel.xml" constraints="First" bean="defaultCachingIFrameComponent" />
+              <iframe id="transactionPreviewComponent" slot="true" src="/layouts/tpos/simple/transaction/transactionPreviewComponentPayment.xml" constraints="Center" bean="transactionPreviewComponent" />
+            </div>
+          </div>
+          <div id="paymentUnHighlightedArea" class="paymentUnHighlightedArea" layout="wrapLayout">
+            <div id="bonusPointArea" slot="true" class="bonusPointArea" />
+            <div id="paymentAdditionalInfosArea" slot="true" class="paymentAdditionalInfosArea">
+              <div id="currencySelectionArea" slot="true" class="currencySelectionArea" />
+            </div>
+          </div>
+        </div>
+
+        <div id="paymentRightContentArea" class="paymentRightContentArea" slot="true" layout="wrapLayout">
+          <iframe id="rightContentTopArea" slot="true" class="topArea paddedArea" src="/layouts/tpos/simple/common/panels/displayPanel.xml" bean="defaultCachingIFrameComponent" />
+          <div id="rightContentCenterArea" slot="true" class="centerArea paddedArea" />
+          <div id="rightContentBottomArea" slot="true" class="bottomArea spacedArea" />
+        </div>
+
+        <div id="bottomContentArea" class="bottomContentArea" slot="true" layout="wrapLayout">
+          <label id="scalePosSystemCertificateUsIdLabel" class="scalePosSystemCertificateUsIdLabel" value="LABELED_POS_SYSTEM_CERTIFICATE_US_ID" bean="scaleInfoLabel" />
+        </div>
+      </div>
+
+    </div>
+
+    <input id="showContextMenuButton" type="button" onclick="api.showOverlayFromTemplate('contextMenuComponent');" />
+  </body>
+</html>

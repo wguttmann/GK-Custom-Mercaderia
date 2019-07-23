@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TaxOverrideRulePackageDO xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0" xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" xmlns:taxOverrideRule="http://www.gk-software.com/gkr/md/tax_override_rule/1.0.0" xmlns="http://www.gk-software.com/gkr/md/tax_override_rule_pkg/1.0.0" xsi:schemaLocation="http://www.gk-software.com/gkr/md/tax_override_rule_pkg/1.0.0 ../../xsd/TaxOverrideRulePackageDO.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>TaxOverrideRule</importHeader:Type>
+		<importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+		<importHeader:ElementsCount>1</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+	<TaxOverrideRuleListDO>
+		<TaxOverrideRuleElementDO>
+			<Header>
+				<importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+			</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+			<TaxOverrideRuleDO>
+				<taxOverrideRule:TaxAuthorityID>1</taxOverrideRule:TaxAuthorityID>
+				<taxOverrideRule:ReasonCodeGroupCode>TFR</taxOverrideRule:ReasonCodeGroupCode>
+				<taxOverrideRule:ReasonCode>6901</taxOverrideRule:ReasonCode>
+				<taxOverrideRule:TaxPercent>2</taxOverrideRule:TaxPercent>
+			</TaxOverrideRuleDO>
+		</TaxOverrideRuleElementDO>
+	</TaxOverrideRuleListDO>
+</TaxOverrideRulePackageDO>

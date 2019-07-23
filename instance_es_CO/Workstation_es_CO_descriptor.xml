@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Workstation es_CO"
+  DESCRIPTION="Workstation es_CO"
+  DATA_CONTAINER_NAME="Workstation"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="Workstation" FILE_NAME="Workstation/gkr_dc_import_Workstation.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

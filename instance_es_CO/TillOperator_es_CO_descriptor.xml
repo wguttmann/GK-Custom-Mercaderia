@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Till operator es_CO"
+  DESCRIPTION="Till operator es_CO"
+  DATA_CONTAINER_NAME="Till operator"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TillOperator" FILE_NAME="TillOperator/dc_import_TillOperator.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

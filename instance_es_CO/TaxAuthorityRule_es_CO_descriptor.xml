@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Tax authority rule es_CO"
+  DESCRIPTION="Tax authority rule es_CO"
+  DATA_CONTAINER_NAME="Tax authority rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="TaxAuthorityRule" FILE_NAME="TaxAuthorityRule/dc_import_TaxAuthorityRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

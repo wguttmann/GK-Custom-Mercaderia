@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/tableau/tableauTemplateEmbedded2.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="tableauRootPanelEmbedded2" layout="wrapLayout">
+
+      <!-- Level1 - Level-Container -->
+      <div id="tableauLevel1ContainerPanel" class="tableauLevelContainerPanel" layout="wrapLayout" bean="tableauLevel1ContainerPanel">
+
+        <!-- Level1 - Card-Container -->
+        <div id="tableauLevel1CardsContainerPanel" class="tableauCardsContainerPanel" layout="cardLayout" bean="tableauLevel1CardsContainerPanel">
+
+          <!-- Level2 - Card-Panel / Button-Container -->
+          <div id="tableauLevel2PositionsContainerPanel" class="tableauPositionsContainerPanel buttonsPanel additional" bean="tableauLevel2PositionsContainerPanel" layout="horizontalSwipeableCardLayout">
+            <input id="buttonTemplate1Level2" type="button" title="Standard Button" bean="tableauPositionButton" />
+            <input id="buttonTemplate2Level2" type="button" title="Discount Button" bean="tableauPositionButton" class="tableauButtonColor1"/>
+            <input id="buttonTemplate3Level2" type="button" title="Special Mode Button" bean="tableauPositionButton" class="tableauButtonColor2" />
+            <input id="buttonTemplate4Level2" type="button" title="Customer Button" bean="tableauPositionButton" class="tableauButtonColor3"/>
+            <input id="buttonTemplate5Level2" type="button" title="Line Item Editing" bean="tableauPositionButton" class="tableauButtonColor4"/>
+            <input id="buttonTemplate6Level2" type="button" title="Other Button 1" bean="tableauPositionButton" class="tableauButtonColor5"/>
+            <input id="buttonTemplate7Level2" type="button" title="Other Button 2" bean="tableauPositionButton" class="tableauButtonColor6"/>
+            <input id="buttonTemplate8Level2" type="button" title="Button with Item Image" bean="tableauPositionButton" class="tableauButtonColor7"/>
+            <input id="buttonTemplate9Level2" type="button" title="OK/Continue Button" bean="tableauPositionButton" class="cno"/>
+            <input id="buttonTemplate10Level2" type="button" title="Cancel Button" bean="tableauPositionButton" class="cca"/>
+            <input id="buttonTemplate11Level2" type="button" title="Bank Note Button" bean="tableauPositionButton" class="tableauButtonBankNote"/>
+            <input id="toggleButtonTemplate1Level2" class="toggleButton" type="button" title="Standard Toggle Button" bean="tableauPositionButton" />
+          </div>
+        </div>
+
+        <!-- Level1 - Button-Container - TAB-STRIPS -->
+        <div id="tableauLevel1PositionsContainerPanel" class="tableauLevel1PositionsContainerPanel tabStripsPanel" bean="tableauLevel1PositionsContainerPanel">
+          <input id="toggleButtonTemplate1Level1" class="toggleButtonTemplate1Level1 tabStripsButtonBackground" type="button" title="Standard Tab Toggle Button" bean="tableauPositionButton" />
+          <input id="buttonTemplate1Level1" class="buttonTemplate1Level1 tabStripsButtonBackground" type="button" title="Standard Button (no toggle)" bean="tableauPositionButton" />
+        </div>
+
+      </div>
+  </body>
+</html>

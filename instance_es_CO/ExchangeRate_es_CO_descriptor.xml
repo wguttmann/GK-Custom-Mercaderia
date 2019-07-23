@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Exchange rate es_CO"
+  DESCRIPTION="Exchange rate es_CO"
+  DATA_CONTAINER_NAME="Exchange rate"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="ExchangeRate" FILE_NAME="ExchangeRate/dc_import_ExchangeRate.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

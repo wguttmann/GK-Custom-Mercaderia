@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/customerFlow/customerFlow.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+    <div id="backgroundArea">
+      <img id="breakMediaPanel" class="breakMediaPanel" src="/images/customerFlow/mediapanel/bg_locked.png" bean="mediaPanel"/>
+    </div>
+    <div layout="borderLayout">
+      <div id="topDockArea" class="topDockArea" constraints="First" layout="wrapLayout">
+        <label id="pageTitle" class="pageTitle" valueKey="customerFlow.break.title"/>
+        <div id="dockLineGradient" class="dockLineGradient" />
+      </div>
+      <div id="bottomDockArea" class="bottomDockArea" constraints="Last" layout="wrapLayout">
+        <div id="dockLineGradient" class="dockLineGradient" />
+        <div id="dockClaim" class="dockClaim" />
+        <div id="dockLogo" class="dockLogo" />
+      </div>
+    </div>
+	<label id="backgroundTrainingModeLabel" class="backgroundTrainingModeLabel" bean="trainingModeLabel"/>
+  </body>
+</html>

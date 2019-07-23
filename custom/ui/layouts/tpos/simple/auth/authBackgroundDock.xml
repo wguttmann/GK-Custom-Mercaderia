@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/auth/auth.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body class="backgroundPanel">
+    <div id="backgroundPanelDots" class="backgroundPanelDots" />
+    <div id="dockArea" layout="borderLayout">
+      <div id="dockPanel" slot="true" constraints="Last" layout="wrapLayout">
+        <div id="dockTopPanel" slot="true" layout="wrapLayout" />
+        <div id="dockBottomPanel" layout="wrapLayout">
+          <div id="dockLineGradient" />
+          <div id="dockClaim" />
+          <div id="dockLogo" />
+        </div>
+      </div>
+    </div>
+    <div id="backgroundPanelCustom" slot="true" />
+    <label id="backgroundTrainingModeLabel" class="backgroundTrainingModeLabel" bean="trainingModeLabel"/>
+  </body>
+</html>

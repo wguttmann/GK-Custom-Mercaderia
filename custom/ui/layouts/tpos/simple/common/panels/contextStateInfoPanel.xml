@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+<head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+</head>
+<body id="contextStateInfoPanel" layout="wrapLayout">
+    <div class="contextStateInfoIconContainer">
+        <!-- visible if POS is offline -->
+        <label id="onOfflineIcon" class="contextStateInfoIcon" bean="posOnOffLineLabel"/>
+    </div>
+    <div class="contextStateInfoIconContainer">
+        <!-- visible if pickup warning limit is exceeded -->
+        <div id="levyIcon" class="contextStateInfoIcon" />
+    </div>
+   <div class="contextStateInfoIconContainer">
+        <!-- visible if signature device is offline -->
+        <div id="fiscalOfflineIcon" class="contextStateInfoIcon" />
+    </div>
+    <div class="contextStateInfoIconContainer">
+        <!-- visible if a customer is assigned to the transaction and at least one suspended transaction exists for the customer -->
+        <div id="cloudIcon" class="contextStateInfoIcon" />
+    </div>
+    <div class="contextStateInfoIconContainer">
+        <!-- visible if a cash recycler is used - intended to show a general status (ok, warning, error) -->
+        <input id="cashRecyclerGeneralStatusIcon" type="image" bean="cashRecyclerGeneralStatusImageButton"/>
+    </div>
+    <div class="contextStateInfoIconContainer">
+        <!-- visible if a cash recycler is used - intended to be displayed, if verification is required -->
+        <img id="cashRecyclerVerificationRequiredIcon" bean="cashRecyclerVerificationRequiredImagePanel"/>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Rounding rule es_CO"
+  DESCRIPTION="Rounding rule es_CO"
+  DATA_CONTAINER_NAME="Rounding rule"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="RoundingRule" FILE_NAME="RoundingRule/dc_import_RoundingRule.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

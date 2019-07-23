@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RoundingRulePackageDO xmlns="http://www.gk-software.com/gkr/md/rounding_rule_pkg/1.0.0" xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0" xmlns:p2="http://www.gk-software.com/gkr/common/common_types/1.0.0" xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0" xmlns:rounding_rule="http://www.gk-software.com/gkr/md/rounding_rule/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gk-software.com/gkr/md/rounding_rule_pkg/1.0.0 ../../xsd/RoundingRulePackageDO.xsd ">
+  <Header>
+    <importHeader:ClientID>GLOBAL</importHeader:ClientID>
+    <importHeader:Type>RoundingRuleImport</importHeader:Type>
+    <importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+    <importHeader:ElementsCount>1</importHeader:ElementsCount>
+  </Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+
+  <RoundingRuleListDO>
+    <RoundingRuleElementDO>
+      <RoundingRuleDO>
+        <rounding_rule:ExternalRoundingRuleID>Discount</rounding_rule:ExternalRoundingRuleID>
+        <rounding_rule:Description>Redondeo regla de descuentos</rounding_rule:Description>
+        <rounding_rule:RoundMethodCode>ROUND_HALF_UP</rounding_rule:RoundMethodCode>
+        <rounding_rule:Multiple>0.01</rounding_rule:Multiple>
+      </RoundingRuleDO>
+    </RoundingRuleElementDO>
+    <RoundingRuleElementDO>
+      <RoundingRuleDO>
+        <rounding_rule:ExternalRoundingRuleID>Points</rounding_rule:ExternalRoundingRuleID>
+        <rounding_rule:Description>Redondeo regla de puntos</rounding_rule:Description>
+        <rounding_rule:RoundMethodCode>ROUND_DOWN</rounding_rule:RoundMethodCode>
+        <rounding_rule:Multiple>1</rounding_rule:Multiple>
+      </RoundingRuleDO>
+    </RoundingRuleElementDO>
+  </RoundingRuleListDO>
+</RoundingRulePackageDO>

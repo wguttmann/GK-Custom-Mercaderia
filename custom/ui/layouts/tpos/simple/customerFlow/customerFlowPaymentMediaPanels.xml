@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/customerFlow/customerFlow.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="mediaPanels" class="mediaPanels" layout="wrapLayout">
+    <div id="mediaPanelWrapper1" class="mediaPanelWrapper" layout="wrapLayout">
+      <img id="paymentMediaPanel1" class="mediaPanel" src="/images/customerFlow/mediapanel/bg_panel1.jpg" bean="mediaPanel" />
+    </div>
+  </body>
+</html>

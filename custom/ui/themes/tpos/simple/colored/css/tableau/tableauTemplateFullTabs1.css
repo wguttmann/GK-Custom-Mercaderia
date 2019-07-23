@@ -1,0 +1,65 @@
+/* TITLE */
+.pageTitle {
+    width: 90%;
+}
+
+/* CLOSE BUTTON */
+.closeButtonArea {
+    width: 10%;
+    height: 100%;
+    text-align: right;
+    vertical-align: center;
+    padding-right: 20px;
+    padding-bottom: 8px;
+}
+.dialogCloseButton {
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/common/buttons/button_close_overlay1.png);
+    background-repeat:no-repeat;
+    background-position:center right;
+}
+
+/* CONTAINER PANELS */
+.tableauLevel1PositionsContainerPanel {
+    width: 133px;
+}
+.tableauCardsContainerPanel {
+    background-color: rgba(255,255,255,0.35);
+}
+
+/* BUTTONS */
+.tabStripsPanel.vertical input.buttonTemplate1Level1:visited {
+    /* disable toggle state */
+    background-color: transparent;
+/*     background-image: url(/images/common/tabstrips/tabstrip_normal.png); */
+/*     background-repeat: no-repeat; */
+/*     background-position: center bottom; */
+}
+
+.buttonsPanel input {
+    background-position: right top;
+    text-align: left;
+    vertical-align: bottom;
+}
+.buttonsPanel input.cno {
+    background-color: rgba(72,168,76,1);
+    border: 0px solid rgba(72,168,76,1);
+    border-radius: 12px;
+	background-image: url(/images/common/icons/dummy.png);
+	background-repeat: no-repeat;
+	background-position: right;	
+    text-align: left;
+    vertical-align: bottom;	
+}
+.buttonsPanel input.cca {
+    color: rgba(255,255,255,0.8);
+	background-color: rgba(223,51,87,1);
+    border: 0px solid rgba(223,51,87,1);
+    border-radius: 12px;
+	background-image: url(/images/common/icons/dummy.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	text-align: left;
+	vertical-align: bottom;    
+}

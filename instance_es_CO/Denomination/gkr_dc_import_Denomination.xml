@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DenominationPackageDO
+xmlns:commonTypes="http://www.gk-software.com/gkr/common/common_types/1.0.0"
+xmlns:importHeader="http://www.gk-software.com/gkr/common/import_header/1.0.0"
+xmlns:translations="http://www.gk-software.com/gkr/common/translations/1.0.0"
+xmlns:bugImportHeader="http://www.gk-software.com/gkr/md/bug_import_header/1.0.0"
+xmlns:denomination="http://www.gk-software.com/gkr/md/denomination/1.0.0"
+xmlns="http://www.gk-software.com/gkr/md/denomination_pkg/1.0.0"
+xsi:schemaLocation="http://www.gk-software.com/gkr/md/denomination_pkg/1.0.0 ./../../xsd/DenominationPackageDO.xsd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<importHeader:ClientID>GLOBAL</importHeader:ClientID>
+		<importHeader:Type>DenominationImport</importHeader:Type>
+		<importHeader:ChangeType>TOTAL_REPLACE</importHeader:ChangeType>
+		    <importHeader:ElementsCount>41</importHeader:ElementsCount>
+	</Header>
+	<BugHeader>
+		<bugImportHeader:ExternalBusinessUnitGroupID>1</bugImportHeader:ExternalBusinessUnitGroupID>
+	</BugHeader>
+	<DenominationListDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>0</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>10 Pesos</denomination:Description>
+				<denomination:PieceValue>10</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>50</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>1</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>20 Pesos</denomination:Description>
+				<denomination:PieceValue>20</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>50</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>2</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>50 Pesos</denomination:Description>
+				<denomination:PieceValue>50</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>50</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>3</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>100 Pesos</denomination:Description>
+				<denomination:PieceValue>100</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>40</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>4</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>200 Pesos</denomination:Description>
+				<denomination:PieceValue>200</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>40</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>5</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>500 Pesos</denomination:Description>
+				<denomination:PieceValue>500</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>40</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>6</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>1000 COP</denomination:Description>
+				<denomination:PieceValue>1000</denomination:PieceValue>
+				<denomination:TypeCode>COIN</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>25</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>7</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>1000 COP</denomination:Description>
+				<denomination:PieceValue>1000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>true</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>25</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>8</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>2000 COP</denomination:Description>
+				<denomination:PieceValue>2000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>false</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>0</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>9</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>5000 COP</denomination:Description>
+				<denomination:PieceValue>5000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>false</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>0</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>10</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>10000 COP</denomination:Description>
+				<denomination:PieceValue>10000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>false</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>0</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>11</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>20000 COP</denomination:Description>
+				<denomination:PieceValue>20000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>false</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>0</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>12</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>50000 COP</denomination:Description>
+				<denomination:PieceValue>50000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>false</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>0</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		<DenominationElementDO>
+			<DenominationImportDO>
+				<denomination:DenominationID>13</denomination:DenominationID>
+				<denomination:CurrencyCode>COP</denomination:CurrencyCode>
+				<denomination:Description>100000 COP</denomination:Description>
+				<denomination:PieceValue>100000</denomination:PieceValue>
+				<denomination:TypeCode>NOTE</denomination:TypeCode>
+				<denomination:RollAvailableFlag>false</denomination:RollAvailableFlag>
+				<denomination:RollCapacity>0</denomination:RollCapacity>
+			</DenominationImportDO>
+		</DenominationElementDO>
+		
+			</DenominationImportDO>
+		</DenominationElementDO>
+	</DenominationListDO>
+</DenominationPackageDO>

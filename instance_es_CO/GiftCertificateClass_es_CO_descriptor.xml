@@ -1,0 +1,10 @@
+<DATA_CONTAINER_INSTANCE
+  NAME="Gift certificate class es_CO"
+  DESCRIPTION="Gift certificate class es_CO"
+  DATA_CONTAINER_NAME="Gift certificate class"
+  DATA_CONTAINER_VERSION="v5.9.4"
+>
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="GiftCertificateClass" FILE_NAME="GiftCertificateClass/dc_import_GiftCertificateClass.xml"/>
+
+</DATA_CONTAINER_INSTANCE>

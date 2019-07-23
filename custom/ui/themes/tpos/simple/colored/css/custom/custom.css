@@ -1,0 +1,52 @@
+/* PLACE FOR CUSTOM STYLES */
+
+/* CUSTOM LOGIN BACKGROUND
+.backgroundPanelCustomLogin {
+    background-image: url(/images/custom/backgrounds/background_login.png);
+}
+/*
+
+/* CUSTOM LOGOUT BACKGROUND
+.backgroundPanelCustomLogout {
+    background-image: url(/images/custom/backgrounds/background_logout.png);
+}
+*/
+
+/* CUSTOM LOCK BACKGROUND
+.backgroundPanelCustomLock {
+    background-image: url(/images/custom/backgrounds/background_lock.png);
+}
+*/
+
+/* CUSTOM AUTHORIZATION BACKGROUND 
+.backgroundPanelCustomAuthorization {
+    background-image: url(/images/custom/backgrounds/background_auth.png);
+}
+*/
+
+/* CUSTOM REGISTRATION BACKGROUND
+.backgroundPanelCustomRegistration {
+    background-image: url(/images/custom/backgrounds/background_registration.png);
+}
+*/
+
+/* CUSTOM PAYMENT BACKGROUND
+.backgroundPanelCustomPayment {
+    background-image: url(/images/custom/backgrounds/background_payment.png);
+}
+*/
+
+.contextStateInfoRetailerIconContainer{
+	width: 120px;
+	height: 40px;
+	}
+	
+.retailerIcon {
+	background-image: url(/images/custom/academy/logo_gka_retailer_icon.png);
+	background-repeat: no-repeat;
+	background-position: senter center;
+	}
+.app_cust{
+	width: 100%;
+	height: 84.5%;
+}
