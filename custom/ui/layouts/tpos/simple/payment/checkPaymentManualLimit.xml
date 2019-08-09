@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/common/inputs.css" />
+		<link rel="stylesheet" href="css/custom/custom.css" />
+	</head>
+	<body id="rootPanel">
+
+		<!-- PAGE TITLE -->
+		<div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+			<label id="pageTitle" class="pageTitle" valueKey="payment.check.manuallimit.display.tile" />
+		</div>
+
+		<form name="checkPaymentManualLimit">
+
+			<!-- INPUTS -->
+			<div id="leftContentCenterArea" slot="true" class="centerArea  inputArea"
+				layout="wrapLayout">
+				
+			      <div id="leftContentCenterArea" slot="true" class="centerArea inputArea" layout="wrapLayout">
+			        <div id="fieldLabel1" class="fieldLabel">
+			          <input id="amountField" type="text" inputDomain="DECIMAL_NUMBER_WITH_DENOMINATION"/>
+			          <label id="mainTextLabel" valueKey="payment.check.manuallimit.amount.label" />
+			        </div>
+			</div>
+
+			<!-- BUTTONS -->
+			<div id="rightContentCenterArea" slot="true"
+				class="centerArea buttonsPanel main" layout="wrapLayout">
+				<input id="cancelButton" class="medium ca" type="button"
+					valueKey="button.cancel" />
+				<input id="okButton" class="medium cno" type="submit"
+					valueKey="button.ok" />
+			</div>
+		</form>
+
+      <!-- KEYBOARD AREA -->
+      <iframe id="keyboardArea" slot="true" class="keyboardArea" 
+      		  constraints="Last" src="/layouts/tpos/simple/keyboard/dynamicKeyboardComponent.xml" 
+      		  bean="dynamicKeyboardComponent" />
+    </div>
+
+	</body>
+</html>

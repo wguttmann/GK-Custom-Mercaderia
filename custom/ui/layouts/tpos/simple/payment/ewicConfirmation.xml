@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/common/common.css" />
+        <link rel="stylesheet" href="css/common/tables.css" />
+        <link rel="stylesheet" href="css/custom/custom.css" />
+    </head>
+    <body>
+
+        <!-- MAIN AREAS -->
+        <div id="mainAreas" slot="true" layout="borderLayout">
+
+            <!-- LEFT SIDE AREA -->
+            <div id="leftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+                <div id="leftSideTopArea" class="topArea" layout="wrapLayout" />
+            </div>
+
+            <!-- CONTENT AREA -->
+            <div id="contentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+
+                <!-- PAGE TITLE -->
+                <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+                    <label id="pageTitle" class="pageTitle" valueKey="ewic.confirmation.result.title" />
+                    <label id="pageTitleVariants" class="pageTitle" valueKey="ewic.confirmation.display.title" />
+                </div>
+
+                <!-- CONTENT -->
+		        <div id="content" class="centerBottomArea" layout="borderLayout" >
+		            <div id="tableArea" constraints="Center" layout="wrapLayout">
+		                <div id="tableWrapper" layout="wrapLayout">
+		                    <table id="ewicConfirmationTable" class="selectionTable" cellspacing="0" sortingAllowed="true">
+		                        <tpaging pageSize="10" firstPageButtonIds="firstPageButton" previousPageButtonIds="previousPageButton" 
+		                            nextPageButtonIds="nextPageButton" lastPageButtonIds="lastPageButton"
+		                            infoLabelIds="pageInfoLabel,displayMessageLabel" />
+		                        <thead reorderingAllowed="false" resizingAllowed="true">
+                                    <tr>
+                                        <th id="itemDescription" valueKey="ewic.confirmation.itemDescription" />
+                                        <th id="quantity" valueKey="ewic.confirmation.quantity" />
+                                        <th id="uomDesc" valueKey="ewic.confirmation.uom" />
+                                        <th id="itemPrice" valueKey="ewic.confirmation.price" />
+                                        <th id="categoryDesc" valueKey="ewic.confirmation.category" />
+                                        <th id="subcategoryDesc" valueKey="ewic.confirmation.subcategory" />
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td style="width:26%;" />
+                                    <td style="width:7%;" class="td-quantity" />
+                                    <td style="width:13%;" />
+                                    <td style="width:14%;" class="td-price" />
+                                    <td style="width:20%;" />
+                                    <td style="width:20%;" class="last" />
+                                </tr>
+                            </table>
+
+                            <!-- table paging toolbar -->
+                            <div id="pagingToolbar" class="pagingToolbar" layout="wrapLayout">
+                                <label id="pageInfoLabel" class="pagingInfoElement"
+                                    valueKey="ewic.balance.inquiry.paging.pageInfo" bean="defaultTablePagingComponentsInfoLabel" />
+                                <div id="pagingToolbarButtons" class="pagingToolbarButtons"
+                                    layout="wrapLayout">
+                                    <input id="firstPageButton" class="pagingElement" type="button" />
+                                    <input id="previousPageButton" class="pagingElement"
+                                        type="button" />
+                                    <input id="nextPageButton" class="pagingElement" type="button" />
+                                    <input id="lastPageButton" class="pagingElement" type="button" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- action buttons below the main panel -->
+                    <div id="tableButtonsPanel" constraints="Last" layout="wrapLayout">
+                        <div id="leftButton" class="buttonsPanel tableButtonsPanelElement" layout="wrapLayout">
+                            <input id="cancelButton" class="ca" type="button" valueKey="ewic.confirmation.cancel" />
+                        </div>
+                        <div id="rightButton" class="buttonsPanel right tableButtonsPanelElement" layout="wrapLayout">
+                            <input id="confirmButton" class="cno" type="submit" valueKey="ewic.confirmation.confirm" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

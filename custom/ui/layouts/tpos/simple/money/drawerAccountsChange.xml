@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/common/inputs.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+
+    <!-- BACKGROUND AREA -->
+    <iframe id="backgroundArea" slot="true" src="/layouts/tpos/simple/common/globalBackgroundArea.xml" bean="defaultCachingIFrameComponent" />
+
+    <!-- CONTEXTMENU PANEL -->
+    <!-- iframe id="contextMenuComponent" class="overlay" src="/layouts/tpos/simple/common/globalContextMenu.xml" bean="defaultCachingIFrameComponent" /-->
+
+    <!-- MAIN AREAS -->
+    <div id="mainAreas" slot="true" layout="borderLayout">
+
+      <!-- LEFT SIDE AREA -->
+      <div id="leftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+        <div id="leftSideTopArea" class="topArea" layout="wrapLayout">
+          <!-- input id="showContextMenuButton" type="button" onclick="api.showOverlayFromTemplate('contextMenuComponent');" /-->
+        </div>
+      </div>
+
+      <!-- CONTENT AREA -->
+      <div id="contentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+        <form name="quantityInput">
+        <div id="leftContentArea" class="leftContentArea" layout="wrapLayout">
+          <div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+            <label id="area_title" class="pageTitle" valueKey="drawerAccount.enterChangeAmount.title" />
+          </div>
+          <div id="leftContentCenterArea" slot="true" class="centerArea inputArea" layout="wrapLayout">
+            <div id="length_field" class="fieldLabel" bean="fieldLabel">
+            <!--type="text" required="false" diasabled="true" inputDomain="PRICE"-->
+              <input id="currentChangeInput" type="text" required="false" />
+              <label id="currentChangeLabel" valueKey="drawerAccount.enterChangeAmount.currentChangeAmount"/>
+            </div>
+            <div id="width_field" class="fieldLabel" bean="fieldLabel">
+              <input id="newChangeInput" type="text" required="true" />
+              <label id="newChangeLabel" valueKey="drawerAccount.enterChangeAmount.newChangeAmount" />
+            </div>
+          </div>
+        </div>
+        <div id="rightContentArea" class="rightContentArea" layout="wrapLayout">
+          <div id="rightContentTopArea" class="topArea" layout="wrapLayout" />
+          <!-- BUTTONS -->
+          <div id="rightContentCenterArea" slot="true" class="centerArea buttonsPanel main" layout="wrapLayout">
+            <input id="cancelButton" class="large ca" type="button" valueKey="button.cancel" />
+            <input id="okButton" class="large cno" type="submit" valueKey="button.ok" />
+          </div>
+        </div>
+        </form>
+      </div>
+
+      <!-- KEYBOARD AREA -->
+      <iframe id="keyboardArea" slot="true" class="keyboardArea"
+      		  constraints="Last" src="/layouts/tpos/simple/keyboard/dynamicKeyboardComponent.xml"
+      		  bean="dynamicKeyboardComponent" />
+    </div>
+
+  </body>
+</html>

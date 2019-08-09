@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/common/tables.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body>
+
+    <!-- MAIN AREAS -->
+    <div id="mainAreas" slot="true" layout="borderLayout">
+
+      <!-- LEFT SIDE AREA -->
+      <div id="leftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+        <div id="leftSideTopArea" class="topArea" layout="wrapLayout">
+        </div>
+      </div>
+
+      <!-- CONTENT AREA -->
+      <div id="contentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+
+        <!-- PAGE TITLE -->
+        <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+          <label id="pageTitle" class="pageTitle" valueKey="tender.exchange.select.from.tender.display.title" />
+        </div>
+
+        <!-- CONTENT -->
+        <div id="content" class="centerBottomArea" layout="borderLayout">
+          <div id="tableArea" constraints="Center" layout="wrapLayout">
+            <div id="tableWrapper" layout="wrapLayout">
+              <table id="tenderTable" class="selectionTable" cellspacing="0" sortingAllowed="true">
+                <tpaging pageSize="10" firstPageButtonIds="firstPageButton" previousPageButtonIds="previousPageButton" nextPageButtonIds="nextPageButton" lastPageButtonIds="lastPageButton"
+                  infoLabelIds="pageInfoLabel,displayMessageLabel" />
+                <thead reorderingAllowed="false" resizingAllowed="true">
+                  <tr>
+                    <th id="description" valueKey="tender.exchange.tender.column.title" />
+                    <th id="iSOCurrencyCode" class="last" valueKey="tender.exchange.currency.column.title" />
+                  </tr>
+                </thead>
+                <tr>
+                  <td style="width:70%;" />
+                  <td style="width:30%;" />
+                </tr>
+              </table>
+
+              <!-- table paging toolbar -->
+              <div id="pagingToolbar" class="pagingToolbar" layout="wrapLayout">
+                <label id="pageInfoLabel" class="pagingInfoElement" valueKey="tender.exchange.paging.pageInfo" bean="defaultTablePagingComponentsInfoLabel" />
+                <div id="pagingToolbarButtons" class="pagingToolbarButtons" layout="wrapLayout">
+                  <input id="firstPageButton" class="pagingElement" type="button" />
+                  <input id="previousPageButton" class="pagingElement" type="button" />
+                  <input id="nextPageButton" class="pagingElement" type="button" />
+                  <input id="lastPageButton" class="pagingElement" type="button" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- action buttons below the main panel -->
+          <div id="tableButtonsPanel" constraints="Last" layout="wrapLayout">
+            <div id="leftButton" class="buttonsPanel tableButtonsPanelElement" layout="wrapLayout">
+              <input id="cancelButton" class="ca" type="button" valueKey="button.cancel" />
+            </div>
+            <div id="rightButton" class="buttonsPanel right tableButtonsPanelElement" layout="wrapLayout">
+              <input id="okButton" class="cno" type="submit" valueKey="button.ok" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input id="showContextMenuButton" type="button" onclick="api.showOverlayFromTemplate('contextMenuComponent');" />
+
+  </body>
+</html>

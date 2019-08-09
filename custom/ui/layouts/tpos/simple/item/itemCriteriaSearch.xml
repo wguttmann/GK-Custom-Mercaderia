@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/common/inputs.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+
+    <!-- PAGE TITLE -->
+    <div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+      <label id="pageTitle" class="pageTitle" valueKey="itemsearch.display.title" />
+    </div>
+
+    <form name="itemsearch">
+
+
+      <!-- INPUTS -->
+      <div id="leftContentCenterArea" slot="true" class="centerArea  inputArea" layout="wrapLayout">
+        <div id="itemNameField" class="fieldLabel" bean="fieldLabel">
+          <input id="itemDescriptionInput" type="text" />
+          <label id="itemDescriptionLabel" valueKey="itemsearch.labelItemDescription" />
+        </div>
+        <div id="itemMerchandiseHierarchyGroupField" class="fieldLabel" bean="fieldLabel">
+          <input id="merchandiseHierarchyGroupInput" type="text" />
+          <label id="merchandiseHierarchyGroupLabel" valueKey="itemsearch.labelMerchandiseHierarchyGroup" />
+        </div>
+        <div id="itemNumberField" class="fieldLabel" bean="fieldLabel">
+          <!--input id="itemNumberInput" type="text" inputDomain="INTEGER_NUMBER" /-->
+          <input id="itemNumberInput" type="text"/>
+          <label id="itemNumberLabel" valueKey="itemsearch.labelItemNumber" />
+        </div>
+        <div id="itemNormalPriceField" class="fieldLabel" bean="fieldLabel">
+          <input id="priceInput" type="text" />
+          <label id="priceLabel" valueKey="itemsearch.labelPrice" />
+        </div>
+      </div>
+
+      <!-- BUTTONS -->
+      <div id="rightContentCenterArea" slot="true" class="centerArea buttonsPanel main" layout="wrapLayout">
+        <input id="cancelButton" class="medium ca" type="button" valueKey="button.cancel" />
+        <input id="setsOnlyButton" class="medium toggleButton" type="button" valueKey="button.setsonly" />
+        <input id="searchButton" class="medium" type="takeOver" valueKey="button.search" />
+        <input id="okButton" class="medium cno" type="submit" valueKey="button.ok" />
+      </div>
+    </form>
+
+    <!-- KEYBOARD AREA -->
+    <iframe id="keyboardArea" slot="true" class="keyboardArea" constraints="Last" src="/layouts/tpos/simple/keyboard/dynamicKeyboardComponent.xml" bean="dynamicKeyboardComponent" />
+
+  </body>
+</html>

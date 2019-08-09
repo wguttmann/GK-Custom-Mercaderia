@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/common/common.css" />
+        <link rel="stylesheet" href="css/common/inputs.css" />
+        <link rel="stylesheet" href="css/custom/custom.css" />
+    </head>
+
+    <body>
+        <!-- MAIN AREAS -->
+        <div id="mainAreas" slot="true" layout="borderLayout">
+            <!-- LEFT SIDE AREA -->
+            <div id="leftSideArea" class="leftSideArea" constraints="Before"
+                layout="wrapLayout">
+                <div id="leftSideTopArea" class="topArea" layout="wrapLayout" />
+            </div>
+
+            <!-- CONTENT AREA -->
+            <div id="contentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+                <div id="leftContentArea" class="leftContentArea" layout="wrapLayout">
+                    <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+                        <label id="pageTitle" class="pageTitle" valueKey="ebt.balance_inquiry.title" />
+                    </div>
+                    <div id="leftContentCenterArea" class="centerArea_noKeyboard inputArea" layout="wrapLayout">
+                        <div id="cashBalanceInfo" class="fieldLabel" bean="fieldLabel">
+                            <input id="cashBalance" disabled="true"  type="text" inputDomain="PRICE" />
+                            <label id="cashBalanceLbl" valueKey="ebt.balance_inquiry.cash" />
+                        </div>
+                        <div id="foodBalanceInfo" class="fieldLabel" bean="fieldLabel">
+                            <input id="foodBalance" disabled="true"  type="text" inputDomain="PRICE" />
+                            <label id="foodBalanceLbl" valueKey="ebt.balance_inquiry.food" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BUTTONS -->
+                <div id="rightContentArea" class="rightContentArea" layout="wrapLayout">
+                    <div id="rightContentTopArea" class="topArea" layout="wrapLayout" />
+                    <!-- BUTTONS -->
+                    <div id="rightContentCenterArea" class="centerArea buttonsPanel main" layout="wrapLayout">
+                        <input id="cancelButton" class="large ca" type="button" valueKey="button.cancel" />
+                        <input id="printButton" class="large cno" type="submit" valueKey="button.print" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

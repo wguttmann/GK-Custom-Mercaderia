@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/common/inputs.css" />
+		<link rel="stylesheet" href="css/custom/custom.css" />
+	</head>
+	<body id="rootPanel">
+
+		<!-- PAGE TITLE -->
+		<div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+			<label id="pageTitle" class="pageTitle" valueKey="payment.check.display.title" />
+		</div>
+
+		<form name="checkPaymentMandatoryData">
+
+			<!-- INPUTS -->
+			<div id="leftContentCenterArea" slot="true" class="centerArea  inputArea"
+				layout="wrapLayout">
+				
+		        <div id="fieldLabel1" class="fieldLabel">
+		          <input id="amountField" type="text" inputDomain="PRICE"/>
+		          <label id="mainTextLabel" />
+		        </div>
+				<div id="checkPaymentRoutingNoField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentRoutingNoInput" type="text" inputDomain="INTEGER_NUMBER"/>
+					<label id="checkPaymentRoutingNoLabel" valueKey="payment.check.labelRoutingNo" />
+				</div>
+				<div id="checkPaymentAccountNoField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentAccountNoInput" type="text" inputDomain="INTEGER_NUMBER" />
+					<label id="checkPaymentAccountNoLabel" valueKey="payment.check.labelAccountNo" />
+				</div>
+				<div id="checkPaymentCheckNoField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentCheckNoInput" type="text" inputDomain="CUSTOMER_NAME" />
+					<label id="checkPaymentCheckNoLabel" valueKey="payment.check.labelCheckNo" />
+				</div>
+			</div>
+
+			<!-- BUTTONS -->
+			<div id="rightContentCenterArea" slot="true"
+				class="centerArea buttonsPanel main" layout="wrapLayout">
+				<input id="cancelButton" class="medium ca" type="button"
+					valueKey="button.cancel" />
+				<input id="okButton" class="medium cno" type="submit"
+					valueKey="button.ok" />
+			</div>
+		</form>
+
+      <!-- KEYBOARD AREA -->
+      <iframe id="keyboardArea" slot="true" class="keyboardArea" 
+      		  constraints="Last" src="/layouts/tpos/simple/keyboard/dynamicKeyboardComponent.xml" 
+      		  bean="dynamicKeyboardComponent" />
+    </div>
+
+	</body>
+</html>

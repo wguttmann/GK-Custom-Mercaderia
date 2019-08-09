@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body class="overlayTabsMenuRootPanel backgroundPanel">
+    <div id="backgroundPanelDots" class="backgroundPanelDots" />
+    <label id="backgroundTrainingModeLabel" class="backgroundTrainingModeLabel" bean="trainingModeLabel"/>
+
+    <div layout="borderLayout">
+      <div class="leftSideArea" constraints="Before" layout="wrapLayout" />
+      <div class="contentArea" constraints="Center" layout="wrapLayout">
+        <div class="topArea" layout="wrapLayout">
+          <label class="pageTitle" valueKey="Optional title payment overlay" />
+        </div>
+        <div class="centerBottomArea" layout="borderLayout">
+          <div constraints="Center" layout="borderLayout">
+
+            <!-- tab buttons -->
+            <div class="tabStripsPanel vertical" constraints="Before" layout="wrapLayout">
+              <input id="tabButtonPanel1" refId="tabPanel1" type="button" valueKey="Label 1" />
+              <input id="tabButtonPanel2" refId="tabPanel2" type="button" valueKey="Label 2" />
+              <input id="tabButtonPanel3" refId="tabPanel3" type="button" valueKey="Label 3" />
+              <input id="tabButtonPanel4" refId="tabPanel4" type="button" valueKey="Label 4" />
+              <input id="tabButtonPanel5" refId="tabPanel5" type="button" valueKey="Label 5" />
+              <input id="tabButtonPanel6" refId="tabPanel6" type="button" valueKey="Label 6" />
+              <input id="tabButtonPanel7" refId="tabPanel7" type="button" valueKey="Label 7" />
+              <input id="tabButtonPanel8" refId="tabPanel8" type="button" valueKey="Label 8" />
+            </div>
+
+            <!-- tab panels -->
+            <div constraints="Center" layout="cardLayout">
+              <div id="tabPanel1" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button1" type="button" valueKey="button1" />
+                  <input id="button2" type="button" valueKey="button2" />
+                  <input id="button3" type="button" valueKey="button3" />
+                  <input id="button4" type="button" valueKey="button4" />
+                  <input id="button5" type="button" valueKey="button5" />
+                  <input id="button6" type="button" valueKey="button6" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button7" type="button" valueKey="button7" />
+                  <input id="button8" type="button" valueKey="button8" />
+                  <input id="button9" type="button" valueKey="button9" />
+                  <input id="button10" type="button" valueKey="button10" />
+                  <input id="button11" type="button" valueKey="button11" />
+                  <input id="button12" type="button" valueKey="button12" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button13" type="button" valueKey="button13" />
+                  <input id="button14" type="button" valueKey="button14" />
+                  <input id="button15" type="button" valueKey="button15" />
+                  <input id="button16" type="button" valueKey="button16" />
+                  <input id="button17" type="button" valueKey="button17" />
+                  <input id="button18" type="button" valueKey="button18" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button19" type="button" valueKey="button19" />
+                  <input id="button20" type="button" valueKey="button20" />
+                  <input id="button21" type="button" valueKey="button21" />
+                  <input id="button22" type="button" valueKey="button22" />
+                  <input id="button23" type="button" valueKey="button23" />
+                  <input id="button24" type="button" valueKey="button24" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button25" type="button" valueKey="button25" />
+                  <input id="button26" type="button" valueKey="button26" />
+                  <input id="button27" type="button" valueKey="button27" />
+                  <input id="button28" type="button" valueKey="button28" />
+                  <input id="button29" type="button" valueKey="button29" />
+                  <input id="button30" type="button" valueKey="button30" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button31" type="button" valueKey="button31" />
+                  <input id="button32" type="button" valueKey="button32" />
+                  <input id="button33" type="button" valueKey="button33" />
+                  <input id="button34" type="button" valueKey="button34" />
+                  <input id="button35" type="button" valueKey="button35" />
+                  <input id="button36" type="button" valueKey="button36" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button37" type="button" valueKey="button37" />
+                  <input id="button38" type="button" valueKey="button38" />
+                  <input id="button39" type="button" valueKey="button39" />
+                  <input id="button40" type="button" valueKey="button40" />
+                  <input id="button41" type="button" valueKey="button41" />
+                  <input id="button42" type="button" valueKey="button42" />
+                </div>
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button43" type="button" valueKey="button43" />
+                  <input id="button44" type="button" valueKey="button44" />
+                  <input id="button45" type="button" valueKey="button45" />
+                  <input id="button46" type="button" valueKey="button46" />
+                  <input id="button47" type="button" valueKey="button47" />
+                  <input id="button48" type="button" valueKey="button48" />
+                </div>
+              </div>
+              <div id="tabPanel2" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button2_1" type="button" valueKey="button2_1" />
+                </div>
+              </div>
+              <div id="tabPanel3" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button3_1" type="button" valueKey="button3_1" />
+                </div>
+              </div>
+              <div id="tabPanel4" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button4_1" type="button" valueKey="button4_1" />
+                </div>
+              </div>
+              <div id="tabPanel5" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button5_1" type="button" valueKey="button5_1" />
+                </div>
+              </div>
+              <div id="tabPanel6" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button6_1" type="button" valueKey="button6_1" />
+                </div>
+              </div>
+              <div id="tabPanel7" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button7_1" type="button" valueKey="button7_1" />
+                </div>
+              </div>
+              <div id="tabPanel8" class="tabPanel" layout="wrapLayout">
+                <div class="buttonsPanel additional" layout="wrapLayout">
+                  <input id="button8_1" type="button" valueKey="button8_1" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- action buttons below the main panel -->
+          <div class="overlayBottomButtonsPanel" constraints="Last" layout="wrapLayout">
+            <div class="buttonsPanel overlayBottomButtons" layout="wrapLayout">
+              <input id="cancelButtonOverlay1" class="ca" type="button" valueKey="tabs.overlay.cancel" onclick="api.hideOverlay();" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

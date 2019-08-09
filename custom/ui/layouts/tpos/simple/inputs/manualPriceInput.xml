@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/common/inputs.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+
+    <!-- PAGE TITLE -->
+    <div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+      <label id="pageTitle" class="pageTitle" valueKey="manual.price.input.page.title" />
+    </div>
+
+    <form name="manualPriceInput">
+      <!-- INPUTS -->
+      <div id="leftContentCenterArea" slot="true" class="centerArea inputArea" layout="wrapLayout">
+        <div id="itemText_field" class="fieldLabel" bean="fieldLabel">
+          <input id="itemTextInput" type="text" />
+          <label id="itemTextLabel" valueKey="manual.price.input.item.text.label" />
+        </div>
+
+        <div id="manualPrice_field" class="fieldLabel" bean="fieldLabel">
+          <input id="manualPriceInput" type="text" required="true" />
+          <label id="manualPriceLabel" valueKey="manual.price.input.price.label" />
+        </div>
+      </div>
+
+      <!-- BUTTONS -->
+      <div id="rightContentCenterArea" slot="true" class="centerArea buttonsPanel main" layout="wrapLayout">
+        <input id="cancelButton" class="large ca" type="button" valueKey="button.cancel" />
+        <input id="okButton" class="large cno" type="submit" valueKey="button.ok" />
+      </div>
+    </form>
+
+  </body>
+</html>

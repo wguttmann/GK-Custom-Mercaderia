@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <!-- FULL LIST1 -->
+  <body id="paymentContextMenuTableau" bean="defaultTableauSlotPanel">
+  </body>
+</html>

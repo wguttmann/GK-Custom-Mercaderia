@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/common/common.css" />
+        <link rel="stylesheet" href="css/common/inputs.css" />
+        <link rel="stylesheet" href="css/custom/custom.css" />
+    </head>
+    <body id="rootPanel">
+
+        <!-- PAGE TITLE -->
+        <div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+            <label id="pageTitle" class="pageTitle" valueKey="paymentcredit.documentnumber.title" />
+        </div>
+
+        <form name="documentNumberForm">
+            <!-- INPUTS -->
+            <div id="leftContentCenterArea" slot="true" class="centerArea inputArea" layout="wrapLayout">
+                <div id="documentNumberField" class="fieldLabel" bean="fieldLabel">
+                    <input id="documentNumberInput" type="text" required="true" inputDomain="PI_DOC_NUMBER" />
+                    <label id="documentNumberLabel" />
+                </div>
+            </div>
+
+            <!-- BUTTONS -->
+            <div id="rightContentCenterArea" slot="true" class="centerArea buttonsPanel main" layout="wrapLayout">
+                <input id="cancelButton" class="large ca" type="button" valueKey="button.cancel" />
+                <input id="okButton" class="large cno" type="submit" valueKey="button.ok" />
+            </div>
+        </form>
+
+    </body>
+</html>
+

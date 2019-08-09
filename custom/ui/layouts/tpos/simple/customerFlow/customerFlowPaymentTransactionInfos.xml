@@ -7,10 +7,10 @@
   </head>
   <body id="transactionInfo" class="transactionInfo" layout="wrapLayout">
     <div class="boxWrapper points" layout="wrapLayout">
-      <div id="transactionInfoPoints" class="box points" layout="wrapLayout">
+      <!--div id="transactionInfoPoints" class="box points" layout="wrapLayout">
         <label id="transactionInfoPointsValue" class="value" value="TRANSACTION_TOTALPOINTS" bean="posStateInfoLabel" />
         <label id="transactionInfoPointsLabel" class="label" valueKey="customerFlow.payment.points.title" />
-      </div>
+      </div-->
     </div>
     <div class="boxWrapper youSave" layout="wrapLayout">
       <div id="transactionInfoDiscount" class="box youSave" layout="wrapLayout">

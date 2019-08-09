@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/payment/payment.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body>
+  
+    <!-- CONTEXTMENU PANEL - TABLEAU -->
+    <iframe id="contextMenuComponent" slot="true" condition="paymentContextMenuTableauActivated" class="overlay" src="/layouts/tpos/simple/payment/paymentContextMenuTableau.xml" bean="defaultCachingIFrameComponent"/>
+
+    <!-- TRANSACTION PREVIEW -->
+    <!-- We need to add it here again to be able to bind it via promoj! -->
+    <div id="paymentCenterBottomArea" slot="true" class="paymentCenterBottomArea" layout="borderLayout">
+      <iframe id="posStateInfoPanelArea" src="/layouts/tpos/simple/common/panels/posStateInfoPanel.xml" constraints="First" bean="defaultCachingIFrameComponent" />
+	    <div id="transactionPreviewContainer" layout="customerDetailLayout">
+	      <iframe id="customerDetailPanel" src="/layouts/tpos/simple/common/panels/customerDetailPanel.xml" bean="defaultCachingIFrameComponent" />
+	      <iframe id="transactionPreviewComponent" src="/layouts/tpos/simple/transaction/transactionPreviewComponentPayment.xml" constraints="Center" bean="transactionPreviewComponent" />
+	    </div>
+    </div>
+
+    <!-- BONUS POINT -->
+    <div id="bonusPointArea" slot="true" class="bonusPointArea" layout="wrapLayout">
+      <div id="bonusPointContainer" class="textLabelValueContainer2" layout="wrapLayout">
+        <label id="bonusPointTitle" class="label" valueKey="payment.bonus.points" />
+        <label id="bonusPointValue" class="value" value="TRANSACTION_TOTALPOINTS" bean="posStateInfoLabel" />
+      </div>
+      <div id="bonusPointMargin" class="bonusPointMargin" layout="wrapLayout" />
+      <div id="sumTotalDiscountContainer" class="textLabelValueContainer2" layout="wrapLayout">
+        <label id="sumTotalDiscountTitle" class="label" valueKey="payment.total.discounts" />
+        <label id="sumTotalDiscountValue" class="value" value="TRANSACTION_TOTALDISCOUNT" bean="posStateInfoLabel" />
+      </div>
+    </div>
+
+    <!-- CURRENCY SELECTION -->
+    <div id="currencySelectionArea" slot="true" class="currencySelectionArea" layout="wrapLayout">
+      <label id="currencySelectionTitle" class="textLabelValueContainerTitle" valueKey="payment.currencyselection.title" />
+      <div id="currencySelectionBaseCurrencyContainer" class="textLabelValueContainer" layout="wrapLayout">
+        <label id="baseCurrencyAmountTitle" class="label" />
+        <label id="baseCurrencyAmountValue" class="value" />
+      </div>
+      <div id="currencySelectionCurrentCurrencyContainer" class="textLabelValueContainer" layout="wrapLayout">
+        <label id="currentCurrencyAmountTitle" class="label" />
+        <label id="currentCurrencyAmountValue" class="value" />
+      </div>
+      <div id="currencySelectionExchangeRateContainer" class="textLabelValueContainer" layout="wrapLayout">
+        <label id="currentCurrencyExchangeRateTitle" class="label" valueKey="exchangerate" />
+        <label id="currentCurrencyExchangeRate" class="value" />
+      </div>
+    </div>
+
+    <!-- MAININPUT + NUMPAD + BUTTONS -->
+    <iframe id="rightContentCenterArea" slot="true" class="centerArea paddedArea" layout="wrapLayout" src="/layouts/tpos/simple/payment/generalPaymentInputArea.xml" />
+
+    <!-- PAYMENT TABS TABLEAU - EMBEDDED2 -->
+    <div id="rightContentBottomArea" slot="true" condition="paymentTabsTableauActivated" class="bottomArea">
+        <div id="paymentTabsTableau" bean="defaultTableauSlotPanel" />
+    </div>
+
+
+
+
+    <!-- ####################### DEPRECATED BUTTON MENUS ####################### -->
+    <!-- POCP-8511 POS Tableaus - Design migration fallback to old button menus -->
+    <!-- New button tableaus and corresponding old button menus can be activated/deactivated via UiConfig.elementNodeConditions -->
+
+    <!-- INLINE BOTTOM TAB BUTTON MENUS -->
+    <iframe id="rightContentBottomArea" slot="true" condition="!paymentTabsTableauActivated" class="bottomArea" layout="wrapLayout" src="/layouts/tpos/simple/payment/paymentTabs.xml" bean="defaultTabComponent" />
+
+    <!-- OVERLAY TAB BUTTON MENUS -->
+    <div id="overlayArea" slot="true" condition="!paymentTabsTableauActivated">
+      <iframe id="paymentTabsOverlay" class="overlay" src="/layouts/tpos/simple/payment/paymentTabsOverlay.xml" bean="defaultTabComponent" />
+    </div>
+
+    <!-- PAYMENT CONTEXT BUTTONS -->
+    <div id="contextMenuButtonsRow3" slot="true" condition="!paymentContextMenuTableauActivated" class="buttonsPanel context" layout="wrapLayout">
+      <input id="suspendReceiptButton" class="highlight3" type="button" valueKey="suspendReceipt.suspendReceiptContext.button" />
+    </div>
+
+  </body>
+</html>

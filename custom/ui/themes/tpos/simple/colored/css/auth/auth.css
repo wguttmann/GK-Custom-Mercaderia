@@ -141,26 +141,19 @@
 }
 #dockBottomPanel {
     height: 120px;
-    background-color:rgba(255,255,255,1);
-    padding-left: 34px;
-    padding-right: 8px;
+    background-color:rgba(255,234,47,1);
+
 }
 #dockLineGradient {
     height: 0px;
 /*     background-image: url(/images/common/line_gradient.png); */
 }
-#dockClaim {
-    width: 50%;
-    background-image: url(/images/common/claim.png);
-    background-repeat: no-repeat;
-    background-position: center left;
-}
 #dockLogo {
-    width: 50%;
-    background-image: url(/images/common/logo2.png);
+    width: 100%;
+    background-image: url(/images/common/logo3.png);
     background-repeat: no-repeat;
-    background-position: center right;
-    background-color:rgba(255,255,255,1);
+    background-position: center center;
+ background-color:rgba(255,234,47,1);
 }
 #dockSoftwareVersions {
   height: 40px;

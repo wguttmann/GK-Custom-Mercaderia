@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="contextMenuPanel" class="dialogRootPanel" layout="borderLayout">
+
+    <!-- CONTEXT CANCEL BUTTON -->
+    <div id="closeContextMenuDiv1">
+      <!-- Cancel/Close Button1 -->
+      <input id="closeContextMenuButton1" type="button" onclick="api.hideOverlay();" />
+    </div>
+
+    <!-- LEFT SIDE AREA -->
+    <div id="dialogLeftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+      <div id="dialogLeftSideTopArea" class="topArea" layout="wrapLayout">
+      </div>
+    </div>
+
+    <!-- CONTENT AREA -->
+    <div id="dialogContentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+      <div id="dialogContentTopArea" class="topArea" layout="wrapLayout">
+        <div id="dialogLeftContentArea" class="leftContentArea" layout="wrapLayout">
+          <label id="dialogPageTitle" class="pageTitle" valueKey="contextmenu.label" />
+        </div>
+      </div>
+
+      <!-- CONTEXT MENU BUTTONS -->
+      <div id="contextMenuButtons" class="centerBottomArea" layout="wrapLayout">
+
+        <div id="contextMenuButtonsRow1" slot="true" class="buttonsPanel context" layout="wrapLayout">
+          <input id="lockMenuButton" class="highlight3" type="button" valueKey="break.breakContext.button" />
+          <!-- <input id="leftRightHandedButton" class="highlight3" type="button" valueKey="rightlefthanded.rightlefthandedContext.button" /> -->
+        </div>
+
+        <div id="contextMenuButtonsRow2" slot="true" class="buttonsPanel context" layout="wrapLayout">
+          <div class="separator" />
+        </div>
+
+        <div id="contextMenuButtonsRow3" slot="true" class="buttonsPanel context" layout="wrapLayout" />
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE AREA -->
+    <div id="dialogRightSideArea" class="rightSideArea" constraints="After" layout="wrapLayout">
+      <div id="dialogRightSideTopArea" class="topArea" layout="wrapLayout">
+        <input id="closeContextMenuButton2" class="dialogCloseButton" type="button" onclick="api.hideOverlay();" />
+      </div>
+    </div>
+
+  </body>
+</html>

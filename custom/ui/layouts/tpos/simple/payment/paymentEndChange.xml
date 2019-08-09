@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/payment/change.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="messageRootPanel" class="messageRootPanel" layout="wrapLayout">
+    <div id="messagePanel" class="messagePanel" layout="wrapLayout">
+
+      <div id="messageContentPanel" class="messageContentPanel" layout="wrapLayout">
+        <div id="wrapperPanel" class="wrapper" layout="wrapLayout">
+          <div id="totalPanel" class="container total" layout="wrapLayout">
+            <label id="totalTitle" class="total" valueKey="change.total.title" />
+            <label id="totalValue" class="total value" />
+          </div>
+          <div id="givenPanel" class="container given" layout="wrapLayout">
+            <label id="givenTitle" class="given" valueKey="change.given.title" />
+            <label id="givenValue" class="given value" />
+          </div>
+          <div id="changePanel" class="container change" layout="wrapLayout">
+            <label id="changeTitle" class="change" valueKey="change.change.title" />
+            <label id="changeValue" class="change value" />
+          </div>
+        </div>
+      </div>
+
+      <div id="messageLeftButtonPanel" class="messageLeftButtonPanel buttonsPanel message" layout="wrapLayout" />
+      <div id="messageRightButtonPanel" class="messageRightButtonPanel buttonsPanel message" layout="wrapLayout">
+        <input id="changeContinueButton" class="messageOkButton" type="submit" valueKey="button.continue" />
+      </div>
+
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/auth/auth.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+
+
+  <body id="rootPanel">
+
+    <!-- BACKGROUND AREA WITH LOGO DOCK -->
+    <div id="backgroundArea">
+      <div id="backgroundPanel" class="backgroundPanel" />
+      <div id="backgroundPanelDots" class="backgroundPanelDots" />
+      <div id="dockArea" layout="borderLayout">
+        <div id="dockPanel" slot="true" constraints="Last" layout="wrapLayout">
+          <div id="dockTopPanel" layout="wrapLayout" />
+          <div id="dockBottomPanel" layout="wrapLayout">
+            <div id="dockLineGradient" />
+            <div id="dockClaim" />
+            <div id="dockLogo" />
+          </div>
+        </div>
+      </div>
+      <label id="backgroundTrainingModeLabel" class="backgroundTrainingModeLabel" bean="trainingModeLabel"/>
+    </div>
+
+    <!-- CONTEXTMENU PANEL -->
+    <iframe id="contextMenuComponent" class="overlay" src="/layouts/tpos/simple/common/globalContextMenu.xml" bean="defaultCachingIFrameComponent" />
+
+    <!-- MAIN AREAS -->
+    <div id="mainAreas" layout="borderLayout">
+
+      <!-- LEFT SIDE AREA -->
+      <div id="leftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+        <div id="leftSideTopArea" class="topArea" layout="wrapLayout">
+        </div>
+      </div>
+
+      <div id="contentArea" slot="true" class="contentArea" constraints="Center" layout="wrapLayout">
+
+
+        <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+          <label id="pageTitle" class="pageTitle" valueKey="micr.scan.insert.check.waitingdialog.title" />
+        </div>
+
+        <div id="content" class="scanExpectRootPanel" layout="wrapLayout">
+          <div class="scanExpectMessagePanel highlightedArea" layout="borderLayout">
+            <label id="messageLabel" class="scanExpectMessageLabel" valueKey="micr.scan.insert.check.waitingdialog.message" constraints="Center" />
+            <div id="buttonsPanel" class="buttonsPanel scanExpectMessageButtonsPanel" constraints="Last" layout="wrapLayout">
+              <input id="cancelButton" class="medium ca" type="button" valueKey="button.cancel" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <input id="showContextMenuButton" type="button" onclick="api.showOverlayFromTemplate('contextMenuComponent');" />
+
+  </body>
+
+</html>
+<?xml version="1.0" encoding="UTF-8"?>

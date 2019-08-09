@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/common/common.css" />
+        <link rel="stylesheet" href="css/common/inputs.css" />
+        <link rel="stylesheet" href="css/custom/custom.css" />
+    </head>
+    <body id="rootPanel">
+
+        <div id="mainAreas" slot="true" layout="borderLayout">
+
+            <!-- LEFT SIDE AREA -->
+            <div id="leftSideArea" class="leftSideArea" constraints="Before" layout="wrapLayout">
+                <div id="leftSideTopArea" class="topArea" layout="wrapLayout">
+                </div>
+            </div>
+
+            <!-- CONTENT AREA -->
+            <div id="contentArea" class="contentArea" constraints="Center" layout="wrapLayout">
+                <div id="leftContentArea" class="leftContentArea" layout="wrapLayout">
+                    <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+                        <label id="pageTitle" class="pageTitle" valueKey="giftCertificateInfo.showInfo.title" />
+                    </div>
+                    <div id="leftContentCenterArea" class="centerArea_noKeyboard inputArea" layout="wrapLayout">
+                        <div id="gcNumberFieldLabel" class="fieldLabel" bean="fieldLabel">
+                            <input id="gcNumberInput" disabled="true"  type="text" inputDomain="DATE_LONG" />
+                            <label id="gcNumberLabel" valueKey="giftCertificateInfo.showInfo.number.label" />
+                        </div>
+                        <div id="amountFieldLabel" class="fieldLabel" bean="fieldLabel">
+                            <input id="amountInput" disabled="true"  type="text" />
+                            <label id="amountLabel" valueKey="giftCertificateInfo.showInfo.amount.label" />
+                        </div>
+                        <div id="statusFieldLabel" class="fieldLabel" bean="fieldLabel">
+                            <input id="statusInput" disabled="true"  type="text" inputDomain="COMMON_TEXT"/>
+                            <label id="statusLabel" valueKey="giftCertificateInfo.showInfo.status.label" />
+                        </div>
+                        <div id="validFromFieldLabel" class="fieldLabel" bean="fieldLabel">
+                            <input id="validFromInput" disabled="true"  type="text" inputDomain="DATE_LONG" />
+                            <label id="validFromLabel" valueKey="giftCertificateInfo.showInfo.validFrom.label" />
+                        </div>
+                        <div id="validToFieldLabel" class="fieldLabel" bean="fieldLabel">
+                            <input id="validToInput" disabled="true"  type="text" inputDomain="DATE_LONG" />
+                            <label id="validToLabel" valueKey="giftCertificateInfo.showInfo.validTo.label" />
+                        </div>
+                    </div>
+                </div>
+                <div id="rightContentArea" class="rightContentArea" layout="wrapLayout">
+                    <div id="rightContentTopArea" class="topArea" layout="wrapLayout" />
+                    <!-- BUTTONS -->
+                    <div id="rightContentCenterArea" class="centerArea buttonsPanel main" layout="wrapLayout">
+                        <input id="cancelButton" class="large ca" type="button" valueKey="button.cancel" />
+                        <input id="printButton" class="large cno" type="submit" valueKey="button.print" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input id="showContextMenuButton" type="button" onclick="api.showOverlayFromTemplate('contextMenuComponent');" />
+
+        <!-- PAGE TITLE -->
+        <!-- <form name="gcForm"> -->
+        <!-- </form> -->
+
+    </body>
+</html>

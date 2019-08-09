@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/common/inputs.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="rootPanel">
+
+    <!-- PAGE TITLE -->
+    <div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+      <label id="pageTitle" class="pageTitle" valueKey="cardDataInput.pageTitle" />
+    </div>
+
+    <form name="cdForm">
+      <!-- INPUTS -->
+      <div id="leftContentCenterArea" slot="true" class="centerArea inputArea" layout="wrapLayout">
+        <div id="fieldLabel1" class="fieldLabel" bean="fieldLabel">
+          <input id="cardNumberInput" type="text" />
+          <label id="cardNumberLabel" valueKey="cardDataInput.cardNumber" />
+        </div>
+        <div id="fieldLabel2" class="fieldLabel" bean="fieldLabel">
+          <input id="cvcNumberInput" type="text" />
+          <label id="cvcNumberLabel" valueKey="cardDataInput.cvcNumber" />
+        </div>
+        <div id="fieldLabel3" class="fieldLabel" bean="fieldLabel">
+          <input id="expirationDateInput" type="text" inputDomain="CARD_EXPIRATION_DATE" />
+          <label id="expirationDateLabel" valueKey="cardDataInput.expirationDate" />
+        </div>
+      </div>
+
+      <!-- BUTTONS -->
+      <div id="rightContentCenterArea" slot="true" class="centerArea buttonsPanel main" layout="wrapLayout">
+        <input id="cancelButton" class="medium ca" type="button" valueKey="button.cancel" />
+        <input id="msrButton" class="medium" type="button" valueKey="cardDataInput.msr" />
+        <input id="okButton" class="medium cno" type="submit" valueKey="button.ok" />
+      </div>
+    </form>
+
+  </body>
+</html>

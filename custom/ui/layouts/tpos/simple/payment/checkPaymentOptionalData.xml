@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/common/inputs.css" />
+		<link rel="stylesheet" href="css/custom/custom.css" />
+	</head>
+	<body id="rootPanel">
+
+		<!-- PAGE TITLE -->
+		<div id="leftContentTopArea" slot="true" class="topArea" layout="wrapLayout">
+			<label id="pageTitle" class="pageTitle" valueKey="payment.check.display.title" />
+		</div>
+
+		<form name="checkPaymentMandatoryData">
+
+			<!-- INPUTS -->
+			<div id="leftContentCenterArea" slot="true" class="centerArea  inputArea"
+				layout="wrapLayout">
+				
+				<div id="checkPaymentDriversLicenseNoField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentDriversLicenseNoInput" type="text" inputDomain="CHECKPAYMENT_DRIVER_LICENSE_NUMBER"/>
+					<label id="checkPaymentDriversLicenseNoLabel" valueKey="payment.check.DriversLicenseNo" />
+				</div>
+				<div id="checkPaymentDriversLicenseStateField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentDriversLicenseStateInput" type="text" inputDomain="CHECKPAYMENT_DRIVER_LICENSE_STATE" />
+					<label id="checkPaymentDriversLicenseStateLabel" valueKey="payment.check.DriversLicenseState" />
+				</div>
+				<div id="checkPaymentPhoneNoField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentPhoneNoInput" type="text" inputDomain="CHECKPAYMENT_PHONE_NUMBER" />
+					<label id="checkPaymentPhoneNoLabel" valueKey="payment.check.PhoneNo" />
+				</div>
+				<div id="checkPaymentBirthdayField" class="fieldLabel" bean="fieldLabel">
+					<input id="checkPaymentBirthdayInput" type="text" inputDomain="CHECKPAYMENT_BIRTHDAY" />
+					<label id="checkPaymentBirthdayLabel" valueKey="payment.check.Birthday" />
+				</div>
+			</div>
+
+			<!-- BUTTONS -->
+			<div id="rightContentCenterArea" slot="true"
+				class="centerArea buttonsPanel main" layout="wrapLayout">
+				<input id="cancelButton" class="medium ca" type="button"
+					valueKey="button.cancel" />
+				<input id="okButton" class="medium cno" type="submit"
+					valueKey="button.ok" />
+			</div>
+		</form>
+
+      <!-- KEYBOARD AREA -->
+      <iframe id="keyboardArea" slot="true" class="keyboardArea" 
+      		  constraints="Last" src="/layouts/tpos/simple/keyboard/dynamicKeyboardComponent.xml" 
+      		  bean="dynamicKeyboardComponent" />
+    </div>
+
+	</body>
+</html>

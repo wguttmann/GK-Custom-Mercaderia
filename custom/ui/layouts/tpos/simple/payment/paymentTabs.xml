@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="tabsContainer" layout="borderLayout">
+
+    <!-- tab panels -->
+    <div id="tabsSubContainer" constraints="Center" layout="cardLayout">
+      <div id="tab_cash" layout="wrapLayout">
+        <iframe id="cashButtonsPanel" layout="wrapLayout" src="/layouts/tpos/simple/common/currencies/${currencyCode:EUR}/banknotesButtons.xml" bean="defaultNonCachingIFrameComponent" />
+      </div>
+      <div id="tab_discounts" layout="wrapLayout">
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="discountButton10" type="button" valueKey="discount.discount10Payment.button" configId="ManualReceiptDiscountConfigs.ManualReceiptDiscount10Config" />
+          <input id="discountButton" type="button" valueKey="discount.discountManualPayment.button" configId="ManualReceiptDiscountConfigs.ManualReceiptDiscountRebateConfig" />
+          <input id="reductionButton" type="button" valueKey="reduction.reductionManualPayment.button" configId="ManualReceiptDiscountConfigs.ManualReceiptDiscountDeductionConfig" />
+          <input id="removeDiscountsButton" type="button" valueKey="removeDiscounts.removeDiscountsPayment.button" />
+        </div>
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="customerRegistrationButtonBonusCardPayment" type="button" valueKey="customerRegistration.customerBonusCardPayment.button" configId="CustomerRegistrationConfigs.CustomerRegistrationBonusCard" />
+          <input id="tabCustomerLocal" refId="tab_customer_local_payment" type="button" valueKey="customerRegistration.customerLocalPayment.button_tab" />
+          <input id="tabCustomerCentral" refId="tab_customer_central_payment" type="button" valueKey="customerRegistration.customerCentralPayment.button_tab" />
+        </div>
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="enterCouponButton" type="button" valueKey="entercoupon.payment.button" />
+          <input id="showUnusedCouponsButton" type="button" valueKey="showUnusedCoupons.payment.button" configId="DisplayCouponsConfigs.Default"/>
+          <input id="employeePurchaseButton" type="button" valueKey="employeePurchase.employeePurchasePayment.button" />
+          <input id="removeCustomerButton" type="button" valueKey="removeCustomer.button" />
+        </div>
+      </div>
+      <div id="tab_customer_local_payment" layout="wrapLayout">
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="customerRegistrationButtonPaymentLocal" type="button" valueKey="customerRegistration.customerLocalPayment.button" configId="CustomerRegistrationConfigs.CustomerRegistrationLocalPayment" />
+          <input id="customerSearchButtonPaymentLocal" type="button" valueKey="customerSearch.customerSearchLocalPayment.button" configId="CustomerSearchConfigs.DefaultPayment" />
+          <input id="customerDataEntryButtonPaymentLocal" type="button" valueKey="customerDataEntry.customerDataEntryLocalRegistration.button" configId="CustomerDataEntryConfigs.Default" />
+        </div>
+      </div>
+      <div id="tab_customer_central_payment" layout="wrapLayout">
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="customerRegistrationButtonPaymentCentral" type="button" valueKey="customerRegistration.customerCentralPayment.button" configId="CustomerRegistrationConfigs.CustomerRegistrationCentralPayment" />
+          <input id="customerSearchButtonPaymentCentral" type="button" valueKey="customerSearch.customerSearchCentralPayment.button" configId="CustomerSearchConfigs.SAPERPPayment" />
+        </div>
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="customerRegistrationButtonPaymentCentral" type="button" valueKey="customerRegistration.customerCentralPaymentCRM.button" configId="CustomerRegistrationConfigs.CustomerRegistrationCentralCRM" />
+        </div>
+      </div>
+      <div id="tab_othertenders" layout="wrapLayout">
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="giftCertificateButton" type="button" valueKey="giftCertificate.paymentGiftCertificate.button" configId="GiftCertificatePaymentConfigs.PaymentGiftCertWithoutGCS" />
+          <input id="giftCardButton" type="button" valueKey="giftCertificate.paymentGiftCard.button" configId="GiftCertificatePaymentConfigs.PaymentGiftCard" />
+          <input id="centerVoucherPaymentButton" type="button" valueKey="credit.paymentCenterVoucher.button" configId="CreditPaymentConfigs.CenterVoucher" />
+          <input id="newspaperCouponPaymentButton" type="button" valueKey="credit.paymentNewspaperCoupon.button" configId="CreditPaymentConfigs.NewspaperCoupon" />
+        </div>
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="giftCertificateCouponButton" type="button" valueKey="giftCertificate.paymentCoupon.button" configId="GiftCertificatePaymentConfigs.PaymentCoupon" />
+          <input id="paymentFoodStampsButton" type="button" valueKey="foodStamps.paymentFoodStamps.button" configId="GiftCertificatePaymentConfigs.PaymentFoodStamps" />
+          <input id="paymentWICButton" type="button" valueKey="wicSale.paymentWic.button" configId="GiftCertificatePaymentConfigs.PaymentWIC" />
+          <input id="creditPaymentButton" type="button" valueKey="check.paymentCredit.button" />
+        </div>
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="pointsPaymentButton" type="button" valueKey="payment.points" />
+          <input id="currencyButton" type="button" valueKey="currencySelection.payment.nextCurrency.button" configId="CurrencySelectionConfigs.NextCurrency" />
+          <input id="tabEftOffline" refId="tab_title_terminal_offline" type="button" valueKey="terminalPayment.offlineEFT.button_tab" />
+          <!-- <input id="currencyButton" type="button" valueKey="currencySelection.payment.currency1.button" configId="CurrencySelectionConfigs.EUR" /> -->
+          <!-- <input id="currencyButton" type="button" valueKey="currencySelection.payment.currency2.button" configId="CurrencySelectionConfigs.USD" /> -->
+          <!--input id="currencyButton" type="button" valueKey="currencySelection.payment.currency3.button" configId="CurrencySelectionConfigs.CHF"/ -->
+          <!--input id="overlayTabs" type="button" valueKey="Overlay Tabs" onclick="api.showOverlay('paymentTabsOverlay');"/ -->
+        </div>
+      </div>
+      <div id="tab_other_payment" layout="wrapLayout">
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="alternativeTaxButton" class="toggleButton" type="button" valueKey="alternative.tax.button"/>
+          <input id="receiptAsEmailActivationButton" class="toggleButton" type="button" valueKey="receiptAsEmail.button" configId="ReceiptAsEmailActivationConfigs.Default" />
+          <input id="invoicePrintoutActivationButton" class="toggleButton" type="button" valueKey="invoicePrintoutActivation.button" />
+          <input id="valuephoneButton" type="button" valueKey="valuephone.button"  />
+        </div>
+      </div>
+      <div id="tab_title_terminal_offline" layout="wrapLayout">
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="paymentTerminalOfflineAmex" type="button" valueKey="terminalPayment.offlineAmex.button" configId="TerminalPaymentConfigs.OfflineAmex" />
+          <input id="paymentTerminalOfflineDiners" type="button" valueKey="terminalPayment.offlineDiners.button" configId="TerminalPaymentConfigs.OfflineDiners" />
+          <input id="paymentTerminalOfflineJCB" type="button" valueKey="terminalPayment.offlineJCB.button" configId="TerminalPaymentConfigs.OfflineJCB" />
+          <input id="paymentTerminalOfflineMastercard" type="button" valueKey="terminalPayment.offlineMastercard.button" configId="TerminalPaymentConfigs.OfflineMastercard" />
+        </div>
+        <div class="buttonsPanel additional" layout="wrapLayout">
+          <input id="paymentTerminalOfflineVisa" type="button" valueKey="terminalPayment.offlineVisa.button" configId="TerminalPaymentConfigs.OfflineVisa" />
+          <input id="paymentTerminalManualMonerisEselect" type="button" valueKey="terminalPayment.manualEntryMonerisEselect.button" configId="TerminalPaymentConfigs.ManualMonerisESelect" />
+        </div>
+      </div>
+    </div>
+
+    <!-- tab buttons -->
+    <div id="tabStripsButtonsPanel" class="tabStripsPanel" constraints="Last" layout="wrapLayout">
+      <input id="tab_title_cash" refId="tab_cash" type="button" valueKey="payment.cashcurrency" />
+      <input id="tab_title_discounts" refId="tab_discounts" type="button" valueKey="discountsPayment.discount.tab" />
+      <input id="tab_title_othertenders" refId="tab_othertenders" type="button" valueKey="payment.othertenders" />
+      <input id="tab_title_other_payment" refId="tab_other_payment" type="button" valueKey="registration.other.tabs.button" />
+    </div>
+
+  </body>
+</html>

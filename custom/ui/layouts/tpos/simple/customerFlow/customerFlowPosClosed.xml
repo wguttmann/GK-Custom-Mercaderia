@@ -16,7 +16,6 @@
       </div>
       <div id="bottomDockArea" class="bottomDockArea" constraints="Last" layout="wrapLayout">
         <div id="dockLineGradient" class="dockLineGradient" />
-        <div id="dockClaim" class="dockClaim" />
         <div id="dockLogo" class="dockLogo" />
       </div>
     </div>

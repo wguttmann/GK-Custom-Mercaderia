@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/payment/payment.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="inputArea" class="inputArea highlightedArea" layout="wrapLayout">
+
+    <form id="paymentForm">
+      <div id="topInputArea" class="topInputArea" layout="wrapLayout">
+        <div id="mainTextInputArea" class="mainTextInputArea" layout="borderLayout">
+          <input id="searchButton" class="searchButton" type="button" constraints="Before" />
+          <input id="mainTextInput" constraints="Center" class="mainTextInputField fieldWithSearchButton" type="text" inputDomain="PAYMENT" />
+          <div id="clearingButtons" class="clearingButtons" constraints="After" layout="wrapLayout">
+            <input id="backspaceButton" class="backspaceButton" type="button" bean="backspaceButton" />
+            <input id="clearButton" class="clearButton" type="button" bean="clearButton" />
+          </div>
+        </div>
+      </div>
+      
+      <iframe id="numericKeyboardComponent" layout="wrapLayout" src="/layouts/tpos/simple/keyboard/numericKeyboardComponent.xml" bean="numericKeyboardComponent" />
+
+      <!-- PAYMENT NUMPAD TABLEAU - EMBEDDED1 -->
+      <div id="paymentNumpadTableau" condition="paymentNumpadTableauActivated" class="numpadTableauEmbedded1" bean="defaultTableauSlotPanel" />
+
+
+
+
+      <!-- ####################### DEPRECATED BUTTON MENUS ####################### -->
+      <!-- POCP-8511 POS Tableaus - Design migration fallback to old button menus -->
+      <!-- New button tableaus and corresponding old button menus can be activated/deactivated via UiConfig.elementNodeConditions -->
+      
+      <div id="mainButtonsPanel" condition="!paymentNumpadTableauActivated" class="buttonsPanel main rows" layout="wrapLayout">
+        <div class="mainButtonsPanelContainer" layout="wrapLayout">
+          <input id="cancelButton" class="cca small" type="button" valueKey="payment.cancel" />
+          <input id="cancelTransactionButton" class="cca small" type="button" valueKey="payment.cancel.transaction" />
+        </div>
+        <div class="mainButtonsPanelContainer" layout="wrapLayout">
+          <input id="eftButton" class="cno" type="button" valueKey="payment.eft" />
+        </div>
+        <div class="mainButtonsPanelContainer large" layout="wrapLayout">
+          <input id="cashPaymentButton" class="cno large" type="submit" valueKey="payment.cash" />
+        </div>
+      </div>
+
+    </form>
+
+  </body>
+</html>

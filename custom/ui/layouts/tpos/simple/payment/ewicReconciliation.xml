@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/common/common.css" />
+        <link rel="stylesheet" href="css/common/tables.css" />
+        <link rel="stylesheet" href="css/custom/custom.css" />
+        <link rel="stylesheet" href="css/common/dividedtable.css" />
+    </head>
+    <body>
+
+        <!-- MAIN AREAS -->
+        <div id="mainAreas" slot="true" layout="borderLayout">
+
+            <!-- LEFT SIDE AREA -->
+            <div id="leftSideArea" class="leftSideArea" constraints="Before"
+                layout="wrapLayout">
+                <div id="leftSideTopArea" class="topArea" layout="wrapLayout" />
+            </div>
+
+            <!-- CONTENT AREA -->
+            <div id="contentArea" class="contentArea" constraints="Center"
+                layout="wrapLayout">
+                <!-- PAGE TITLE -->
+                <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+                    <label id="pageTitle" class="pageTitle"
+                        valueKey="ewic.reconciliation.result.title" />
+                    <label id="pageTitleVariants" class="pageTitle"
+                        valueKey="ewic.reconciliation.display.title" />
+                </div>
+                <div id="subtitleContentTop" layout="wrapLayout">
+                    <div id="leftSubtitleCol" layout="wrapLayout">
+                        <div id="col0" layout="wrapLayout" class="colSubtitleTitle">
+                            <label id="ewicSubcategorylb" class="trTitle"
+                                valueKey="ewic.reconciliation.subcategory" />
+                        </div>
+                        <div id="col1" layout="wrapLayout" class="colSubtitleText">
+                            <label id="ewicSubcategory" class="trText" />
+                        </div>
+                    </div>
+                </div>
+                <div id="subtitleContentTop2" layout="wrapLayout">
+                    <div id="leftSubtitleCol2" layout="wrapLayout">
+                        <div id="subtitleContentTop" layout="wrapLayout">
+                            <div id="leftSubtitleCol" layout="wrapLayout">
+                                <div id="col2" layout="wrapLayout" class="colSubtitleTitle2">
+                                    <label id="ewicSubcategoryUOMlb" class="trTitle"
+                                        valueKey="ewic.reconciliation.subcategory.uom" />
+                                </div>
+                            </div>
+                            <div id="rightSubtitleCol" layout="wrapLayout">
+                                <div id="col3" layout="wrapLayout" class="colSubtitleText">
+                                    <label id="ewicSubcategoryUOM" class="trText" />
+                                </div>
+                            </div>
+                        </div>
+                        <div id="subtitleContentTop" layout="wrapLayout">
+                            <div id="leftSubtitleCol" layout="wrapLayout">
+                               <div id="subtitleContentTop" layout="wrapLayout">
+                                   <div id="leftSubtitleCol" layout="wrapLayout">
+                                       <div id="col4" layout="wrapLayout" class="colSubtitleTitle2">
+                                           <label id="ewicSubcategoryBenefitlb" class="trTitle"
+                                               valueKey="ewic.reconciliation.subcategory.benefit" />
+                                       </div>
+                                   </div>
+                                   <div id="rightSubtitleCol" layout="wrapLayout">
+                                       <div id="col4" layout="wrapLayout" class="colSubtitleText">
+                                           <label id="ewicSubcategoryBenefit" inputDomain="QUANTITY" class="trText" />
+                                       </div>
+                                   </div>
+                               </div>
+                            </div>
+                            <div id="rightSubtitleCol" layout="wrapLayout">
+                                <div id="col6" layout="wrapLayout" class="colSubtitleTitle">
+                                    <label id="ewicSubcategoryTotallb" class="trTitle"
+                                        valueKey="ewic.reconciliation.subcategory.totalItems" />
+                                </div>
+                                <div id="col7" layout="wrapLayout" class="colSubtitleText">
+                                    <label id="ewicSubcategoryTotalItems" class="trText" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="subtitleRightButtonContent" layout="wrapLayout">
+                        <div id="subtitleContentTop2" layout="wrapLayout">
+                            <div id="subtitleLeftButtonCol" layout="wrapLayout">
+                                <div id="leftButton" class="buttonsPanel"
+                                    layout="wrapLayout">
+                                    <input id="voidButton" class="caSubtitle" type="button"
+                                        valueKey="ewic.reconciliation.void" />
+                                </div>
+                            </div>
+                            <div id="subtitleRightButtonCol" layout="wrapLayout">
+                                <div id="rightButton" class="buttonsPanel"
+                                    layout="wrapLayout">
+                                    <input id="noWicButton" class="cnoSubtitle" type="button"
+                                        valueKey="ewic.reconciliation.noWic" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENT -->
+                <div id="subtitleContentCenter" layout="borderLayout">
+                    <div id="tableArea" constraints="Center" layout="wrapLayout">
+                        <div id="tableWrapper" layout="wrapLayout">
+                            <table id="ewicConfirmationTable" class="selectionTable" cellspacing="0" sortingAllowed="true">
+                                <tpaging pageSize="10" firstPageButtonIds="firstPageButton" previousPageButtonIds="previousPageButton"
+                                    nextPageButtonIds="nextPageButton" lastPageButtonIds="lastPageButton"
+                                    infoLabelIds="pageInfoLabel,displayMessageLabel" />
+                                <thead reorderingAllowed="false" resizingAllowed="true">
+                                    <tr>
+                                        <th id="itemDescription" valueKey="ewic.reconciliation.itemDescription" />
+                                        <th id="upcPluNumber" valueKey="ewic.reconciliation.upcPluNumber" />
+                                        <th id="quantity" valueKey="ewic.reconciliation.quantity" />
+                                        <th id="itemPrice" valueKey="ewic.reconciliation.price" />
+                                        <th id="status" valueKey="ewic.reconciliation.status" />
+                                    </tr>
+                                </thead>
+                                <tr>
+                                    <td style="width:50%;" />
+                                    <td style="width:20%;" class="td-quantity" />
+                                    <td style="width:10%;" class="td-quantity" />
+                                    <td style="width:10%;" class="td-price" />
+                                    <td style="width:10%;" class="last"/>
+                                </tr>
+                            </table>
+                            <!-- table paging toolbar -->
+                            <div id="pagingToolbar" class="pagingToolbar" layout="wrapLayout">
+                                <label id="pageInfoLabel" class="pagingInfoElement"
+                                    valueKey="ewic.balance.inquiry.paging.pageInfo" bean="defaultTablePagingComponentsInfoLabel" />
+                                <div id="pagingToolbarButtons" class="pagingToolbarButtons"
+                                    layout="wrapLayout">
+                                    <input id="firstPageButton" class="pagingElement" type="button" />
+                                    <input id="previousPageButton" class="pagingElement"
+                                        type="button" />
+                                    <input id="nextPageButton" class="pagingElement" type="button" />
+                                    <input id="lastPageButton" class="pagingElement" type="button" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- action buttons below the main panel -->
+                    <div id="tableButtonsPanel" constraints="Last" layout="wrapLayout">
+                        <div id="leftButton" class="buttonsPanel left tableButtonsPanelElement" layout="wrapLayout">
+                            <input id="cancelButton" class="ca" type="button" valueKey="ewic.reconciliation.cancel" />
+                        </div>
+                        <div id="rightButton" class="buttonsPanel right tableButtonsPanelElement" layout="wrapLayout">
+                            <input id="confirmButton" class="cno" type="submit" valueKey="ewic.reconciliation.confirm" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
