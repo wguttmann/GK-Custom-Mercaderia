@@ -56,15 +56,15 @@ td:active {
     text-align: right;
     left: 4px;
 }
-#transactionPreviewVoidLineItemButton {
+/* #transactionPreviewVoidLineItemButton {
     height: 50px;
     width: 45%;
     font-size: 20px;
 	color: rgba(255,255,255,0.8);
 	background-color: rgba(223,51,87,1);
     border: 0px solid rgba(223,51,87,1);
-    border-radius: 12px;
-}
+    border-radius: 12px; 
+}*/
 #transactionPreviewVoidTenderLineItemButton {
     height: 50px;
     width: 100%;
@@ -74,25 +74,25 @@ td:active {
     border: 0px solid rgba(223,51,87,1);
     border-radius: 12px;	
 }
-#transactionPreviewPlusButton {
+/* #transactionPreviewPlusButton {
     height: 50px;
     width: 22%;
     font-size: 30px;
 	padding-bottom: 10px;
-	color: rgba(255,255,255,0.1);
+	color: rgba(255,255,255,0.1); */
 }
-#transactionPreviewMinusButton {
+/* #transactionPreviewMinusButton {
     height: 50px;
     width: 22%;
     font-size: 36px;
 	padding-bottom: 13px;
 	color: rgba(255,255,255,0.1);
-}
-.transactionPreviewQuantityButtonsContainer{
+} */
+/* .transactionPreviewQuantityButtonsContainer{
     border-spacing: 6px;
     padding: 0px 0px 8px 0px;
     height: 60px;
-}
+} */
 #itemDetailsContainers {
     height: 66px;
     width: 100%;
