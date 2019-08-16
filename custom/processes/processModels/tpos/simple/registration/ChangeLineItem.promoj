@@ -1,0 +1,77 @@
+Package processModels.tpos.simple.registration
+
+Import com.gk_software.pos.api.model.config.instances.PosProcessConfigs
+// promo
+Import processModels.tpos.common.registration.ChangeLineItem
+
+
+Process ChangeLineItem specializes AbstractItemRegistrationProcess
+    references com.gk_software.pos.api.model.config.ProcessConfig_DO
+    references com.gk_software.pos.api.model.config.AuthorizationConfig_DO
+    references com.gk_software.pos.api.model.config.ChangeLineItemConfig_DO
+    references com.gk_software.pos.api.model.config.TransactionPreviewContextConfig_DO
+    references com.gk_software.pos.api.model.config.PermanentCustomerInformationConfig_DO
+    references com.gk_software.pos.api.model.config.ItemRegistrationConfig_DO
+    references com.gk_software.pos.api.model.app.LineItemDetails_DO
+    references com.gk_software.pos.api.model.config.ItemEntryConfig_DO
+    references domainobject.com.gk_software.gkr.api.txpool.Transaction
+
+    bundle = PosProcessConfigs
+    parameter config = ChangeLineItemConfigs.Default
+    parameter itemRegistrationConfig = ItemRegistrationConfigs.Default
+
+Action checkLineItemChangable       = java:com.gk_software.pos.flow.libs.transaction.LineItemActionLib::checkLineItemChangableSendUpdatedEvent
+Action getExtendedLineItemDetails   = java:com.gk_software.pos.flow.libs.transaction.LineItemActionLib::getExtendedLineItemDetails
+Action getExtendedLineItemDetailsWithConfig = java:com.gk_software.pos.flow.libs.transaction.LineItemActionLib::getExtendedLineItemDetailsWithConfig
+Condition isPositionVoided          = pojo:com.gk_software.pos.flow.libs.transaction.LineItemActionLib::isPositionVoided
+Condition isCustomerDetailPanelVisible = pojo:com.gk_software.pos.flow.libs.registration.ItemEntryActionLib::isCustomerDetailPanelVisible
+Condition isCustomerVisible         = pojo:com.gk_software.pos.flow.libs.registration.ItemEntryActionLib::isCustomerIconVisible
+Condition isCustomerParentVisible   = pojo:com.gk_software.pos.flow.libs.registration.ItemEntryActionLib::isCustomerParentIconVisible
+Condition isDisplayAllowedTender    = pojo:com.gk_software.pos.flow.libs.registration.ItemEntryActionLib::isDisplayAllowedTender
+
+
+Step Main = java:changeLineItemStepController@com.gk_software.pos.flow.steps.registration.ChangeLineItemStepController
+    screen = xhtml:layouts.tpos.simple.registration.changeLineItem {
+        input barcode                       	=   mainTextInput
+        input selectedLineItem              	=   transactionPreviewTable
+
+        shows currentLineItemDetails.extendedDiscountAmount    = itemDetailsPromotionsValue
+        shows currentLineItemDetails.finalPrice                = itemDetailsPriceValue
+        shows currentLineItemDetails.sellerId                  = itemDetailsSellerValue
+        shows currentLineItemDetails.imageSrcIds               = itemDetailsImage
+
+        transition selectLineItem           	=   transactionPreviewTable
+        transition voidLineItem                 =   dynamic                              visible if(isPositionVoided)
+        transition voidLineItem             	=   Swipe:transactionPreviewTable
+        transition voidLineItem                 =   transactionPreviewVoidLineItemButton visible if(isPositionVoided)
+        transition incrementQuantity            =   dynamic                              visible if(isPositionVoided)
+        transition incrementQuantity            =   transactionPreviewPlusButton         visible if(isPositionVoided)
+        transition decrementQuantityOrVoid      =   transactionPreviewMinusButton        visible if(isPositionVoided)
+        transition decrementQuantityOrVoid   	=   dynamic                              visible if(isPositionVoided)
+        transition repeatLineItem           	=   dynamic                              visible if(isPositionVoided)
+
+        transition setQuantity              	=   dynamic                              visible if(isPositionVoided)
+        transition setPrice                		=   priceButton
+        transition setSerialNumber              =   setSerialNumberButton
+        transition salesPerson                  =   salesPersonButton
+        transition cancel                   	=   cancelButton
+        transition manualLineItemDiscount    	=   tab_discounts
+        transition removeDiscountsForLineItem   =   removeLineItemDiscountsButton
+        transition taxOverride                  =   taxOverrideButton
+        transition taxExemptLineItem            =   dynamic                         toggled if (isTaxExemptActivatedItem(process.selectedLineItem))
+        transition taxExemptLineItem            =   taxExemptLineItemButton         toggled if (isTaxExemptActivatedItem(process.selectedLineItem))
+
+        component salesInfoIconsContainer           visible if (isSalesIconsAvailable)
+        component salesTextsContainer               visible if (isSalesTextsAvailable)
+        component itemDetailsQuantityContainer		  visible if(not isPositionVoided)
+
+        // the whole customer detail panel
+        component customerDetailPanel               visible if (isCustomerDetailPanelVisible)
+        component customerArea                      visible if (isCustomerVisible)
+        component customerId                        visible if (process.config.permanentCustomerInformationConfig.displayBuyerNumber)
+        component customerName                      visible if (process.config.permanentCustomerInformationConfig.displayBuyerName)
+        component subheaderCustomerTenderArea       visible if (isDisplayAllowedTender)
+        component parentCustomerArea                visible if (isCustomerParentVisible)
+        component parentCustomerId                  visible if (process.config.permanentCustomerInformationConfig.displayCustomerNumber)
+        component parentCustomerName                visible if (process.config.permanentCustomerInformationConfig.displayCustomerName)
+     }
