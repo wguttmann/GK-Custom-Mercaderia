@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FILE_RESOURCE_DESCRIPTOR>
+    <FILE_RESOURCE_GROUP DESCRIPTION="General" NAME="General">
+		<FILE_RESOURCE
+            FILE_NAME="./custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"
+            NAME="ChangeLineItem.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/hal.properties"
+            NAME="hal.properties" TARGET_FILE_NAME="config/custom/parameter/client/hal.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"
+            NAME="customerFlowPaymentTransactionInfos.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPosClosed.xml"
+            NAME="customerFlowPosClosed.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowPosClosed.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowRegistration.xml"
+            NAME="customerFlowRegistration.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowRegistration.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentMediaPanels.xml"
+            NAME="customerFlowPaymentMediaPanels.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentMediaPanels.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded2_Subtype4x6.xml"
+            NAME="tableauTemplateEmbedded2_Subtype4x6.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded2_Subtype4x6.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateFullList1.xml"
+            NAME="tableauTemplateFullList1.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateFullList1.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateFullTabs1.xml"
+            NAME="tableauTemplateFullTabs1.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateFullTabs1.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerPickupConfigs.properties"
+            NAME="cashRecyclerPickupConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerPickupConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerReleaseCassetteConfigs.properties"
+            NAME="cashRecyclerReleaseCassetteConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerReleaseCassetteConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerResetConfigs.properties"
+            NAME="cashRecyclerResetConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerResetConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerPaymentConfigs.properties"
+            NAME="cashRecyclerPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerReturnCoinsConfigs.properties"
+            NAME="cashRecyclerReturnCoinsConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerReturnCoinsConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerVerificationConfigs.properties"
+            NAME="cashRecyclerVerificationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerVerificationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/centralAppLoginConfigs.properties"
+            NAME="centralAppLoginConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/centralAppLoginConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/centralAppLogoutConfigs.properties"
+            NAME="centralAppLogoutConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/centralAppLogoutConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/changeConfigs.properties"
+            NAME="changeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/changeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/changeLineItemConfigs.properties"
+            NAME="changeLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/changeLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/checkPaymentConfigs.properties"
+            NAME="checkPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/checkPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/checkPaymentOperationConfigs.properties"
+            NAME="checkPaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/checkPaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/checkPickupLimitConfigs.properties"
+            NAME="checkPickupLimitConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/checkPickupLimitConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/checkSellerAssignmentConfigs.properties"
+            NAME="checkSellerAssignmentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/checkSellerAssignmentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/conditionInputValueConfigs.properties"
+            NAME="conditionInputValueConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/conditionInputValueConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/conditionSplitConfigs.properties"
+            NAME="conditionSplitConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/conditionSplitConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/tableau-data/TableauConfig.json"
+            NAME="Tableau Config" TARGET_FILE_NAME="config/standard/parameter/client/tableau-data/TableauConfig.json"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/cola.jpg"
+            NAME="cola.jpg" TARGET_FILE_NAME="media/image/standard/cola.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/widescreen/auth/authBase.xml"
+            NAME="authBase.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/widescreen/auth/authBase.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/appinfo/appinfo.css"
+            NAME="appinfo.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/appinfo/appinfo.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/auth/auth.css"
+            NAME="auth.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/auth/auth.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/common/common.css"
+            NAME="common.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/common/common.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/custom/custom.css"
+            NAME="custom.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/custom/custom.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/customerFlow/customerFlow.css"
+            NAME="customerFlow.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/customerFlow/customerFlow.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerAccountPaymentConfigs.properties"
+            NAME="customerAccountPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerAccountPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerCriteriaSearchConfigs.properties"
+            NAME="customerCriteriaSearchConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerCriteriaSearchConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/createSuspendCodeConfigs.properties"
+            NAME="createSuspendCodeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/createSuspendCodeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/creditPaymentConfigs.properties"
+            NAME="creditPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/creditPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/creditPaymentOperationConfigs.properties"
+            NAME="creditPaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/creditPaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/currencySelectionConfigs.properties"
+            NAME="currencySelectionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/currencySelectionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerDataEntryConfigs.properties"
+            NAME="customerDataEntryConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerDataEntryConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerFlowConfigs.properties"
+            NAME="customerFlowConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerFlowConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerFlowScoConfigs.properties"
+            NAME="customerFlowScoConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerFlowScoConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerIdentificationConfigs.properties"
+            NAME="customerIdentificationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerIdentificationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerInfoConfigs.properties"
+            NAME="customerInfoConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerInfoConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerOperationConfigs.properties"
+            NAME="customerOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerRegistrationConfigs.properties"
+            NAME="customerRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/customerSearchConfigs.properties"
+            NAME="customerSearchConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/customerSearchConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/dataPrivacyConfigs.properties"
+            NAME="dataPrivacyConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/dataPrivacyConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/deactivateScoConfigs.properties"
+            NAME="deactivateScoConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/deactivateScoConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded1.css"
+            NAME="tableauTemplateEmbedded1.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded1.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded2.css"
+            NAME="tableauTemplateEmbedded2.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded2.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/displayCouponsConfigs.properties"
+            NAME="displayCouponsConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/displayCouponsConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/downpaymentLineItemConfigs.properties"
+            NAME="downpaymentLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/downpaymentLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/eBTBalanceInquiryConfigs.properties"
+            NAME="eBTBalanceInquiryConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/eBTBalanceInquiryConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/decisionDialogConfigs.properties"
+            NAME="decisionDialogConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/decisionDialogConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/deviceServiceConfigs.properties"
+            NAME="deviceServiceConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/deviceServiceConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/employeePurchaseConfigs.properties"
+            NAME="employeePurchaseConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/employeePurchaseConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/emptiesReturnConfigs.properties"
+            NAME="emptiesReturnConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/emptiesReturnConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/endOfDayConfigs.properties"
+            NAME="endOfDayConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/endOfDayConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/endProgramConfigs.properties"
+            NAME="endProgramConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/endProgramConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/enterCouponConfigs.properties"
+            NAME="enterCouponConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/enterCouponConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/ewicBalanceInquiryConfigs.properties"
+            NAME="ewicBalanceInquiryConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/ewicBalanceInquiryConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/ewicPaymentConfigs.properties"
+            NAME="ewicPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/ewicPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/ewicPaymentOperationConfigs.properties"
+            NAME="ewicPaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/ewicPaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/executeCommandConfigs.properties"
+            NAME="executeCommandConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/executeCommandConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/executeCommandOperationConfigs.properties"
+            NAME="executeCommandOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/executeCommandOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/findTransactionConfigs.properties"
+            NAME="findTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/findTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/finishScoServiceModeConfigs.properties"
+            NAME="finishScoServiceModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/finishScoServiceModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded2_Subtype12x6.css"
+            NAME="tableauTemplateEmbedded2_Subtype12x6.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded2_Subtype12x6.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded2_Subtype4x6.css"
+            NAME="tableauTemplateEmbedded2_Subtype4x6.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateEmbedded2_Subtype4x6.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateFullList1.css"
+            NAME="tableauTemplateFullList1.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateFullList1.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationCloseFiscalDayConfigs.properties"
+            NAME="fiscalizationCloseFiscalDayConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationCloseFiscalDayConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationControlTransactionConfigs.properties"
+            NAME="fiscalizationControlTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationControlTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationCustomerContactConfigs.properties"
+            NAME="fiscalizationCustomerContactConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationCustomerContactConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalInvoiceConfig.properties"
+            NAME="fiscalInvoiceConfig.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalInvoiceConfig.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationAppInfoConfig.properties"
+            NAME="fiscalizationAppInfoConfig.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationAppInfoConfig.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationInitializeEJConfigs.properties"
+            NAME="fiscalizationInitializeEJConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationInitializeEJConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationPrintReportConfigs.properties"
+            NAME="fiscalizationPrintReportConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationPrintReportConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationPrintXReportConfigs.properties"
+            NAME="fiscalizationPrintXReportConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationPrintXReportConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationReceiptCorrectionConfigs.properties"
+            NAME="fiscalizationReceiptCorrectionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationReceiptCorrectionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationSignTransactionConfigs.properties"
+            NAME="fiscalizationSignTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationSignTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalizationStartTransactionConfigs.properties"
+            NAME="fiscalizationStartTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalizationStartTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/fiscalToggleReceiptCorrectionModeConfigs.properties"
+            NAME="fiscalToggleReceiptCorrectionModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/fiscalToggleReceiptCorrectionModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/foodStampsTotalConfigs.properties"
+            NAME="foodStampsTotalConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/foodStampsTotalConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/getCouponsForCustomerConfigs.properties"
+            NAME="getCouponsForCustomerConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/getCouponsForCustomerConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/giftCertificateInfoConfigs.properties"
+            NAME="giftCertificateInfoConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/giftCertificateInfoConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateFullTabs1.css"
+            NAME="tableauTemplateFullTabs1.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/tableau/tableauTemplateFullTabs1.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/transaction/transactionPreviewComponent.css"
+            NAME="transactionPreviewComponent.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/transaction/transactionPreviewComponent.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/css/widescreen/widescreen.css"
+            NAME="widescreen.css" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/css/widescreen/widescreen.css"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/logo3.png"
+            NAME="logo3.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/logo3.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/logo_bg.png"
+            NAME="logo_bg.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/logo_bg.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/giftCertificateReturnConfigs.properties"
+            NAME="giftCertificateReturnConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/giftCertificateReturnConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/giftCertificateSaleConfigs.properties"
+            NAME="giftCertificateSaleConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/giftCertificateSaleConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/goodsReturnConfigs.properties"
+            NAME="goodsReturnConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/goodsReturnConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/invoicePaymentConfigs.properties"
+            NAME="invoicePaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/invoicePaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/giftCertificatePaymentConfigs.properties"
+            NAME="giftCertificatePaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/giftCertificatePaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/giftCertificatePaymentOperationConfigs.properties"
+            NAME="giftCertificatePaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/giftCertificatePaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/invoicePrintingConfigs.properties"
+            NAME="invoicePrintingConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/invoicePrintingConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/invoicePrintoutActivationConfigs.properties"
+            NAME="invoicePrintoutActivationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/invoicePrintoutActivationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/itemEntryConfigs.properties"
+            NAME="itemEntryConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/itemEntryConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/itemInfoConfigs.properties"
+            NAME="itemInfoConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/itemInfoConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/itemRegistrationConfigs.properties"
+            NAME="itemRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/itemRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/itemRegistrationTakeAwayConfigs.properties"
+            NAME="itemRegistrationTakeAwayConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/itemRegistrationTakeAwayConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/itemSearchConfigs.properties"
+            NAME="itemSearchConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/itemSearchConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/launchAppConfigs.properties"
+            NAME="launchAppConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/launchAppConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/localDrawerAccountingConfigs.properties"
+            NAME="localDrawerAccountingConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/localDrawerAccountingConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/lockConfigs.properties"
+            NAME="lockConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/lockConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea.png"
+            NAME="bg_apparea.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_auth.png"
+            NAME="bg_apparea_auth.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_auth.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_auth_orig.png"
+            NAME="bg_apparea_auth_orig.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_auth_orig.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_inputs.png"
+            NAME="bg_apparea_inputs.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_inputs.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_inputs_small.png"
+            NAME="bg_apparea_inputs_small.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_apparea_inputs_small.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio16to9.png"
+            NAME="bg_ratio16to9.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio16to9.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio16to9_auth.png"
+            NAME="bg_ratio16to9_auth.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio16to9_auth.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio16to9_returns.png"
+            NAME="bg_ratio16to9_returns.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio16to9_returns.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio4to3.png"
+            NAME="bg_ratio4to3.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio4to3.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio4to3_auth.png"
+            NAME="bg_ratio4to3_auth.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio4to3_auth.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio4to3_returns.png"
+            NAME="bg_ratio4to3_returns.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/bg_ratio4to3_returns.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/cust_bg_ratio16to9.png"
+            NAME="cust_bg_ratio16to9.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/cust_bg_ratio16to9.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/common/backgrounds/cust_bg_ratio4to3.png"
+            NAME="cust_bg_ratio4to3.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/common/backgrounds/cust_bg_ratio4to3.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/custom/academy/background_gka.png"
+            NAME="background_gka.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/custom/academy/background_gka.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/manualReceiptDiscountConfigs.properties"
+            NAME="manualReceiptDiscountConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/manualReceiptDiscountConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/merchandiseCategorySaleConfigs.properties"
+            NAME="merchandiseCategorySaleConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/merchandiseCategorySaleConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/lockOperationConfigs.properties"
+            NAME="lockOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/lockOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/loginConfigs.properties"
+            NAME="loginConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/loginConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/logoutConfigs.properties"
+            NAME="logoutConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/logoutConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/loyaltyRewardConfigs.properties"
+            NAME="loyaltyRewardConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/loyaltyRewardConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/manualLineItemDiscountConfigs.properties"
+            NAME="manualLineItemDiscountConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/manualLineItemDiscountConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/messageDialogConfigs.properties"
+            NAME="messageDialogConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/messageDialogConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/mobilePaymentConfigs.properties"
+            NAME="mobilePaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/mobilePaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/openDrawerConfigs.properties"
+            NAME="openDrawerConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/openDrawerConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/overlayErrorConfig.properties"
+            NAME="overlayErrorConfig.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/overlayErrorConfig.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/packageSelectionConfigs.properties"
+            NAME="packageSelectionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/packageSelectionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/payInOutConfigs.properties"
+            NAME="payInOutConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/payInOutConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/paymentConfigs.properties"
+            NAME="paymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/paymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/paymentEndConfigs.properties"
+            NAME="paymentEndConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/paymentEndConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/permanentCustomerInformationConfigs.properties"
+            NAME="permanentCustomerInformationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/permanentCustomerInformationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/pointsPaymentConfigs.properties"
+            NAME="pointsPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/pointsPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/custom/academy/logo_gka_retailer_icon.png"
+            NAME="logo_gka_retailer_icon.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/custom/academy/logo_gka_retailer_icon.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/logo_custom.png"
+            NAME="logo_custom.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/logo_custom.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_locked.png"
+            NAME="bg_locked.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_locked.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_panel1.jpg"
+            NAME="bg_panel1.jpg" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_panel1.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/custom/academy/bg_example_01.png"
+            NAME="bg_example_01.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/custom/academy/bg_example_01.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/custom/academy/bg_example_02.png"
+            NAME="bg_example_02.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/custom/academy/bg_example_02.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/custom/academy/bg_gkretail.png"
+            NAME="bg_gkretail.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/custom/academy/bg_gkretail.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/custom/academy/logo_gka_big.png"
+            NAME="logo_gka_big.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/custom/academy/logo_gka_big.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_paymentEnd.png"
+            NAME="bg_paymentEnd.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_paymentEnd.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_registration.png"
+            NAME="bg_registration.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_registration.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_welcome.png"
+            NAME="bg_welcome.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/bg_welcome.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_panel1_payment.jpg"
+            NAME="cst_bg_panel1_payment.jpg" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_panel1_payment.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_panel1_registration.jpg"
+            NAME="cst_bg_panel1_registration.jpg" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_panel1_registration.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_registration.png"
+            NAME="cst_bg_registration.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_registration.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/posGroupLockConfigs.properties"
+            NAME="posGroupLockConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/posGroupLockConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/posGroupLoginConfigs.properties"
+            NAME="posGroupLoginConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/posGroupLoginConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/posGroupLogoutConfigs.properties"
+            NAME="posGroupLogoutConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/posGroupLogoutConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/posGroupOperatorActivationConfigs.properties"
+            NAME="posGroupOperatorActivationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/posGroupOperatorActivationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/pointsPaymentOperationConfigs.properties"
+            NAME="pointsPaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/pointsPaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/posGroupRetrieveTransactionConfigs.properties"
+            NAME="posGroupRetrieveTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/posGroupRetrieveTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/positionOperationConfigs.properties"
+            NAME="positionOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/positionOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/positionRepetitionClientConfigs.properties"
+            NAME="positionRepetitionClientConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/positionRepetitionClientConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/positionRepetitionConfigs.properties"
+            NAME="positionRepetitionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/positionRepetitionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/postRegistrationConfigs.properties"
+            NAME="postRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/postRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/prepaidCreditRefundConfigs.properties"
+            NAME="prepaidCreditRefundConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/prepaidCreditRefundConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/prepaidCreditSaleConfigs.properties"
+            NAME="prepaidCreditSaleConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/prepaidCreditSaleConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/printGiftReceiptConfigs.properties"
+            NAME="printGiftReceiptConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/printGiftReceiptConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/printoutRepetitionConfigs.properties"
+            NAME="printoutRepetitionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/printoutRepetitionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/processBarcodeConfigs.properties"
+            NAME="processBarcodeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/processBarcodeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/processMenuConfigs.properties"
+            NAME="processMenuConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/processMenuConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./standard/parameter/client/gk-public.key"
+            NAME="gk-public.key" TARGET_FILE_NAME="config/standard/parameter/client/gk-public.key"/>
+        <FILE_RESOURCE
+            FILE_NAME="./standard/parameter/client/signing/public_key.txt"
+            NAME="public_key.txt" TARGET_FILE_NAME="config/standard/parameter/client/signing/public_key.txt"/>
+        <FILE_RESOURCE
+            FILE_NAME="./standard/parameter/client/signing/gkretail.keystore"
+            NAME="gkretail.keystore" TARGET_FILE_NAME="config/standard/parameter/client/signing/gkretail.keystore"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_welcome.png"
+            NAME="cst_bg_welcome.png" TARGET_FILE_NAME="config/custom/ui/themes/tpos/simple/colored/images/customerFlow/mediapanel/cst_bg_welcome.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./standard/parameter/client/signing/gkretail.keystore.sha"
+            NAME="gkretail.keystore.sha" TARGET_FILE_NAME="config/standard/parameter/client/signing/gkretail.keystore.sha"/>
+        <FILE_RESOURCE
+            FILE_NAME="./standard/parameter/client/media/test.wav"
+            NAME="test.wav" TARGET_FILE_NAME="config/standard/parameter/client/media/test.wav"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery.jpg"
+            NAME="bakery.jpg" TARGET_FILE_NAME="media/image/standard/bakery.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery622.jpg"
+            NAME="bakery622.jpg" TARGET_FILE_NAME="media/image/standard/bakery622.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/promotionGiftCertificateConfig.properties"
+            NAME="promotionGiftCertificateConfig.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/promotionGiftCertificateConfig.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/promotionOperationConfigs.properties"
+            NAME="promotionOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/promotionOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/promptDateRangeInputConfigs.properties"
+            NAME="promptDateRangeInputConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/promptDateRangeInputConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/promptReceiptDataConfigs.properties"
+            NAME="promptReceiptDataConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/promptReceiptDataConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/promptUser.properties"
+            NAME="promptUser.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/promptUser.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/promptUserDialogConfigs.properties"
+            NAME="promptUserDialogConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/promptUserDialogConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/receiptAsEmailActivationConfigs.properties"
+            NAME="receiptAsEmailActivationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/receiptAsEmailActivationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/receiptSelectionConfigs.properties"
+            NAME="receiptSelectionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/receiptSelectionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/recoveryConfigs.properties"
+            NAME="recoveryConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/recoveryConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/removeCustomerConfigs.properties"
+            NAME="removeCustomerConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/removeCustomerConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/removeDiscountsForLineItemConfigs.properties"
+            NAME="removeDiscountsForLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/removeDiscountsForLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/removeDiscountsForTransactionConfigs.properties"
+            NAME="removeDiscountsForTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/removeDiscountsForTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/removeLineItemConfigs.properties"
+            NAME="removeLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/removeLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/repeatLineItemConfigs.properties"
+            NAME="repeatLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/repeatLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/restServiceConfigs.properties"
+            NAME="restServiceConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/restServiceConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveEmptiesTransactionConfigs.properties"
+            NAME="retrieveEmptiesTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveEmptiesTransactionConfigs.properties"/>
+        <FILE_RESOURCE FILE_NAME="./standard/parameter/client/logo.bmp"
+            NAME="logo.bmp" TARGET_FILE_NAME="config/standard/parameter/client/logo.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery610.jpg"
+            NAME="bakery610.jpg" TARGET_FILE_NAME="media/image/standard/bakery610.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery624.jpg"
+            NAME="bakery624.jpg" TARGET_FILE_NAME="media/image/standard/bakery624.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/prepaid.jpg"
+            NAME="prepaid.jpg" TARGET_FILE_NAME="media/image/standard/prepaid.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveTransactionsConfigs.properties"
+            NAME="retrieveTransactionsConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveTransactionsConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/returnWithTransactionConfigs.properties"
+            NAME="returnWithTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/returnWithTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/salesOrderRegistrationConfigs.properties"
+            NAME="salesOrderRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/salesOrderRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveOpenSSCTransactionConfigs.properties"
+            NAME="retrieveOpenSSCTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveOpenSSCTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveSalesOrderConfigs.properties"
+            NAME="retrieveSalesOrderConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveSalesOrderConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveScaleTransactionConfigs.properties"
+            NAME="retrieveScaleTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveScaleTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveSSCTransactionConfigs.properties"
+            NAME="retrieveSSCTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveSSCTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/retrieveSuspendCodeConfigs.properties"
+            NAME="retrieveSuspendCodeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/retrieveSuspendCodeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/salesOrderSearchConfigs.properties"
+            NAME="salesOrderSearchConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/salesOrderSearchConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/salesRestrictionsConfigs.properties"
+            NAME="salesRestrictionsConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/salesRestrictionsConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/scaleVersionConfigs.properties"
+            NAME="scaleVersionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/scaleVersionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/screenFoodConfigs.properties"
+            NAME="screenFoodConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/screenFoodConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/selectDeliveryOptionsConfigs.properties"
+            NAME="selectDeliveryOptionsConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/selectDeliveryOptionsConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setDefaultTareConfigs.properties"
+            NAME="setDefaultTareConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setDefaultTareConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setLanguageConfigs.properties"
+            NAME="setLanguageConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setLanguageConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setManualTareConfigs.properties"
+            NAME="setManualTareConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setManualTareConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery612.jpg"
+            NAME="bakery612.jpg" TARGET_FILE_NAME="media/image/standard/bakery612.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery614.jpg"
+            NAME="bakery614.jpg" TARGET_FILE_NAME="media/image/standard/bakery614.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/prepaid_item.jpg"
+            NAME="prepaid_item.jpg" TARGET_FILE_NAME="media/image/standard/prepaid_item.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/shirt.jpg"
+            NAME="shirt.jpg" TARGET_FILE_NAME="media/image/standard/shirt.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setSerialNumberForLineItemConfigs.properties"
+            NAME="setSerialNumberForLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setSerialNumberForLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setWeighedTareConfigs.properties"
+            NAME="setWeighedTareConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setWeighedTareConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setPriceForLineItemConfigs.properties"
+            NAME="setPriceForLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setPriceForLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/setQuantityForLineItemConfigs.properties"
+            NAME="setQuantityForLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/setQuantityForLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/showErrorConfig.properties"
+            NAME="showErrorConfig.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/showErrorConfig.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/showHelp.properties"
+            NAME="showHelp.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/showHelp.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/showMessage.properties"
+            NAME="showMessage.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/showMessage.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/signalConfigs.properties"
+            NAME="signalConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/signalConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/signOffTerminals.properties"
+            NAME="signOffTerminals.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/signOffTerminals.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/signOnTerminals.properties"
+            NAME="signOnTerminals.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/signOnTerminals.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/slipPrintingConfigs.properties"
+            NAME="slipPrintingConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/slipPrintingConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/startScoServiceModeConfigs.properties"
+            NAME="startScoServiceModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/startScoServiceModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/storeSearchConfigs.properties"
+            NAME="storeSearchConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/storeSearchConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/subtotalVerificationConfigs.properties"
+            NAME="subtotalVerificationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/subtotalVerificationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/suspendTransactionConfigs.properties"
+            NAME="suspendTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/suspendTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/tableConfigs.properties"
+            NAME="tableConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/tableConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/taxExemptConfigs.properties"
+            NAME="taxExemptConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/taxExemptConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery615.jpg"
+            NAME="bakery615.jpg" TARGET_FILE_NAME="media/image/standard/bakery615.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/bakery626.jpg"
+            NAME="bakery626.jpg" TARGET_FILE_NAME="media/image/standard/bakery626.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/media/grapes.jpg"
+            NAME="grapes.jpg" TARGET_FILE_NAME="media/image/standard/grapes.jpg"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminEndOfDayConfigs.properties"
+            NAME="terminalAdminEndOfDayConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminEndOfDayConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminInitConfigs.properties"
+            NAME="terminalAdminInitConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminInitConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/taxOverrideConfigs.properties"
+            NAME="taxOverrideConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/taxOverrideConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/tenderExchangeConfigs.properties"
+            NAME="tenderExchangeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/tenderExchangeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/tenderPickupConfigs.properties"
+            NAME="tenderPickupConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/tenderPickupConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/tenderRegistrationConfigs.properties"
+            NAME="tenderRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/tenderRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminDiagnosticConfigs.properties"
+            NAME="terminalAdminDiagnosticConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminDiagnosticConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminKeyExchangeConfigs.properties"
+            NAME="terminalAdminKeyExchangeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminKeyExchangeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminLoginConfigs.properties"
+            NAME="terminalAdminLoginConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminLoginConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminLogoutConfigs.properties"
+            NAME="terminalAdminLogoutConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminLogoutConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminMCEmvReprintConfigs.properties"
+            NAME="terminalAdminMCEmvReprintConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminMCEmvReprintConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminReprintConfigs.properties"
+            NAME="terminalAdminReprintConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminReprintConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalAdminRestartConfigs.properties"
+            NAME="terminalAdminRestartConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalAdminRestartConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalDisplayLinesConfigs.properties"
+            NAME="terminalDisplayLinesConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalDisplayLinesConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalPaymentConfigs.properties"
+            NAME="terminalPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalPaymentOperationConfigs.properties"
+            NAME="terminalPaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalPaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/services-client.properties"
+            NAME="services-client.properties" TARGET_FILE_NAME="config/custom/parameter/client/services-client.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/ui-translation_es_CO.properties"
+            NAME="ui-translation_es_CO.properties" TARGET_FILE_NAME="config/custom/parameter/client/ui-translation_es_CO.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau-data/tableau-translation_es_CO.properties"
+            NAME="tableau-translation_es_CO.properties" TARGET_FILE_NAME="config/custom/parameter/client/tableau-data/tableau-translation_es_CO.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/translations/report-translation_es_CO.properties"
+            NAME="report-translation_es_CO.properties" TARGET_FILE_NAME="config/custom/parameter/client/reports/translations/report-translation_es_CO.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/terminalRegistrationConfigs.properties"
+            NAME="terminalRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/terminalRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/tillSelectionConfigs.properties"
+            NAME="tillSelectionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/tillSelectionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/timeOutConfigs.properties"
+            NAME="timeOutConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/timeOutConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/toggleEmptiesReturnModeConfigs.properties"
+            NAME="toggleEmptiesReturnModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/toggleEmptiesReturnModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/toggleOfflineModeConfigs.properties"
+            NAME="toggleOfflineModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/toggleOfflineModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/toggleReturnModeConfigs.properties"
+            NAME="toggleReturnModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/toggleReturnModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/toggleTareFixConfigs.properties"
+            NAME="toggleTareFixConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/toggleTareFixConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/toggleWicModeConfigs.properties"
+            NAME="toggleWicModeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/toggleWicModeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/tPosFlowConfigs.properties"
+            NAME="tPosFlowConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/tPosFlowConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/transactionPreviewContextConfigs.properties"
+            NAME="transactionPreviewContextConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/transactionPreviewContextConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/transactionReadConfigs.properties"
+            NAME="transactionReadConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/transactionReadConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/transactionReportPrintConfigs.properties"
+            NAME="transactionReportPrintConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/transactionReportPrintConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/unfinishedTransactionsConfigs.properties"
+            NAME="unfinishedTransactionsConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/unfinishedTransactionsConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/unLockOperationConfigs.properties"
+            NAME="unLockOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/unLockOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/valuephoneConfigs.properties"
+            NAME="valuephoneConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/valuephoneConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/voidLineItemConfigs.properties"
+            NAME="voidLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/voidLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowRegistrationMediaPanels.xml"
+            NAME="customerFlowRegistrationMediaPanels.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowRegistrationMediaPanels.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowRegistrationTransactionInfos.xml"
+            NAME="customerFlowRegistrationTransactionInfos.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowRegistrationTransactionInfos.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowWelcome.xml"
+            NAME="customerFlowWelcome.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowWelcome.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/payment/paymentBase.xml"
+            NAME="paymentBase.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/payment/paymentBase.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/jasper-reports/translations/resources-reports_es_CO.properties"
+            NAME="resources-reports_es_CO.properties" TARGET_FILE_NAME="config/custom/parameter/client/jasper-reports/translations/resources-reports_es_CO.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/logos/other/logo_mercaderia.bmp"
+            NAME="logo_mercaderia.bmp" TARGET_FILE_NAME="config/custom/parameter/client/reports/logos/other/logo_mercaderia.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/barcodeProcessor.properties"
+            NAME="barcodeProcessor.properties" TARGET_FILE_NAME="config/custom/parameter/client/barcodeProcessor.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/dcc.properties"
+            NAME="dcc.properties" TARGET_FILE_NAME="config/custom/parameter/client/dcc.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/logos/gk/logo_academy.bmp"
+            NAME="logo_academy.bmp" TARGET_FILE_NAME="config/custom/parameter/client/reports/logos/gk/logo_academy.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/logos/gk/logo_academy_virtual.bmp"
+            NAME="logo_academy_virtual.bmp" TARGET_FILE_NAME="config/custom/parameter/client/reports/logos/gk/logo_academy_virtual.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/logos/gk/logo_GK.bmp"
+            NAME="logo_GK.bmp" TARGET_FILE_NAME="config/custom/parameter/client/reports/logos/gk/logo_GK.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/logos/gk/logo_GK_virtual.bmp"
+            NAME="logo_GK_virtual.bmp" TARGET_FILE_NAME="config/custom/parameter/client/reports/logos/gk/logo_GK_virtual.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/mediaPanel.properties"
+            NAME="mediaPanel.properties" TARGET_FILE_NAME="config/custom/parameter/client/mediaPanel.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/jasper-reports/translations/resources-reports_en_GB.properties"
+            NAME="resources-reports_en_GB.properties" TARGET_FILE_NAME="config/custom/parameter/client/jasper-reports/translations/resources-reports_en_GB.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/voidTenderLineItemConfigs.properties"
+            NAME="voidTenderLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/voidTenderLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/voidTransactionConfigs.properties"
+            NAME="voidTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/voidTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/zeroScaleConfigs.properties"
+            NAME="zeroScaleConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/zeroScaleConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/jasper-reports/images/Full_Logo_GK.png"
+            NAME="Full_Logo_GK.png" TARGET_FILE_NAME="config/custom/parameter/client/jasper-reports/images/Full_Logo_GK.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/registration/registrationBase.xml"
+            NAME="registrationBase.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/registration/registrationBase.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded1.xml"
+            NAME="tableauTemplateEmbedded1.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded1.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/ui-translation_en_IE.properties"
+            NAME="ui-translation_en_IE.properties" TARGET_FILE_NAME="config/custom/parameter/client/ui-translation_en_IE.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/ui-translation_de_DE.properties"
+            NAME="ui-translation_de_DE.properties" TARGET_FILE_NAME="config/custom/parameter/client/ui-translation_de_DE.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/accountReportConfigs.properties"
+            NAME="accountReportConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/accountReportConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/report.properties"
+            NAME="report.properties" TARGET_FILE_NAME="config/custom/parameter/client/report.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau.properties"
+            NAME="tableau.properties" TARGET_FILE_NAME="config/custom/parameter/client/tableau.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/allowedTendersConfigs.properties"
+            NAME="allowedTendersConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/allowedTendersConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/alternativeTaxConfigs.properties"
+            NAME="alternativeTaxConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/alternativeTaxConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/assignSellerForLineItemConfigs.properties"
+            NAME="assignSellerForLineItemConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/assignSellerForLineItemConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/authenticationConfigs.properties"
+            NAME="authenticationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/authenticationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/authorizationConfigs.properties"
+            NAME="authorizationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/authorizationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/authorizationProcessConfigs.properties"
+            NAME="authorizationProcessConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/authorizationProcessConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/autoLoginConfigs.properties"
+            NAME="autoLoginConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/autoLoginConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/automaticUpdateConfigs.properties"
+            NAME="automaticUpdateConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/automaticUpdateConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/jasper-reports/translations/resources-reports_en_IE.properties"
+            NAME="resources-reports_en_IE.properties" TARGET_FILE_NAME="config/custom/parameter/client/jasper-reports/translations/resources-reports_en_IE.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/es_CO/template.dtd"
+            NAME="template.dtd" TARGET_FILE_NAME="config/custom/parameter/client/reports/es_CO/template.dtd"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/reports/es_CO/transaction-preview-c-w44.xml"
+            NAME="transaction-preview-c-w44.xml" TARGET_FILE_NAME="config/custom/parameter/client/reports/es_CO/transaction-preview-c-w44.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded2.xml"
+            NAME="tableauTemplateEmbedded2.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded2.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/browserConfigs.properties"
+            NAME="browserConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/browserConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/bulkItemRegistrationConfigs.properties"
+            NAME="bulkItemRegistrationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/bulkItemRegistrationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cancelTransactionConfigs.properties"
+            NAME="cancelTransactionConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cancelTransactionConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashbackConfigs.properties"
+            NAME="cashbackConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashbackConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/aztecCodeInterpretationConfigs.properties"
+            NAME="aztecCodeInterpretationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/aztecCodeInterpretationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/baseQueryConfigs.properties"
+            NAME="baseQueryConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/baseQueryConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/brandDeviceServiceToolServiceConfigs.properties"
+            NAME="brandDeviceServiceToolServiceConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/brandDeviceServiceToolServiceConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashCheckConfigs.properties"
+            NAME="cashCheckConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashCheckConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashDrawerConfigs.properties"
+            NAME="cashDrawerConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashDrawerConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashPaymentConfigs.properties"
+            NAME="cashPaymentConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashPaymentConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashPaymentOperationConfigs.properties"
+            NAME="cashPaymentOperationConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashPaymentOperationConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerCashCheckConfigs.properties"
+            NAME="cashRecyclerCashCheckConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerCashCheckConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerCashExchangeConfigs.properties"
+            NAME="cashRecyclerCashExchangeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerCashExchangeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerChangeConfigs.properties"
+            NAME="cashRecyclerChangeConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerChangeConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerCloseCoverConfigs.properties"
+            NAME="cashRecyclerCloseCoverConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerCloseCoverConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/flow/cashRecyclerOpenCoverConfigs.properties"
+            NAME="cashRecyclerOpenCoverConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/flow/cashRecyclerOpenCoverConfigs.properties"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/auth/authBackgroundDock.xml"
+            NAME="authBackgroundDock.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/auth/authBackgroundDock.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/common/panels/contextStateInfoPanel.xml"
+            NAME="contextStateInfoPanel.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/common/panels/contextStateInfoPanel.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowBreak.xml"
+            NAME="customerFlowBreak.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowBreak.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/images/cst_splashscreen_tpos.png"
+            NAME="cst_splashscreen_tpos.png" TARGET_FILE_NAME="config/custom/ui/images/cst_splashscreen_tpos.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPayment.xml"
+            NAME="customerFlowPayment.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowPayment.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded2_Subtype12x6.xml"
+            NAME="tableauTemplateEmbedded2_Subtype12x6.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/tableau/templates/tableauTemplateEmbedded2_Subtype12x6.xml"/>
+    </FILE_RESOURCE_GROUP>
+    <FILE_RESOURCE_GROUP DESCRIPTION="Jasper Reports" NAME="Jasper">
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_info_tender.jrxml"
+            NAME="A4_info_tender.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_info_tender.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_info_total_discounts.jrxml"
+            NAME="A4_info_total_discounts.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_info_total_discounts.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_info_total_tax.jrxml"
+            NAME="A4_info_total_tax.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_info_total_tax.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4.jrxml"
+            NAME="A4.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_header_left_top.jrxml"
+            NAME="A4_header_left_top.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_header_left_top.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_header_left_bottom.jrxml"
+            NAME="A4_header_left_bottom.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_header_left_bottom.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_header_right.jrxml"
+            NAME="A4_header_right.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_header_right.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_info_total.jrxml"
+            NAME="A4_info_total.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_info_total.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items_additional_parameters.jrxml"
+            NAME="A4_line_items_additional_parameters.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items_additional_parameters.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items_sales_order_data_items.jrxml"
+            NAME="A4_line_items_sales_order_data_items.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items_sales_order_data_items.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items_sales_order_data_order_amount.jrxml"
+            NAME="A4_line_items_sales_order_data_order_amount.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items_sales_order_data_order_amount.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items_set_information.jrxml"
+            NAME="A4_line_items_set_information.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items_set_information.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items_promotions.jrxml"
+            NAME="A4_line_items_promotions.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items_promotions.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items.jrxml"
+            NAME="A4_line_items.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_voided_receipt_reason.jrxml"
+            NAME="A4_voided_receipt_reason.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_voided_receipt_reason.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_footer.jrxml"
+            NAME="A4_footer.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_footer.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_footer_last.jrxml"
+            NAME="A4_footer_last.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_footer_last.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items2_fee.jrxml"
+            NAME="A4_line_items2_fee.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items2_fee.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/A4_line_items3_coupons.jrxml"
+            NAME="A4_line_items3_coupons.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/A4_line_items3_coupons.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/TransactionPrintout.jrxml"
+            NAME="TransactionPrintout.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/TransactionPrintout.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/TransactionPrintout_sub.jrxml"
+            NAME="TransactionPrintout_sub.jrxml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/TransactionPrintout_sub.jrxml"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/images/Full_Logo_GK.png"
+            NAME="Jasper report logo" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/images/Full_Logo_GK.png"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono-Bold.ttf"
+            NAME="DejaVuSansMono-Bold.ttf" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono-Bold.ttf"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono-BoldOblique.ttf"
+            NAME="DejaVuSansMono-BoldOblique.ttf" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono-BoldOblique.ttf"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono-Oblique.ttf"
+            NAME="DejaVuSansMono-Oblique.ttf" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono-Oblique.ttf"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono.ttf"
+            NAME="DejaVuSansMono.ttf" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/fonts/dejavu-sans-mono/DejaVuSansMono.ttf"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/images/TransactionPrintoutLogo.bmp"
+            NAME="TransactionPrintout jasper report logo" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/images/TransactionPrintoutLogo.bmp"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/jasper-reports/fonts/fonts.xml"
+            NAME="fonts.xml" TARGET_FILE_NAME="config/standard/parameter/client/jasper-reports/fonts/fonts.xml"/>
+    </FILE_RESOURCE_GROUP>
+    <FILE_RESOURCE_GROUP DESCRIPTION="Reports" NAME="Reports">
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/reports/default/template.dtd"
+            NAME="XML dtd" TARGET_FILE_NAME="config/standard/parameter/client/reports/default/template.dtd"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/reports/cs_CZ/template.dtd"
+            NAME="XML dtd cs_CZ" TARGET_FILE_NAME="config/standard/parameter/client/reports/cs_CZ/template.dtd"/>
+        <FILE_RESOURCE
+            FILE_NAME="standard/parameter/client/reports/cs_CZ/footer.xml"
+            NAME="transaction cs_CZ" TARGET_FILE_NAME="config/standard/parameter/client/reports/cs_CZ/footer.xml"/>
+    </FILE_RESOURCE_GROUP>
+    <FILE_RESOURCE_GROUP DESCRIPTION="UI" NAME="UI">
+        <FILE_RESOURCE FILE_NAME="./standard/deploy/update_opos-fat.xml"
+            NAME="update_opos-fat.xml" TARGET_FILE_NAME="standard/deploy/update_opos-fat.xml"/>
+        <FILE_RESOURCE
+            FILE_NAME="./standard/deploy/update_opos-fat-custom.xml"
+            NAME="update_opos-fat-custom.xml" TARGET_FILE_NAME="standard/deploy/update_opos-fat-custom.xml"/>
+        <FILE_RESOURCE FILE_NAME="./standard/deploy/jmx4ant.jar"
+            NAME="jmx4ant.jar" TARGET_FILE_NAME="standard/deploy/jmx4ant.jar"/>
+        <FILE_RESOURCE FILE_NAME="./standard/deploy/cdpl-ant-tasks.jar"
+            NAME="cdpl-ant-tasks.jar" TARGET_FILE_NAME="standard/deploy/cdpl-ant-tasks.jar"/>
+    </FILE_RESOURCE_GROUP>
+</FILE_RESOURCE_DESCRIPTOR>
