@@ -1,12 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FILE_RESOURCE_DESCRIPTOR>
     <FILE_RESOURCE_GROUP DESCRIPTION="General" NAME="General">
+	
+	<!-- Tableau custom configuration Mercaderia -->
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSChangeLineItemContextDefault.json"
+            NAME="tableau_POSChangeLineItemContextDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSChangeLineItemContextDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSChangeLineItemNumpadDefault.json"
+            NAME="tableau_POSChangeLineItemNumpadDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSChangeLineItemNumpadDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSChangeLineItemTabsDefault.json"
+            NAME="tableau_POSChangeLineItemTabsDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSChangeLineItemTabsDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSFiscalLoginTableau.json"
+            NAME="tableau_POSFiscalLoginTableau.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSFiscalLoginTableau.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSFiscalPaymentTableau.json"
+            NAME="tableau_POSFiscalPaymentTableau.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSFiscalPaymentTableau.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSLockContextDefault.json"
+            NAME="tableau_POSLockContextDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSLockContextDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSLoginContextDefault.json"
+            NAME="tableau_POSLoginContextDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSLoginContextDefault.json"/>			
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSOtherRegistrationTableau.json"
+            NAME="tableau_POSOtherRegistrationTableau.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSOtherRegistrationTableau.json"/>	
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSPaymentContextDefault.json"
+            NAME="tableau_POSPaymentContextDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSPaymentContextDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSPaymentNumpadDefault.json"
+            NAME="tableau_POSPaymentNumpadDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSPaymentNumpadDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSPaymentNumpadNegative.json"
+            NAME="tableau_POSPaymentNumpadNegative.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSPaymentNumpadNegative.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSPaymentTabsDefault.json"
+            NAME="tableau_POSPaymentTabsDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSPaymentTabsDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSPaymentTabsNegative.json"
+            NAME="tableau_POSPaymentTabsNegative.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSPaymentTabsNegative.json"/>	
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationContextTableau.json"
+            NAME="tableau_POSRegistrationContextTableau.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationContextTableau.json"/>	
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadDefault.json"
+            NAME="tableau_POSRegistrationNumpadDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadDefault.json"/>	
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadEmpties.json"
+            NAME="tableau_POSRegistrationNumpadEmpties.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadEmpties.json"/>	
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadReturn.json"
+            NAME="tableau_POSRegistrationNumpadReturn.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadReturn.json"/>	
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadSalesOrder.json"
+            NAME="tableau_POSRegistrationNumpadSalesOrder.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadSalesOrder.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadScaleOffline.json"
+            NAME="tableau_POSRegistrationNumpadScaleOffline.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadScaleOffline.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadVoid.json"
+            NAME="tableau_POSRegistrationNumpadVoid.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadVoid.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationNumpadWIC.json"
+            NAME="tableau_POSRegistrationNumpadWIC.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationNumpadWIC.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationTabsDefault.json"
+            NAME="tableau_POSRegistrationTabsDefault.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationTabsDefault.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/tableau_POSRegistrationTabsReduced.json"
+            NAME="tableau_POSRegistrationTabsReduced.json" TARGET_FILE_NAME="config/custom/parameter/client/tableau_POSRegistrationTabsReduced.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/TableauConfig.json"
+            NAME="TableauConfig.json" TARGET_FILE_NAME="config/custom/parameter/client/TableauConfig.json"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/TableauVariants.json"
+            NAME="TableauVariants.json" TARGET_FILE_NAME="config/custom/parameter/client/TableauVariants.json"/>
+	<!-- Tableau custom configuration Mercaderia -->
+		
+	<!-- Custom configuration Mercaderia - Edit item -->
 		<FILE_RESOURCE
             FILE_NAME="./custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"
             NAME="ChangeLineItem.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"/>
+	<!-- Custom configuration Mercaderia - Edit item -->
+	
+	<!-- Custom configuration Devices -->
         <FILE_RESOURCE
             FILE_NAME="./custom/parameter/client/hal.properties"
             NAME="hal.properties" TARGET_FILE_NAME="config/custom/parameter/client/hal.properties"/>
+	<!-- Custom configuration Devices -->
         <FILE_RESOURCE
             FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"
             NAME="customerFlowPaymentTransactionInfos.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"/>
