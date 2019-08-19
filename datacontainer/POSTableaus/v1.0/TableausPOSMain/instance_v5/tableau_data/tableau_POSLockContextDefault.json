@@ -1,0 +1,29 @@
+{
+  "com.gk_software.gkr.pos.tableau.api.model.Tableau" : {
+    "id" : "POSLockContextDefault",
+    "layoutType" : "POS",
+    "name" : "POS Lock Context Tableau",
+    "tableauType" : "FULL",
+    "tableauSubtype" : "LIST1",
+    "tableauScreenId" : "Lock",
+    "tableauTranslationKey" : null,
+    "tableauTranslationList" : [ ],
+    "tableauVersionList" : [ {
+      "com.gk_software.gkr.pos.tableau.api.model.TableauVersion" : {
+        "version" : 1,
+        "statusType" : "ACTIVE",
+        "effectiveDateTime" : null,
+        "rootTableauLevel" : {
+          "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+            "id" : "a903000e-8b8d-4d5f-ad9f-86f9f514bdf4",
+            "name" : "Root Level",
+            "level" : 0,
+            "keepLevel" : "KEEPLEVEL",
+            "tableauLevelType" : "BUTTONS",
+            "childTableauLevelList" : null
+          }
+        }
+      }
+    } ]
+  }
+}

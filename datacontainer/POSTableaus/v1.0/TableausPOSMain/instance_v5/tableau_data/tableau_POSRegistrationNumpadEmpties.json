@@ -1,0 +1,114 @@
+{
+  "com.gk_software.gkr.pos.tableau.api.model.Tableau" : {
+    "id" : "POSRegistrationNumpadEmpties",
+    "layoutType" : "POS",
+    "name" : "POS Numpad Registration Empties",
+    "tableauType" : "EMBEDDED1",
+    "tableauSubtype" : null,
+    "tableauScreenId" : "ItemRegistration",
+    "tableauTranslationKey" : null,
+    "tableauTranslationList" : null,
+    "tableauVersionList" : [ {
+      "com.gk_software.gkr.pos.tableau.api.model.TableauVersion" : {
+        "version" : 1,
+        "statusType" : "ACTIVE",
+        "effectiveDateTime" : null,
+        "rootTableauLevel" : {
+          "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+            "id" : "62bb488e-78c2-4cf6-b097-45220f7b9623",
+            "name" : "Root Level",
+            "level" : 0,
+            "keepLevel" : "KEEPLEVEL",
+            "tableauLevelType" : "BUTTONS",
+            "childTableauLevelList" : null,
+            "tableauPositionList" : [ {
+              "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                "id" : "fa598415-7b67-4b11-8c22-a813339405a9",
+                "page" : 0,
+                "row" : 3,
+                "col" : 0,
+                "rowSpan" : 1,
+                "colSpan" : 2,
+                "templateId" : "buttonTemplate4",
+                "tableauPositionTranslationKey" : "POSRegistrationNumpadEmpties.1.fa598415-7b67-4b11-8c22-a813339405a9",
+                "tableauPositionTranslationList" : null,
+                "tableauPositionImageList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "de_DE",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_US",
+                    "source" : null
+                  }
+                } ],
+                "tableauPositionAction" : {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                    "processReactionName" : "exitEmptiesReturnMode",
+                    "processConfigId" : null,
+                    "processConfigParameters" : null,
+                    "destinationTableauLevelId" : null,
+                    "destinationTableauAssignmentList" : null
+                  }
+                }
+              }
+            }, {
+              "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                "id" : "ab352b05-cbe6-4964-952a-98bf5a5a32c2",
+                "page" : 0,
+                "row" : 0,
+                "col" : 1,
+                "rowSpan" : 1,
+                "colSpan" : 1,
+                "templateId" : "buttonTemplate2",
+                "tableauPositionTranslationKey" : "POSRegistrationNumpadEmpties.1.ab352b05-cbe6-4964-952a-98bf5a5a32c2",
+                "tableauPositionTranslationList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "es_CO",
+                    "text" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "en_IE",
+                    "text" : null
+                  }
+                } ],
+                "tableauPositionImageList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "de_DE",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_US",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "es_CO",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_IE",
+                    "source" : null
+                  }
+                } ],
+                "tableauPositionAction" : {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                    "processReactionName" : "cancelTransaction",
+                    "processConfigId" : "CancelTransactionConfigs.Default",
+                    "processConfigParameters" : null,
+                    "destinationTableauLevelId" : null,
+                    "destinationTableauAssignmentList" : null
+                  }
+                }
+              }
+            } ]
+          }
+        }
+      }
+    } ]
+  }
+}

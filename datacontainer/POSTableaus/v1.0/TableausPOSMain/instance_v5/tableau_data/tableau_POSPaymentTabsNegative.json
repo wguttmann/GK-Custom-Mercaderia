@@ -1,0 +1,30 @@
+{
+  "com.gk_software.gkr.pos.tableau.api.model.Tableau" : {
+    "id" : "POSPaymentTabsNegative",
+    "layoutType" : "POS",
+    "name" : "POS Main Payment Negative",
+    "tableauType" : "EMBEDDED2",
+    "tableauSubtype" : null,
+    "tableauScreenId" : "Payment",
+    "tableauTranslationKey" : null,
+    "tableauTranslationList" : null,
+    "tableauVersionList" : [ {
+      "com.gk_software.gkr.pos.tableau.api.model.TableauVersion" : {
+        "version" : 1,
+        "statusType" : "ACTIVE",
+        "effectiveDateTime" : null,
+        "rootTableauLevel" : {
+          "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+            "id" : "f45228af-217c-47a8-9d14-18694accad9a",
+            "name" : "Root Level",
+            "level" : 0,
+            "keepLevel" : "KEEPLEVEL",
+            "tableauLevelType" : "BUTTONS",
+            "childTableauLevelList" : [ ],
+            "tableauPositionList" : [ ]
+          }
+        }
+      }
+    } ]
+  }
+}

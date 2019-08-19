@@ -1,0 +1,72 @@
+{
+  "com.gk_software.gkr.pos.tableau.api.model.Tableau" : {
+    "id" : "POSFiscalPaymentTableau",
+    "layoutType" : "POS",
+    "name" : "POS Fiscal Payment Tableau",
+    "tableauType" : "FULL",
+    "tableauSubtype" : "TABS1",
+    "tableauScreenId" : "Payment",
+    "tableauTranslationKey" : null,
+    "tableauTranslationList" : [ ],
+    "tableauVersionList" : [ {
+      "com.gk_software.gkr.pos.tableau.api.model.TableauVersion" : {
+        "version" : 1,
+        "statusType" : "ACTIVE",
+        "effectiveDateTime" : null,
+        "rootTableauLevel" : {
+          "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+            "id" : "f25f3bd4-a925-491d-32cc-7cce60d74a1d",
+            "name" : "Root Level",
+            "level" : 0,
+            "keepLevel" : "KEEPLEVEL",
+            "tableauLevelType" : "BUTTONS",
+            "childTableauLevelList" : [ {
+              "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+                "id" : "0accc546-a850-4043-3b88-d0e1e80f50b3",
+                "name" : "Child level",
+                "level" : 0,
+                "keepLevel" : "RESETALLLEVELS",
+                "tableauLevelType" : "BUTTONS",
+                "childTableauLevelList" : null,
+                "tableauPositionList" : [ ]
+              }
+            } ],
+            "tableauPositionList" : [ {
+              "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                "id" : "63dd2376-70f3-4faa-3090-2486c2bd8cec",
+                "page" : 0,
+                "row" : 0,
+                "col" : 0,
+                "rowSpan" : 1,
+                "colSpan" : 1,
+                "templateId" : "buttonTemplate1Level1",
+                "tableauPositionTranslationKey" : "POSFiscalPaymentTableau.1.63dd2376-70f3-4faa-3090-2486c2bd8cec",
+                "tableauPositionTranslationList" : null,
+                "tableauPositionImageList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "de_DE",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_US",
+                    "source" : null
+                  }
+                } ],
+                "tableauPositionAction" : {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                    "processReactionName" : null,
+                    "processConfigId" : null,
+                    "processConfigParameters" : null,
+                    "destinationTableauLevelId" : "0accc546-a850-4043-3b88-d0e1e80f50b3",
+                    "destinationTableauAssignmentList" : null
+                  }
+                }
+              }
+            } ]
+          }
+        }
+      }
+    } ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "com.gk_software.gkr.pos.tableau.api.model.Tableau" : {
+    "id" : "POSFiscalLoginTableau",
+    "layoutType" : "POS",
+    "name" : "POS Fiscal Login Tableau",
+    "tableauType" : "FULL",
+    "tableauSubtype" : "TABS1",
+    "tableauScreenId" : "Login",
+    "tableauTranslationKey" : null,
+    "tableauTranslationList" : null,
+    "tableauVersionList" : [ {
+      "com.gk_software.gkr.pos.tableau.api.model.TableauVersion" : {
+        "version" : 1,
+        "statusType" : "ACTIVE",
+        "effectiveDateTime" : null,
+        "rootTableauLevel" : {
+          "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+            "id" : "efbc2c79-6d4d-4a71-3010-5022461ec80a",
+            "name" : "Root Level",
+            "level" : 0,
+            "keepLevel" : "KEEPLEVEL",
+            "tableauLevelType" : "BUTTONS",
+            "childTableauLevelList" : [ {
+              "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+                "id" : "836ed410-da1a-47be-3ecc-22c76a45bcd0",
+                "name" : "Child level",
+                "level" : 0,
+                "keepLevel" : "RESETALLLEVELS",
+                "tableauLevelType" : "BUTTONS",
+                "childTableauLevelList" : null,
+                "tableauPositionList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                    "id" : "88a8a2c0-6d25-48f4-36a9-89360a3a1523",
+                    "page" : 0,
+                    "row" : 0,
+                    "col" : 0,
+                    "rowSpan" : 1,
+                    "colSpan" : 1,
+                    "templateId" : "buttonTemplate1Level2",
+                    "tableauPositionTranslationKey" : "POSFiscalLoginTableau.1.88a8a2c0-6d25-48f4-36a9-89360a3a1523",
+                    "tableauPositionTranslationList" : null,
+                    "tableauPositionImageList" : [ {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                        "languageId" : "en_US",
+                        "source" : null
+                      }
+                    }, {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                        "languageId" : "de_DE",
+                        "source" : null
+                      }
+                    } ],
+                    "tableauPositionAction" : {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                        "processReactionName" : "fiscalControlTransaction",
+                        "processConfigId" : null,
+                        "processConfigParameters" : [ ],
+                        "destinationTableauLevelId" : null,
+                        "destinationTableauAssignmentList" : null
+                      }
+                    }
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                    "id" : "a4f8a29a-8e47-4c2a-3c87-18a7cb13eda7",
+                    "page" : 0,
+                    "row" : 1,
+                    "col" : 0,
+                    "rowSpan" : 1,
+                    "colSpan" : 1,
+                    "templateId" : "buttonTemplate1Level2",
+                    "tableauPositionTranslationKey" : "POSFiscalLoginTableau.1.a4f8a29a-8e47-4c2a-3c87-18a7cb13eda7",
+                    "tableauPositionTranslationList" : null,
+                    "tableauPositionImageList" : [ {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                        "languageId" : "en_US",
+                        "source" : null
+                      }
+                    }, {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                        "languageId" : "de_DE",
+                        "source" : null
+                      }
+                    } ],
+                    "tableauPositionAction" : {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                        "processReactionName" : "closeFiscalDay",
+                        "processConfigId" : null,
+                        "processConfigParameters" : null,
+                        "destinationTableauLevelId" : null,
+                        "destinationTableauAssignmentList" : null
+                      }
+                    }
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                    "id" : "8af29e14-36d9-4073-3d4d-8d2f71c0d49a",
+                    "page" : 0,
+                    "row" : 2,
+                    "col" : 0,
+                    "rowSpan" : 1,
+                    "colSpan" : 1,
+                    "templateId" : "buttonTemplate1Level2",
+                    "tableauPositionTranslationKey" : "POSFiscalLoginTableau.1.8af29e14-36d9-4073-3d4d-8d2f71c0d49a",
+                    "tableauPositionTranslationList" : null,
+                    "tableauPositionImageList" : [ {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                        "languageId" : "de_DE",
+                        "source" : null
+                      }
+                    }, {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                        "languageId" : "en_US",
+                        "source" : null
+                      }
+                    } ],
+                    "tableauPositionAction" : {
+                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                        "processReactionName" : "printXReport",
+                        "processConfigId" : null,
+                        "processConfigParameters" : null,
+                        "destinationTableauLevelId" : null,
+                        "destinationTableauAssignmentList" : null
+                      }
+                    }
+                  }
+                } ]
+              }
+            } ],
+            "tableauPositionList" : [ {
+              "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
+                "id" : "ea89ea10-5150-46fd-34f6-df6d5164ece5",
+                "page" : 0,
+                "row" : 0,
+                "col" : 0,
+                "rowSpan" : 1,
+                "colSpan" : 1,
+                "templateId" : "toggleButtonTemplate1Level1",
+                "tableauPositionTranslationKey" : "POSFiscalLoginTableau.1.ea89ea10-5150-46fd-34f6-df6d5164ece5",
+                "tableauPositionTranslationList" : null,
+                "tableauPositionImageList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "de_DE",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_US",
+                    "source" : null
+                  }
+                } ],
+                "tableauPositionAction" : {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
+                    "processReactionName" : null,
+                    "processConfigId" : null,
+                    "processConfigParameters" : null,
+                    "destinationTableauLevelId" : "836ed410-da1a-47be-3ecc-22c76a45bcd0",
+                    "destinationTableauAssignmentList" : null
+                  }
+                }
+              }
+            } ]
+          }
+        }
+      }
+    } ]
+  }
+}

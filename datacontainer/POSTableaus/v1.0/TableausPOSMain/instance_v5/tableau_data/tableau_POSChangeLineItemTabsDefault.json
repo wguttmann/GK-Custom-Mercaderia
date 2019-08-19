@@ -1,0 +1,30 @@
+{
+  "com.gk_software.gkr.pos.tableau.api.model.Tableau" : {
+    "id" : "POSChangeLineItemTabsDefault",
+    "layoutType" : "POS",
+    "name" : "POS Main Change Line Item",
+    "tableauType" : "EMBEDDED2",
+    "tableauSubtype" : null,
+    "tableauScreenId" : "ChangeLineItem",
+    "tableauTranslationKey" : null,
+    "tableauTranslationList" : null,
+    "tableauVersionList" : [ {
+      "com.gk_software.gkr.pos.tableau.api.model.TableauVersion" : {
+        "version" : 1,
+        "statusType" : "ACTIVE",
+        "effectiveDateTime" : null,
+        "rootTableauLevel" : {
+          "com.gk_software.gkr.pos.tableau.api.model.TableauLevel" : {
+            "id" : "33228cc3-819e-4ae5-bf86-382a1b193a16",
+            "name" : "Root Level",
+            "level" : 0,
+            "keepLevel" : "KEEPLEVEL",
+            "tableauLevelType" : "BUTTONS",
+            "childTableauLevelList" : [ ],
+            "tableauPositionList" : [ ]
+          }
+        }
+      }
+    } ]
+  }
+}
