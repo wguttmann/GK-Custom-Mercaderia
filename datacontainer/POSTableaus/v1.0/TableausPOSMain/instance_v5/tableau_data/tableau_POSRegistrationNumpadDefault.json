@@ -31,7 +31,22 @@
                 "colSpan" : 1,
                 "templateId" : "buttonTemplate1",
                 "tableauPositionTranslationKey" : "POSRegistrationNumpadDefault.1.5e8abc79-bc66-436e-b3ed-ef1a3d764f2c",
-                "tableauPositionTranslationList" : null,
+                "tableauPositionTranslationList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "es_CO",
+                    "text" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "en_IE",
+                    "text" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "en_US",
+                    "text" : null
+                  }
+                } ],
                 "tableauPositionImageList" : [ {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
                     "languageId" : "de_DE",
@@ -42,11 +57,21 @@
                     "languageId" : "en_US",
                     "source" : null
                   }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "es_CO",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_IE",
+                    "source" : null
+                  }
                 } ],
                 "tableauPositionAction" : {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
-                    "processReactionName" : "setQuantityOrRepeat",
-                    "processConfigId" : null,
+                    "processReactionName" : "setQuantity",
+                    "processConfigId" : "SetQuantityForLineItemConfigs.Default",
                     "processConfigParameters" : null,
                     "destinationTableauLevelId" : null,
                     "destinationTableauAssignmentList" : null
