@@ -46,7 +46,7 @@ xsi:schemaLocation="http://www.gk-software.com/gkr/md/tender_pkg/1.0.0 ../../xsd
 				<tender:TenderGroupCode>CASH</tender:TenderGroupCode>
 				<tender:CheckAvailableAmountFlag>true</tender:CheckAvailableAmountFlag>
 				<tender:PickupWarningFlag>true</tender:PickupWarningFlag>
-				<tender:PickupWarningLimit>20000000</tender:PickupWarningLimit>
+				<tender:PickupWarningLimit>500000</tender:PickupWarningLimit>
 				<tender:ImmediateVoidingAllowedFlag>true</tender:ImmediateVoidingAllowedFlag>
 				<tender:ReceiptPrinterName>Efectivo</tender:ReceiptPrinterName>
 				<tender:ExclusiveFlag>false</tender:ExclusiveFlag>
