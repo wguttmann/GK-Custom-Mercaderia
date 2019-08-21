@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FILE_RESOURCE_DESCRIPTOR>
     <FILE_RESOURCE_GROUP DESCRIPTION="General" NAME="General">
+	
+	<!-- Custom configuration Mercaderia - HTML -->
+		<FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/registration/registerItemsInputArea.xml"
+            NAME="registerItemsInputArea.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/registration/registerItemsInputArea.xml"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/payment/generalPayment.xml"
+            NAME="generalPayment.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/payment/generalPayment.xml"/>
+	<!-- Custom configuration Mercaderia - HTML -->
 
 	<!-- Custom configuration Mercaderia - Edit item -->
 		<FILE_RESOURCE
