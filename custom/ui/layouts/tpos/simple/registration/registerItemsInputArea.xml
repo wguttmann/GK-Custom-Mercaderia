@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="inputArea" class="inputArea highlightedArea" layout="wrapLayout">
+    <div id="topInputArea" class="topInputArea" layout="wrapLayout">
+      <div id="mainTextInputArea" class="mainTextInputArea" layout="borderLayout">
+        <!--<input id="searchButton" class="searchButton" type="button" constraints="Before" />-->
+        <input id="mainTextInput" constraints="Center" class="mainTextInputField" type="text" inputDomain="REGISTRATION" />
+        <div id="clearingButtons" class="clearingButtons" constraints="After" layout="wrapLayout">
+          <input id="backspaceButton" class="backspaceButton" type="button" bean="backspaceButton" />
+          <input id="clearButton" class="clearButton" type="button" />
+        </div>
+      </div>
+    </div>
+<!--    <iframe id="numericKeyboardComponent" layout="wrapLayout" src="/layouts/tpos/simple/keyboard/numericKeyboardComponentRectStyle.xml" bean="numericKeyboardComponent" /-->
+    <iframe id="numericKeyboardComponent" layout="wrapLayout" src="/layouts/tpos/simple/keyboard/numericKeyboardComponent.xml" bean="numericKeyboardComponent" />
+
+    <!-- REGISTRATION NUMPAD TABLEAU - EMBEDDED1 -->
+    <div id="registrationNumpadTableau" condition="registrationNumpadTableauActivated" class="numpadTableauEmbedded1" bean="defaultTableauSlotPanel" />
+
+
+
+
+    <!-- ####################### DEPRECATED BUTTON MENUS ####################### -->
+    <!-- POCP-8511 POS Tableaus - Design migration fallback to old button menus -->
+    <!-- New button tableaus and corresponding old button menus can be activated/deactivated via UiConfig.elementNodeConditions -->
+    <div id="mainButtonsPanelRegistration" condition="!registrationNumpadTableauActivated" class="buttonsPanel main rows" layout="wrapLayout">
+      <div class="mainButtonsPanelContainer" layout="wrapLayout">
+        <input id="quantityButton" type="button" class="small" valueKey="quantity.quantityRegistration.button" />
+        <input id="voidLineItemButton" class="ca small" type="button" valueKey="void.voidLineitem.button" />
+      </div>
+      <div class="mainButtonsPanelContainer" layout="wrapLayout">
+        <input id="priceButton" type="button" class="small" valueKey="price.priceRegistration.button" />
+        <input id="cancelTransactionButton" class="ca small" type="button" valueKey="cancel.cancelTransactionRegistration.button" />
+      </div>
+      <div class="mainButtonsPanelContainer" layout="wrapLayout">
+        <input id="itemButton" type="button" class="small" valueKey="itemSearch.itemSearchRegistration.button" />
+        <input id="returnModeButton" type="button" class="small" valueKey="returns.returnsWithoutTransaction.button" configId="GoodsReturnConfigs.Default" />
+      </div>
+      <div class="mainButtonsPanelContainer" layout="wrapLayout">
+        <div>
+          <input id="totalButton" class="cno" type="button" valueKey="total.totalRegistration.button" />
+          <input id="exitReturnModeButton" type="button" class="specialMode" valueKey="returns.returnsWithoutTransactionExit.button" configId="ToggleReturnModeConfigs.ExitReturnMode" />
+          <input id="exitEmptiesReturnModeButton" type="button" class="specialMode" valueKey="emptiesReturn.exit.button" />
+          <input id="exitWicModeButton" type="button" class="specialMode" valueKey="wic.exit.mode" />
+          <input id="exitOrderModeButton" type="button" class="specialMode" valueKey="ordermode.exit.buttontext" />
+          <input id="exitOfflineModeButton" type="button" class="specialMode" valueKey="retrieve.scale.transaction.offline.mode.exit.button" />
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
