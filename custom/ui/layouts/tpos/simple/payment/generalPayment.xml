@@ -22,10 +22,11 @@
 
     <!-- BONUS POINT -->
     <div id="bonusPointArea" slot="true" class="bonusPointArea" layout="wrapLayout">
-      <div id="bonusPointContainer" class="textLabelValueContainer2" layout="wrapLayout">
+      <!--
+	  <div id="bonusPointContainer" class="textLabelValueContainer2" layout="wrapLayout">
         <label id="bonusPointTitle" class="label" valueKey="payment.bonus.points" />
         <label id="bonusPointValue" class="value" value="TRANSACTION_TOTALPOINTS" bean="posStateInfoLabel" />
-      </div>
+      </div>-->
       <div id="bonusPointMargin" class="bonusPointMargin" layout="wrapLayout" />
       <div id="sumTotalDiscountContainer" class="textLabelValueContainer2" layout="wrapLayout">
         <label id="sumTotalDiscountTitle" class="label" valueKey="payment.total.discounts" />
