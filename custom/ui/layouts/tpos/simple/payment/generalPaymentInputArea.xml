@@ -10,7 +10,7 @@
     <form id="paymentForm">
       <div id="topInputArea" class="topInputArea" layout="wrapLayout">
         <div id="mainTextInputArea" class="mainTextInputArea" layout="borderLayout">
-          <input id="searchButton" class="searchButton" type="button" constraints="Before" />
+          <!--<input id="searchButton" class="searchButton" type="button" constraints="Before" />-->
           <input id="mainTextInput" constraints="Center" class="mainTextInputField fieldWithSearchButton" type="text" inputDomain="PAYMENT" />
           <div id="clearingButtons" class="clearingButtons" constraints="After" layout="wrapLayout">
             <input id="backspaceButton" class="backspaceButton" type="button" bean="backspaceButton" />

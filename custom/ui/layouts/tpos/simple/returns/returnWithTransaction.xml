@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body>
+
+    <!-- BACKGROUND AREA -->
+    <iframe id="backgroundArea" slot="true" src="/layouts/tpos/simple/common/globalBackgroundArea.xml" bean="defaultCachingIFrameComponent" />
+
+    <div id="leftContentArea" class="leftContentArea" slot="true" layout="wrapLayout">
+      <!-- PAGE TITLE -->
+      <div id="leftContentTopArea" class="topArea" layout="wrapLayout">
+        <label id="pageTitle" class="pageTitle" valueKey="returnWithTransaction.display.title" />
+      </div>
+      <div id="leftContentHighlightedArea" class="highlightedArea" layout="wrapLayout">
+        <div id="leftContentCenterBottomArea" class="centerBottomArea" layout="borderLayout">
+          <iframe id="posStateInfoPanelArea" src="/layouts/tpos/simple/common/panels/posStateInfoPanel.xml" constraints="First" bean="defaultCachingIFrameComponent" />
+          <!-- TRANSACTION PREVIEW -->
+          <iframe id="transactionPreviewComponent" src="/layouts/tpos/simple/transaction/transactionPreviewComponent.xml" constraints="Center" bean="transactionPreviewComponent" />
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT CONTENT TOP AREA WITH DISPLAY PANEL can be empty, currently not needed for line item editing -->
+    <div id="rightContentTopArea" slot="true" />
+
+    <!-- MAININPUT + NUMPAD + BUTTONS -->
+    <div id="rightContentCenterArea" slot="true" class="centerArea paddedArea" layout="wrapLayout">
+      <div id="inputArea" class="inputArea highlightedArea" layout="wrapLayout">
+        <div id="topInputArea" class="topInputArea" layout="wrapLayout">
+          <div id="mainTextInputArea" class="mainTextInputArea" layout="borderLayout">
+            <!--<input id="searchButton" class="searchButton" type="button" constraints="Before" />-->
+            <input id="mainTextInput" constraints="Center" class="mainTextInputField fieldWithSearchButton" type="text" inputDomain="REGISTRATION" />
+            <div id="clearingButtons" class="clearingButtons" constraints="After" layout="wrapLayout">
+              <input id="backspaceButton" class="backspaceButton" type="button" bean="backspaceButton" />
+              <input id="clearButton" class="clearButton" type="button" bean="clearButton" />
+            </div>
+          </div>
+        </div>
+        <iframe id="numericKeyboardComponent" layout="wrapLayout" src="/layouts/tpos/simple/keyboard/numericKeyboardComponent.xml" bean="numericKeyboardComponent" />
+        <div id="mainButtonsPanelRegistration" class="buttonsPanel main rows" layout="wrapLayout">
+          <div class="mainButtonsPanelContainer" layout="wrapLayout">
+            <input id="itemButton" type="button" class="small" valueKey="itemSearch.itemSearchRegistration.button" />
+          </div>
+          <div class="mainButtonsPanelContainer" layout="wrapLayout">
+          </div>
+          <div class="mainButtonsPanelContainer" layout="wrapLayout">
+            <input id="returnSelectionButton" class="small" type="button" valueKey="returnWithTransaction.button.returnSelection" />
+      <input id="completeReturnsButton" class="small" type="button" valueKey="returnWithTransaction.button.fullreturn" />
+        </div>
+          <div class="mainButtonsPanelContainer" layout="wrapLayout">
+            <input id="cancelButton" class="ca" type="button" valueKey="button.cancel" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REGISTRATION CONTEXT BUTTONS -->
+    <div id="contextMenuButtonsRow3" slot="true" class="buttonsPanel context" layout="wrapLayout">
+      <input id="suspendReceiptButton" class="highlight3" type="button" valueKey="suspendReceipt.suspendReceiptContext.button" />
+      <input id="fetchBackReceiptButton" class="highlight3" type="button" valueKey="retrieveReceipt.retrieveReceiptContext.button" />
+      <input id="fetchBackReceiptListButton" class="highlight3" type="button" valueKey="retrieveReceipt.retrieveReceiptListContext.button" />
+    </div>
+
+  </body>
+</html>
+
+
