@@ -4,6 +4,9 @@
 	
 	<!-- Custom configuration Mercaderia - HTML -->
 		<FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/returns/returnWithTransaction.xml"
+            NAME="returnWithTransaction.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/returns/returnWithTransaction.xml"/>
+		<FILE_RESOURCE
             FILE_NAME="./custom/ui/layouts/tpos/simple/registration/registerItemsInputArea.xml"
             NAME="registerItemsInputArea.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/registration/registerItemsInputArea.xml"/>
 		<FILE_RESOURCE
