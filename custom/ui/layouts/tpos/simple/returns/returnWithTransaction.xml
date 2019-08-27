@@ -42,13 +42,13 @@
         <iframe id="numericKeyboardComponent" layout="wrapLayout" src="/layouts/tpos/simple/keyboard/numericKeyboardComponent.xml" bean="numericKeyboardComponent" />
         <div id="mainButtonsPanelRegistration" class="buttonsPanel main rows" layout="wrapLayout">
           <div class="mainButtonsPanelContainer" layout="wrapLayout">
-            <input id="itemButton" type="button" class="small" valueKey="itemSearch.itemSearchRegistration.button" />
+            <!--input id="itemButton" type="button" class="small" valueKey="itemSearch.itemSearchRegistration.button" /-->
           </div>
           <div class="mainButtonsPanelContainer" layout="wrapLayout">
           </div>
           <div class="mainButtonsPanelContainer" layout="wrapLayout">
             <input id="returnSelectionButton" class="small" type="button" valueKey="returnWithTransaction.button.returnSelection" />
-      <input id="completeReturnsButton" class="small" type="button" valueKey="returnWithTransaction.button.fullreturn" />
+      <!--input id="completeReturnsButton" class="small" type="button" valueKey="returnWithTransaction.button.fullreturn" /-->
         </div>
           <div class="mainButtonsPanelContainer" layout="wrapLayout">
             <input id="cancelButton" class="ca" type="button" valueKey="button.cancel" />
