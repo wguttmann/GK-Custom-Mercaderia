@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEMPLATE SYSTEM "template.dtd">
+
+<TEMPLATE author='' created='' name='cash check' version='C01.00' type='character'>
+  <CHANGES_HISTORY/>
+  <PAGE_INFO resolution='1' width='40' height='2048' top_margin='0' bottom_margin='0' left_margin='0' right_margin='0' standard_font='NORMAL, PLAIN, 12'/>
+  <CONSTANT name='var_worker_id' argument='TS.TRANSACTION_HEADER.WORKER_ID' datatype='java.lang.String'/>
+  <CONSTANT name='var_pos_offline' argument='BS.CASH_CHECK.OFFLINE' datatype='java.lang.Boolean'/>
+  <CONSTANT name='var_unit_count_required' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL_TOTAL.UNIT_COUNT_REQUIRED_FLAG' datatype='java.lang.Boolean'/>
+
+  <VARIABLE name='var_separator_line' argument='StrFormat("- - - - - - - - - - - - - - - - - - - -")' datatype='java.lang.String'/>
+  <VARIABLE name='var_empty_line' argument='StrFormat("")' datatype='java.lang.String'/>
+  <VARIABLE name='var_cash_balance_amount' argument='BS.TILL.DEFAULT_OPENING_CASH_BALANCE_AMOUNT' datatype='java.lang.Double'/>
+
+  <!-- Header rows -->
+  <SECTION condition='TS.TRANSACTION_HEADER.TRAINING_MODE' id='1' type='detail' preferred_height='2' section_repeat='1' new_page_after='false'>
+    <ENTRY id='lbl_trainingmode'  type='label'  argument='${lbl_trainingmode}' representation='character-text' posX='0'  posY='1' width='40'  height='1' alignmentH='center'  alignmentV='top' underline='false' font='NORMAL, BOLD, 12'/>
+  </SECTION>
+  <!-- title section -->
+   <!-- Receipt reprint mark -->
+   <SECTION condition='MS.MODEL.DUPLICATE' id='2' type='detail' preferred_height='2' section_repeat='1' new_page_after='false' border='0'>
+     <ENTRY id='lbl_copy' type='label' argument='${printout.copy}' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='40' height='1' alignmentH='center' alignmentV='top' sample_value='' display_mask='' wrap='false' can_expand='false' underline='false' font='NORMAL, BOLD, 12'/>
+   </SECTION>
+   <SECTION id='3' condition='Var(var_pos_offline)' type='detail' preferred_height='3' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='lbl_text' type='label' argument='${cash.check.offline}' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='40' height='1' alignmentH='center' alignmentV='top' font='NORMAL, PLAIN, 12'/>
+   </SECTION>
+   <SECTION id='4' type='detail' preferred_height='3' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='lbl_title' type='label' argument='${cash.check.title}' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='40' height='1' alignmentH='center' alignmentV='top' font='NORMAL, BOLD, 12'/>
+   </SECTION>
+
+  <!-- operator section -->
+  <SECTION id='10' type='detail' preferred_height='3' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='lbl_worker_name' type='label' argument='${cash.check.worker}' representation='character-text' posX='0' posY='0' width='10' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_worker_name' type='query' argument='ConcatWithSpace(TS.TRANSACTION_HEADER.WORKER_FIRST_NAME, TS.TRANSACTION_HEADER.WORKER_LAST_NAME)' datatype='java.lang.String' representation='character-text' posX='13' posY='0' width='24' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='false' can_expand='false' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='lbl_worker_id' type='label' argument='${cash.check.worker.number}' representation='character-text' posX='0' posY='1' width='10' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_worker_id' type='variable' argument='var_worker_id' datatype='java.lang.Long' representation='character-text' posX='13' posY='1' width='14' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='000' wrap='false' can_expand='false' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='lbl_change' condition='Var(var_cash_balance_amount)!=0' type='label' argument='${cash.check.change}' representation='character-text' posX='0' posY='2' width='12' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_change' condition='Var(var_cash_balance_amount)!=0' type='variable' argument='var_cash_balance_amount' datatype='java.lang.Double' representation='character-text' posX='13' posY='2' width='10' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='false' underline='false'/>
+  </SECTION>
+
+  <!-- separator line -->
+  <SECTION id='11' type='detail' preferred_height='1' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='lbl_separator_line' type='variable' argument='var_separator_line' datatype='java.lang.String' representation='character-text' posX='0' posY='1' width='40' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+  </SECTION>
+
+  <!-- label section -->
+  <SECTION id='12' type='detail' preferred_height='2' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='lbl_actual' type='label' argument='${cash.check.actual}' representation='character-text' posX='17' posY='0' width='13' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <!--<ENTRY id='lbl_target' type='label' argument='${cash.check.target}' representation='character-text' posX='30' posY='0' width='10' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>-->
+    <ENTRY id='lbl_count' type='label' argument='${cash.check.count}' representation='character-text' posX='14' posY='1' width='6' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='lbl_amount' type='label' argument='${cash.check.amount}' representation='character-text' posX='20' posY='1' width='7' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <!--<ENTRY id='lbl_count' type='label' argument='${cash.check.count}' representation='character-text' posX='27' posY='1' width='7' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='lbl_amount' type='label' argument='${cash.check.amount}' representation='character-text' posX='34' posY='1' width='6' height='1' alignmentH='left' alignmentV='top' underline='false' font='NORMAL, PLAIN, 12'/>-->
+  </SECTION>
+
+  <!-- data section -->
+  <!-- first line -->
+  <SECTION id='13' condition='!Var(var_unit_count_required)' type='detail' preferred_height='1' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='fld_text_description' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.TENDER_DESCRIPTION' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='10' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_text_symbol' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.CURRENCY_SYMBOL' datatype='java.lang.String' representation='character-text' posX='11' posY='0' width='3' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_counted_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.FOREIGN_CURRENCY_COUNTED_BALANCE_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='16' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <!--<ENTRY id='fld_close_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.FOREIGN_CURRENCY_CLOSE_BALANCE_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='30' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='false' underline='false' font='NORMAL, PLAIN, 12'/>-->
+  </SECTION>
+  <!-- second line -->
+  <SECTION id='14' condition='Var(var_unit_count_required)' type='detail' preferred_height='1' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='fld_text_description' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.TENDER_DESCRIPTION' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='10' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_text_symbol' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.CURRENCY_SYMBOL' datatype='java.lang.String' representation='character-text' posX='11' posY='0' width='3' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_counted_quantity' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.COUNTED_MEDIA_UNIT_QUANTITY' datatype='java.lang.Long' representation='character-text' posX='15' posY='0' width='2' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_counted_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.FOREIGN_CURRENCY_COUNTED_BALANCE_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='16' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_close_quantity' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.CLOSE_MEDIA_UNIT_QUANTITY' datatype='java.lang.Long' representation='character-text' posX='28' posY='0' width='2' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_close_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.FOREIGN_CURRENCY_CLOSE_BALANCE_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='30' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='false' underline='false' font='NORMAL, PLAIN, 12'/>
+  </SECTION>
+  
+
+  <!-- total section -->
+  <SECTION id='15' type='detail' preferred_height='3' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='lbl_total' type='label' argument='${cash.check.total}' representation='character-text' posX='0'  posY='0' width='10' height='1' alignmentH='left'  alignmentV='top' underline='false'/>
+    <ENTRY id='fld_bc_symbol' type='query' argument='BS.CURRENCY_DATA.BASE_CURRENCY_SYMBOL' representation='character-text' posX='11'  posY='0' width='3'  height='1' alignmentH='left'  alignmentV='top' underline='false'/>
+    <ENTRY id='fld_counted_total_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL_TOTAL.COUNTED_BALANCE_TOTAL_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='16' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='false' underline='false'/>
+    <!--<ENTRY id='fld_close_total_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL_TOTAL.CLOSE_BALANCE_TOTAL_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='30' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='false' underline='false'/>-->
+  <ENTRY id='fld_text_difference' type='label' argument='${cash.check.difference}' representation='character-text' posX='0'  posY='2' width='15' height='1' alignmentH='left'  alignmentV='top' underline='false'/>
+  </SECTION>
+  <!-- first line -->
+  <SECTION id='16' condition='!Var(var_unit_count_required)' type='detail' preferred_height='1' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='fld_text_description' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.TENDER_DESCRIPTION' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='10' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_text_symbol' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.CURRENCY_SYMBOL' datatype='java.lang.String' representation='character-text' posX='11' posY='0' width='3' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_difference_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.DIFFERENCE_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='16' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+  </SECTION>
+  <!-- second line -->
+  <SECTION id='17' condition='Var(var_unit_count_required)' type='detail' preferred_height='1' section_repeat='1' new_page_after='false' border='0'>
+    <ENTRY id='fld_text_description' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.TENDER_DESCRIPTION' datatype='java.lang.String' representation='character-text' posX='0' posY='0' width='10' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_text_symbol' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.CURRENCY_SYMBOL' datatype='java.lang.String' representation='character-text' posX='11' posY='0' width='3' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='true' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_difference_quantity' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.DIFFERENCE_UNIT_QUANTITY' datatype='java.lang.Long' representation='character-text' posX='15' posY='0' width='2' height='1' alignmentH='left' alignmentV='top' sample_value='' display_mask='' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+    <ENTRY id='fld_difference_amount' type='datafield' argument='TS.CONTROL.TILL_SETTLEMENT_TENDER_DETAIL.DIFFERENCE_AMOUNT' datatype='java.lang.Double' representation='character-text' posX='16' posY='0' width='10' height='1' alignmentH='right' alignmentV='top' sample_value='' display_mask='ID:PRICE' wrap='false' can_expand='true' underline='false' font='NORMAL, PLAIN, 12'/>
+  </SECTION>
+</TEMPLATE>
