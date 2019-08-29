@@ -32,14 +32,17 @@
             NAME="RegistrationBase.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"/>
 	<!-- Custom configuration Mercaderia - Operation -->
 	
-	<!-- Custom configuration Devices -->
+	<!-- Custom configuration properties -->
 		<FILE_RESOURCE
             FILE_NAME="./custom/parameter/server/services.properties"
             NAME="services.properties" TARGET_FILE_NAME="config/custom/parameter/server/services.properties"/>
         <FILE_RESOURCE
             FILE_NAME="./custom/parameter/client/hal.properties"
             NAME="hal.properties" TARGET_FILE_NAME="config/custom/parameter/client/hal.properties"/>
-	<!-- Custom configuration Devices -->
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/client/eventTimerConfigs.properties"
+            NAME="eventTimerConfigs.properties" TARGET_FILE_NAME="config/custom/parameter/client/eventTimerConfigs.properties"/>
+	<!-- Custom configuration properties -->
 	
         <FILE_RESOURCE
             FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"
