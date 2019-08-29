@@ -186,62 +186,10 @@
                   }
                 }, {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
-                    "id" : "09dc5b76-16dd-4f51-bd26-2b3ae0700e7f",
-                    "page" : 0,
-                    "row" : 2,
-                    "col" : 0,
-                    "rowSpan" : 2,
-                    "colSpan" : 1,
-                    "templateId" : "buttonTemplate1Level2",
-                    "tableauPositionTranslationKey" : "POSOtherRegistrationTableau.1.09dc5b76-16dd-4f51-bd26-2b3ae0700e7f",
-                    "tableauPositionTranslationList" : [ {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
-                        "languageId" : "es_CO",
-                        "text" : null
-                      }
-                    }, {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
-                        "languageId" : "en_IE",
-                        "text" : null
-                      }
-                    } ],
-                    "tableauPositionImageList" : [ {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                        "languageId" : "de_DE",
-                        "source" : null
-                      }
-                    }, {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                        "languageId" : "en_US",
-                        "source" : null
-                      }
-                    }, {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                        "languageId" : "es_CO",
-                        "source" : null
-                      }
-                    }, {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                        "languageId" : "en_IE",
-                        "source" : null
-                      }
-                    } ],
-                    "tableauPositionAction" : {
-                      "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
-                        "processReactionName" : "payInReceipt",
-                        "processConfigId" : "PayInOutConfigs.PayInReceipt",
-                        "processConfigParameters" : null,
-                        "destinationTableauLevelId" : null,
-                        "destinationTableauAssignmentList" : null
-                      }
-                    }
-                  }
-                }, {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
                     "id" : "6d62772a-8e0a-4b23-b841-080515af8b98",
                     "page" : 0,
                     "row" : 2,
-                    "col" : 1,
+                    "col" : 0,
                     "rowSpan" : 2,
                     "colSpan" : 1,
                     "templateId" : "buttonTemplate1Level2",

@@ -33,17 +33,12 @@
                 "tableauPositionTranslationKey" : "POSRegistrationNumpadDefault.1.5e8abc79-bc66-436e-b3ed-ef1a3d764f2c",
                 "tableauPositionTranslationList" : [ {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
-                    "languageId" : "es_CO",
-                    "text" : null
-                  }
-                }, {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
                     "languageId" : "en_IE",
                     "text" : null
                   }
                 }, {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
-                    "languageId" : "en_US",
+                    "languageId" : "es_CO",
                     "text" : null
                   }
                 } ],
@@ -59,12 +54,12 @@
                   }
                 }, {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                    "languageId" : "es_CO",
+                    "languageId" : "en_IE",
                     "source" : null
                   }
                 }, {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                    "languageId" : "en_IE",
+                    "languageId" : "es_CO",
                     "source" : null
                   }
                 } ],
@@ -72,7 +67,7 @@
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
                     "processReactionName" : "setQuantity",
                     "processConfigId" : "SetQuantityForLineItemConfigs.Default",
-                    "processConfigParameters" : null,
+                    "processConfigParameters" : [ ],
                     "destinationTableauLevelId" : null,
                     "destinationTableauAssignmentList" : null
                   }

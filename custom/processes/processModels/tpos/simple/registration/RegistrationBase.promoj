@@ -1,0 +1,38 @@
+Package processModels.tpos.simple.registration
+// promo
+Import processModels.tpos.common.registration.RegistrationBase
+
+Process RegistrationBase
+    references processModels.common.entities.ContextEntities
+
+Condition isHelpAvailable           = java:com.gk_software.pos.flow.libs.help.HelpActionLib::isHelpAvailable
+Condition isSpecialRegistrationMode = pojo:com.gk_software.pos.flow.libs.transaction.LineItemActionLib::isSpecialRegistrationMode
+Condition isVisiblePickupIcon       = pojo:com.gk_software.pos.flow.libs.registration.CheckPickupLimitActionLib::isVisiblePickupIcon
+Condition isVisibleWicLabelAllowed  = pojo:com.gk_software.pos.flow.libs.transaction.LineItemActionLib::isWicLabelVisibleAllowed
+
+
+Step Main = java:uiStepController@com.gk_software.pos.flow.steps.DefaultUiStepController
+    screen = xhtml:layouts.tpos.simple.registration.registrationBase {
+	    reaction lock   = dynamic          visible if (is-empty process.applicationContext.transactionContext.transaction)
+        reaction lock   = lockMenuButton   visible if (is-empty process.applicationContext.transactionContext.transaction)
+        //reaction help = helpMenuButton   enabled if(isHelpAvailable)
+        reaction logout = dynamic          visible if (is-empty process.applicationContext.transactionContext.transaction)
+        reaction logout = logoutMenuButton visible if (is-empty process.applicationContext.transactionContext.transaction)
+
+        shows applicationContext.infoContext.displayCurrencyCode = displayCurrencyLabel visible if (not is-empty process.applicationContext.transactionContext.transaction)
+        shows applicationContext.infoContext.displayValue        = displayValueLabel
+
+        component displayWicLabel            visible if (isVisibleWicLabelAllowed)
+        component displayReturnBonLabel      visible if (process.applicationContext.transactionContext.returnMode)
+        component displayVoidLabel           visible if (process.applicationContext.transactionContext.voidMode)
+        component displayEmptiesReturnLabel  visible if (process.applicationContext.transactionContext.emptiesReturnMode)
+        component displayOfflineScaleLabel   visible if (process.applicationContext.transactionContext.scaleTransactionParams.offlineMode)
+        component displayOrderLabel          visible if (process.registrationContext.orderMode)
+        component backgroundPanelSpecialMode visible if (isSpecialRegistrationMode)
+        component cloudIcon                  visible if (not is-empty process.applicationContext.customerContext.numberOfSuspendedTransactions)
+        component levyIcon                   visible if (isVisiblePickupIcon)
+        component fiscalOfflineIcon          visible if (process.applicationContext.fiscalizationContext.offline)
+    }
+    reaction autoLock = event:com.gk_software.pos.api.messagebus.MessageConstants::FLOW_EVENT_INACTIVITY_TIMER
+    reaction checkForTableauUpdates = event:com.gk_software.pos.api.messagebus.MessageConstants::EVENT_CHECK_FOR_TABLEAU_UPDATES
+    

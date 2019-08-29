@@ -23,70 +23,6 @@
             "childTableauLevelList" : null,
             "tableauPositionList" : [ {
               "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
-                "id" : "54373f58-29fc-4696-8310-549762e53bb2",
-                "page" : 0,
-                "row" : 0,
-                "col" : 0,
-                "rowSpan" : 1,
-                "colSpan" : 1,
-                "templateId" : "buttonTemplate2",
-                "tableauPositionTranslationKey" : "POSPaymentNumpadNegative.1.54373f58-29fc-4696-8310-549762e53bb2",
-                "tableauPositionTranslationList" : null,
-                "tableauPositionImageList" : [ {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                    "languageId" : "de_DE",
-                    "source" : null
-                  }
-                }, {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                    "languageId" : "en_US",
-                    "source" : null
-                  }
-                } ],
-                "tableauPositionAction" : {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
-                    "processReactionName" : "cancel",
-                    "processConfigId" : null,
-                    "processConfigParameters" : null,
-                    "destinationTableauLevelId" : null,
-                    "destinationTableauAssignmentList" : null
-                  }
-                }
-              }
-            }, {
-              "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
-                "id" : "5ba5a1ab-a96d-46ad-9114-1387edad0ba9",
-                "page" : 0,
-                "row" : 1,
-                "col" : 0,
-                "rowSpan" : 1,
-                "colSpan" : 2,
-                "templateId" : "buttonTemplate3",
-                "tableauPositionTranslationKey" : "POSPaymentNumpadNegative.1.5ba5a1ab-a96d-46ad-9114-1387edad0ba9",
-                "tableauPositionTranslationList" : null,
-                "tableauPositionImageList" : [ {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                    "languageId" : "de_DE",
-                    "source" : null
-                  }
-                }, {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
-                    "languageId" : "en_US",
-                    "source" : null
-                  }
-                } ],
-                "tableauPositionAction" : {
-                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionAction" : {
-                    "processReactionName" : "terminalPayment",
-                    "processConfigId" : "TerminalPaymentConfigs.Default",
-                    "processConfigParameters" : null,
-                    "destinationTableauLevelId" : null,
-                    "destinationTableauAssignmentList" : null
-                  }
-                }
-              }
-            }, {
-              "com.gk_software.gkr.pos.tableau.api.model.TableauPosition" : {
                 "id" : "c2485fab-5d76-479e-a10f-6a383b6ce866",
                 "page" : 0,
                 "row" : 2,
@@ -95,7 +31,17 @@
                 "colSpan" : 2,
                 "templateId" : "buttonTemplate3",
                 "tableauPositionTranslationKey" : "POSPaymentNumpadNegative.1.c2485fab-5d76-479e-a10f-6a383b6ce866",
-                "tableauPositionTranslationList" : null,
+                "tableauPositionTranslationList" : [ {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "es_CO",
+                    "text" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionTranslation" : {
+                    "languageId" : "en_IE",
+                    "text" : null
+                  }
+                } ],
                 "tableauPositionImageList" : [ {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
                     "languageId" : "de_DE",
@@ -104,6 +50,16 @@
                 }, {
                   "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
                     "languageId" : "en_US",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "es_CO",
+                    "source" : null
+                  }
+                }, {
+                  "com.gk_software.gkr.pos.tableau.api.model.TableauPositionImage" : {
+                    "languageId" : "en_IE",
                     "source" : null
                   }
                 } ],

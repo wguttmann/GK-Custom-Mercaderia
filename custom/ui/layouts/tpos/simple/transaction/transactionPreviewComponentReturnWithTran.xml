@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common/common.css" />
+    <link rel="stylesheet" href="css/transaction/transactionPreviewComponent.css" />
+    <link rel="stylesheet" href="css/custom/custom.css" />
+  </head>
+  <body id="innerTransactionPreviewComponent">
+<!--     <table id="transactionPreviewTable" cellspacing="0" showScrollbars="false" kineticScrollingAllowed="true" dndAllowed="true" dndGhostImageEnabled="false"> -->
+    
+  </body>
+</html>
