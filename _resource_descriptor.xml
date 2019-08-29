@@ -26,7 +26,11 @@
 	<!-- Custom configuration Mercaderia - Edit item -->
 		<FILE_RESOURCE
             FILE_NAME="./custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"
-            NAME="ChangeLineItem.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"/>
+            NAME="ChangeLineItem.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"
+            NAME="RegistrationBase.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"/>
+
 	<!-- Custom configuration Mercaderia - Edit item -->
 	
 	<!-- Custom configuration Devices -->
