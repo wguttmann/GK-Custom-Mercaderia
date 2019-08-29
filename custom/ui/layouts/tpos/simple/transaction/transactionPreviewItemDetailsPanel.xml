@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/common/common.css" />
+		<link rel="stylesheet" href="css/transaction/transactionPreviewComponent.css" />
+		<link rel="stylesheet" href="css/custom/custom.css" />
+	</head>
+	<body id="transactionPreviewItemDetailsPanel" bean="dynamicTransactionPreviewItemDetailsPanel">
+		<div id="transactionPreviewItemDetailsTopArrow"/>
+		<div id="transactionPreviewItemDetailsHighlightedPanel" class="buttonsPanel">
+			<div id="itemDetailsContainers" layout="wrapLayout">
+				<img id="itemDetailsImage" class="itemDetailsImage" bean="dccItemImagePanel" />
+				<div id="itemDetailsSellerContainer" class="itemDetailsContainer" layout="wrapLayout">
+					<label id="itemDetailsSellerValue" class="itemDetailsValue" />
+					<label id="itemDetailsSellerLabel" class="itemDetailsLabel" valueKey="registration.itemDetailsPanel.seller.label"/>
+				</div>
+				<div id="itemDetailsPromotionsContainer" class="itemDetailsContainer" layout="wrapLayout">
+					<label id="itemDetailsPromotionsValue" class="itemDetailsValue itemDetailsPromotionsValue"/>
+					<label id="itemDetailsPromotionsLabel" class="itemDetailsLabel" valueKey="registration.itemDetailsPanel.discounts.label"/>
+				</div>
+				<div id="itemDetailsPriceContainer" class="itemDetailsContainer last" layout="wrapLayout">
+					<label id="itemDetailsPriceValue" class="itemDetailsValue" />
+					<label id="itemDetailsPriceLabel" class="itemDetailsLabel" valueKey="registration.itemDetailsPanel.price.label"/>
+				</div>
+			</div>
+			<div id="salesTextsContainer" layout="wrapLayout">
+				<label id="salesTextsLabel" class="salesTextsLabels" />
+			</div>
+			<div id="salesInfoIconsContainer" layout="wrapLayout">
+				<div id="salesInfoIconWithText" class="salesInfoIconWithText additionalIconSpace">
+					<div id="salesInfoIconBrackground" class="salesInfoIconBgr" />
+					<img id="salesInfoIcon1" class="salesInfoIcon" bean="dccIconImagePanel" />
+					<label id="salesInfoIconText1" class="salesInfoIconText" />
+				</div>
+				<div id="salesInfoIconWithText" class="salesInfoIconWithText additionalIconSpace">
+					<div id="salesInfoIconBrackground" class="salesInfoIconBgr" />
+					<img id="salesInfoIcon2" class="salesInfoIcon" bean="dccIconImagePanel" />
+					<label id="salesInfoIconText2" class="salesInfoIconText" />
+				</div>
+				<div id="salesInfoIconWithText" class="salesInfoIconWithText additionalIconSpace">
+					<div id="salesInfoIconBrackground" class="salesInfoIconBgr" />
+					<img id="salesInfoIcon3" class="salesInfoIcon" bean="dccIconImagePanel" />
+					<label id="salesInfoIconText3" class="salesInfoIconText" />
+				</div>
+				<div id="salesInfoIconWithText" class="salesInfoIconWithText additionalIconSpace">
+					<div id="salesInfoIconBrackground" class="salesInfoIconBgr" />
+					<img id="salesInfoIcon4" class="salesInfoIcon" bean="dccIconImagePanel" />
+					<label id="salesInfoIconText4" class="salesInfoIconText" />
+				</div>
+				<div id="salesInfoIconWithText" class="salesInfoIconWithText additionalIconSpace">
+					<div id="salesInfoIconBrackground" class="salesInfoIconBgr" />
+					<img id="salesInfoIcon5" class="salesInfoIcon" bean="dccIconImagePanel" />
+					<label id="salesInfoIconText5" class="salesInfoIconText" />
+				</div>
+			</div>
+			<div id="itemDetailsQuantityContainer" class="transactionPreviewQuantityButtonsContainer" layout="wrapLayout">
+				<input id="transactionPreviewMinusButton" type="button" valueKey="registration.itemDetailsPanel.minus.button"/>
+				<input id="transactionPreviewVoidLineItemButton" type="button" valueKey="registration.itemDetailsPanel.void.lineitem.button"/>
+				<input id="transactionPreviewPlusButton" type="button" valueKey="registration.itemDetailsPanel.plus.button"/>
+			</div>
+		</div>
+		<div id="transactionPreviewItemDetailsFooter" />
+	</body>
+</html>

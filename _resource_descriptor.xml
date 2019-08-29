@@ -4,6 +4,15 @@
 	
 	<!-- Custom configuration Mercaderia - HTML -->
 		<FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/transaction/transactionPreviewComponent.xml"
+            NAME="transactionPreviewComponent.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/transaction/transactionPreviewComponent.xml"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/transaction/transactionPreviewComponentReturnWithTran.xml"
+            NAME="transactionPreviewComponentReturnWithTran.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/transaction/transactionPreviewComponentReturnWithTran.xml"/>
+		<FILE_RESOURCE
+            FILE_NAME="./custom/ui/layouts/tpos/simple/transaction/transactionPreviewItemDetailsPanel.xml"
+            NAME="transactionPreviewItemDetailsPanel.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/transaction/transactionPreviewItemDetailsPanel.xml"/>
+		<FILE_RESOURCE
             FILE_NAME="./custom/ui/layouts/tpos/simple/returns/returnWithTransaction.xml"
             NAME="returnWithTransaction.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/returns/returnWithTransaction.xml"/>
 		<FILE_RESOURCE
