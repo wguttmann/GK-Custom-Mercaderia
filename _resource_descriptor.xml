@@ -22,22 +22,25 @@
             FILE_NAME="./custom/ui/layouts/tpos/simple/payment/generalPayment.xml"
             NAME="generalPayment.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/payment/generalPayment.xml"/>
 	<!-- Custom configuration Mercaderia - HTML -->
-
-	<!-- Custom configuration Mercaderia - Edit item -->
+		
+	<!-- Custom configuration Mercaderia - Operation -->
 		<FILE_RESOURCE
             FILE_NAME="./custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"
-            NAME="ChangeLineItem.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"/>
+            NAME="ChangeLineItem.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/ChangeLineItem.promoj"/>
 		<FILE_RESOURCE
             FILE_NAME="./custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"
             NAME="RegistrationBase.promoj" TARGET_FILE_NAME="config/custom/processes/processModels/tpos/simple/registration/RegistrationBase.promoj"/>
-
-	<!-- Custom configuration Mercaderia - Edit item -->
+	<!-- Custom configuration Mercaderia - Operation -->
 	
 	<!-- Custom configuration Devices -->
+		<FILE_RESOURCE
+            FILE_NAME="./custom/parameter/server/services.properties"
+            NAME="services.properties" TARGET_FILE_NAME="config/custom/parameter/server/services.properties"/>
         <FILE_RESOURCE
             FILE_NAME="./custom/parameter/client/hal.properties"
             NAME="hal.properties" TARGET_FILE_NAME="config/custom/parameter/client/hal.properties"/>
 	<!-- Custom configuration Devices -->
+	
         <FILE_RESOURCE
             FILE_NAME="./custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"
             NAME="customerFlowPaymentTransactionInfos.xml" TARGET_FILE_NAME="config/custom/ui/layouts/tpos/simple/customerFlow/customerFlowPaymentTransactionInfos.xml"/>
