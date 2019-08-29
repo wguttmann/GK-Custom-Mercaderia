@@ -19,21 +19,5 @@
 				        <currency:Symbol>$</currency:Symbol>
 			      </CurrencyDO>
 		    </CurrencyElementDO>
-		    <CurrencyElementDO>
-			      <CurrencyDO>
-				        <currency:ISOCurrencyCode>EUR</currency:ISOCurrencyCode>
-				        <currency:ISOCountryCode>EU</currency:ISOCountryCode>
-				        <currency:ISOCurrencyName>Euro</currency:ISOCurrencyName>
-				        <currency:Symbol>€</currency:Symbol>
-			      </CurrencyDO>
-		    </CurrencyElementDO>
-		    <CurrencyElementDO>
-			      <CurrencyDO>
-				        <currency:ISOCurrencyCode>USD</currency:ISOCurrencyCode>
-				        <currency:ISOCountryCode>US</currency:ISOCountryCode>
-				        <currency:ISOCurrencyName>Dólar de EE.UU.</currency:ISOCurrencyName>
-				        <currency:Symbol>$</currency:Symbol>
-			      </CurrencyDO>
-		    </CurrencyElementDO>
 	  </CurrencyListDO>
 </CurrencyPackageDO>
