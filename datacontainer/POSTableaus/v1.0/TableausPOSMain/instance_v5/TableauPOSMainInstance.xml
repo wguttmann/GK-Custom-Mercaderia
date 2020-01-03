@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<DATA_CONTAINER_INSTANCE DATA_CONTAINER_NAME="POS Main Tableaus" DATA_CONTAINER_VERSION="v1.0.0-b01" DESCRIPTION="POS Main Tableaus Instance v5" NAME="POS Main Tableaus Instance v5">
+
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSChangeLineItemContextDefault.json" FILE_NAME="tableau-data/tableau_POSChangeLineItemContextDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSChangeLineItemNumpadDefault.json" FILE_NAME="tableau-data/tableau_POSChangeLineItemNumpadDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSChangeLineItemTabsDefault.json" FILE_NAME="tableau-data/tableau_POSChangeLineItemTabsDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSFiscalLoginTableau.json" FILE_NAME="tableau-data/tableau_POSFiscalLoginTableau.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSFiscalPaymentTableau.json" FILE_NAME="tableau-data/tableau_POSFiscalPaymentTableau.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSLoginContextDefault.json" FILE_NAME="tableau-data/tableau_POSLoginContextDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSLockContextDefault.json" FILE_NAME="tableau-data/tableau_POSLockContextDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSOtherRegistrationTableau.json" FILE_NAME="tableau-data/tableau_POSOtherRegistrationTableau.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSPaymentContextDefault.json" FILE_NAME="tableau-data/tableau_POSPaymentContextDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSPaymentNumpadDefault.json" FILE_NAME="tableau-data/tableau_POSPaymentNumpadDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSPaymentNumpadNegative.json" FILE_NAME="tableau-data/tableau_POSPaymentNumpadNegative.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSPaymentTabsDefault.json" FILE_NAME="tableau-data/tableau_POSPaymentTabsDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSPaymentTabsNegative.json" FILE_NAME="tableau-data/tableau_POSPaymentTabsNegative.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationContextTableau.json" FILE_NAME="tableau-data/tableau_POSRegistrationContextTableau.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadDefault.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadEmpties.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadEmpties.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadReturn.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadReturn.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadSalesOrder.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadSalesOrder.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadScaleOffline.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadScaleOffline.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadWIC.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadWIC.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationTabsDefault.json" FILE_NAME="tableau-data/tableau_POSRegistrationTabsDefault.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationTabsReduced.json" FILE_NAME="tableau-data/tableau_POSRegistrationTabsReduced.json"/>
+  <DATA_CONTAINER_INSTANCE_FILE FILE_KEY="tableau_POSRegistrationNumpadVoid.json" FILE_NAME="tableau-data/tableau_POSRegistrationNumpadVoid.json"/>
+
+</DATA_CONTAINER_INSTANCE>
